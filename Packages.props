@@ -33,5 +33,6 @@
 	<PackageReference Update="SolrNet.Core" Version="1.0.19" />
 	<PackageReference Update="SolrNet.Microsoft.DependencyInjection" Version="1.0.19" />
 	<PackageReference Update="SolrNet.Linq" Version="2.19.0" />
+	<PackageReference Update="System.Net.Http.Json" Version="5.0.0" />
   </ItemGroup>
 </Project>

@@ -105,6 +105,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Foundation.Instag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Environment.Identity", "src\Environment\identity\Hackathon.Environment.Identity.csproj", "{F8DD20AE-80CA-4958-9467-E24AA81AB2BA}"
 EndProject
+
+
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Send", "Send", "{1EE27B8C-40BB-4277-9FB6-1F84E922DD41}"
+	ProjectSection(SolutionItems) = preProject
+		src\Foundation\Send\Send.module.json = src\Foundation\Send\Send.module.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hackathon.Foundation.Send.Rendering", "src\Foundation\Send\rendering\Hackathon.Foundation.Send.Rendering.csproj", "{413BA4A5-3B91-4C4A-A21E-ACEB59532051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Foundation.Send.Platform", "src\Foundation\Send\platform\Hackathon.Foundation.Send.Platform.csproj", "{0DF16FA2-5D89-4D31-98EF-0259DA863ED1}"
+EndProject
+
+
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dictionary", "Dictionary", "{1EE27B8C-40BB-4277-9FB6-1F84E922DD40}"
 	ProjectSection(SolutionItems) = preProject
 		src\Foundation\Dictionary\Dictionary.module.json = src\Foundation\Dictionary\Dictionary.module.json
@@ -114,6 +127,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hackathon.Foundation.Dictio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Foundation.Dictionary.Platform", "src\Foundation\Dictionary\platform\Hackathon.Foundation.Dictionary.Platform.csproj", "{0DF16FA2-5D89-4D31-98EF-0259DA863EDE}"
 EndProject
+
+
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic Content", "Basic Content", "{A56B04BA-493D-4355-8862-34C6AFFEB7EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Foundation.BasicContent.Platform", "src\Foundation\Basic Content\platform\Hackathon.Foundation.BasicContent.Platform.csproj", "{27EA6581-34E6-46B3-B4F0-62D90608E37A}"
@@ -223,14 +238,26 @@ Global
 		{F8DD20AE-80CA-4958-9467-E24AA81AB2BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8DD20AE-80CA-4958-9467-E24AA81AB2BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8DD20AE-80CA-4958-9467-E24AA81AB2BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		
+		{413BA4A5-3B91-4C4A-A21E-ACEB59532051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413BA4A5-3B91-4C4A-A21E-ACEB59532051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413BA4A5-3B91-4C4A-A21E-ACEB59532051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413BA4A5-3B91-4C4A-A21E-ACEB59532051}.Release|Any CPU.Build.0 = Release|Any CPU
 		{413BA4A5-3B91-4C4A-A21E-ACEB5953205C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{413BA4A5-3B91-4C4A-A21E-ACEB5953205C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{413BA4A5-3B91-4C4A-A21E-ACEB5953205C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{413BA4A5-3B91-4C4A-A21E-ACEB5953205C}.Release|Any CPU.Build.0 = Release|Any CPU
+		
+		{0DF16FA2-5D89-4D31-98EF-0259DA863ED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF16FA2-5D89-4D31-98EF-0259DA863ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF16FA2-5D89-4D31-98EF-0259DA863ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF16FA2-5D89-4D31-98EF-0259DA863ED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		
 		{0DF16FA2-5D89-4D31-98EF-0259DA863EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0DF16FA2-5D89-4D31-98EF-0259DA863EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DF16FA2-5D89-4D31-98EF-0259DA863EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DF16FA2-5D89-4D31-98EF-0259DA863EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		
 		{27EA6581-34E6-46B3-B4F0-62D90608E37A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{27EA6581-34E6-46B3-B4F0-62D90608E37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27EA6581-34E6-46B3-B4F0-62D90608E37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -285,6 +312,12 @@ Global
 		{BCA90085-CCE4-41A1-B4AB-4F3FC9C28D73} = {D0DD1773-D94E-47FC-9310-952C4ECEF69A}
 		{91883D9C-1EEF-4C3F-B4AE-D01EF66DFC11} = {BCA90085-CCE4-41A1-B4AB-4F3FC9C28D73}
 		{F8DD20AE-80CA-4958-9467-E24AA81AB2BA} = {1EAAC5DE-019B-4D92-875D-6363F3BDEC88}
+	
+	
+		{1EE27B8C-40BB-4277-9FB6-1F84E922DD41} = {D0DD1773-D94E-47FC-9310-952C4ECEF69A}
+		{413BA4A5-3B91-4C4A-A21E-ACEB59532051} = {1EE27B8C-40BB-4277-9FB6-1F84E922DD41}
+		{0DF16FA2-5D89-4D31-98EF-0259DA863ED1} = {1EE27B8C-40BB-4277-9FB6-1F84E922DD41}
+
 		{1EE27B8C-40BB-4277-9FB6-1F84E922DD40} = {D0DD1773-D94E-47FC-9310-952C4ECEF69A}
 		{413BA4A5-3B91-4C4A-A21E-ACEB5953205C} = {1EE27B8C-40BB-4277-9FB6-1F84E922DD40}
 		{0DF16FA2-5D89-4D31-98EF-0259DA863EDE} = {1EE27B8C-40BB-4277-9FB6-1F84E922DD40}
