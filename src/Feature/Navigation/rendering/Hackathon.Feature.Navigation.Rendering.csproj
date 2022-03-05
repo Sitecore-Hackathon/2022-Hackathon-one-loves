@@ -15,7 +15,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\BaseData\rendering\Hackathon.Foundation.BaseData.Rendering.csproj" />
     <ProjectReference Include="..\..\..\Foundation\SitecoreExtensions\rendering\Hackathon.Foundation.SitecoreExtensions.Rendering.csproj" />
-    <ProjectReference Include="..\..\Blog\rendering\Hackathon.Feature.Blog.Rendering.csproj" />
   </ItemGroup>
 
 </Project>

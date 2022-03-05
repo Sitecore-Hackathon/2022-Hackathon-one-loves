@@ -58,15 +58,10 @@
   <ItemGroup>
     <Compile Include="LayoutService\CssClassContentsResolver.cs" />
     <Compile Include="LayoutService\DatasourceOrContextItemContentsResolver.cs" />
-    <Compile Include="LayoutService\InstagramSliderContentsResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Foundation\Instagram\platform\Hackathon.Foundation.Instagram.Platform.csproj">
-      <Project>{91883D9C-1EEF-4C3F-B4AE-D01EF66DFC11}</Project>
-      <Name>Hackathon.Foundation.Instagram.Platform</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\..\Foundation\SitecoreExtensions\platform\Hackathon.Foundation.SitecoreExtensions.Platform.csproj">
       <Project>{ae6ffb1f-2c95-483a-8e6c-bcc03cd46c77}</Project>
       <Name>Hackathon.Foundation.SitecoreExtensions.Platform</Name>

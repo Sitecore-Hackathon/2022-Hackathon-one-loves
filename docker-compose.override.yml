@@ -12,8 +12,6 @@ services:
   traefik:
     volumes:
       - ./docker/traefik:C:/etc/traefik
-    depends_on:
-      - rendering
   
   redis:
     image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-redis:${VERSION:-latest}
@@ -39,6 +37,7 @@ services:
         HEADLESS_SERVICES_IMAGE: ${HEADLESS_SERVICES_IMAGE}
         SPE_IMAGE: ${SPE_IMAGE}
         SXA_IMAGE: ${SXA_IMAGE}
+        
   dotnetsdk:
     image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-dotnetsdk:${VERSION:-latest}
     build:
@@ -90,14 +89,7 @@ services:
       - "traefik.http.routers.rendering-secure.rule=Host(`${RENDERING_HOST}`)"
       - "traefik.http.routers.rendering-secure.tls=true"
 
-  # Mount the Traefik configuration and certs.
-  traefik:
-    volumes:
-      - ./docker/traefik:C:/etc/traefik
-    depends_on:
-      - rendering
-
-
+  
   # Some modules (like SXA) also require additions to the Solr image.
   solr:
     volumes:
@@ -184,4 +176,4 @@ services:
       ## Development Environment Optimizations
       SITECORE_DEVELOPMENT_PATCHES: DevEnvOn,CustomErrorsOff,DebugOn,DiagnosticsOff,InitMessagesOff
       Sitecore_AppSettings_exmEnabled:define: "no" # remove to turn on EXM
-    entrypoint: powershell.exe -Command "& C:\\tools\\entrypoints\\iis\\Development.ps1"
+    entrypoint: powershell -Command "& C:\tools\entrypoints\iis\Development.ps1"

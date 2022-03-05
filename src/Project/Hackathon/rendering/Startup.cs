@@ -16,18 +16,12 @@ using Sitecore.LayoutService.Client.Extensions;
 using Sitecore.LayoutService.Client.Newtonsoft.Extensions;
 using Sitecore.LayoutService.Client.Request;
 using Hackathon.Feature.BasicContent.Extensions;
-using Hackathon.Feature.Blog.Extensions;
-using Hackathon.Feature.Career.Extensions;
 using Hackathon.Feature.Hero.Extensions;
 using Hackathon.Feature.Navigation.Extensions;
 using Hackathon.Project.Website.Rendering.Configuration;
-using Hackathon.Feature.Service.Extensions;
-using Hackathon.Feature.Team.Extensions;
 using Hackathon.Foundation.BasicContent.Extensions;
-using Hackathon.Foundation.Dictionary;
 using Hackathon.Foundation.Dictionary.Extensions;
 using Microsoft.Extensions.Logging;
-using Hackathon.Foundation.Search.Extensions;
 
 namespace Hackathon.Project.Website.Rendering
 {
@@ -51,7 +45,6 @@ namespace Hackathon.Project.Website.Rendering
         public void ConfigureServices(IServiceCollection services)
         {
             services
-                .AddFoundationSolr(Configuration.SolrUrl, Configuration.IndexName, Configuration.HomeId)
                 .AddRouting()
                 // You must enable ASP.NET Core localization to utilize localized Sitecore content.
                 .AddLocalization(options => options.ResourcesPath = "Resources")
@@ -77,12 +70,8 @@ namespace Hackathon.Project.Website.Rendering
                 //Register your components here
                 options
                     .AddFeatureBasicContent()
-                    .AddFeatureBlog()
-                    .AddFeatureCareer()
                     .AddFeatureNavigation()
-                    .AddFeatureTeam()
                     .AddFeatureHero()
-                    .AddFeatureService()
                     .AddDefaultPartialView("_ComponentNotFound");
             })
                 // Includes forwarding of Scheme as X-Forwarded-Proto to the Layout Service, so that
@@ -124,7 +113,6 @@ namespace Hackathon.Project.Website.Rendering
             // Also set the Request IP, so that it can be passed on to the Sitecore Layout Service for tracking and personalization.
             app.UseForwardedHeaders(ConfigureForwarding(env));
 
-            app.AddFeatureBlog();
             app.AddFoundationDictionary();
             app.AddFoundationBasicContent();
 

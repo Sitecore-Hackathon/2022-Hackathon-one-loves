@@ -10,9 +10,6 @@
     <ItemGroup>
         <PackageReference Include="Sitecore.LayoutService.Client" />
         <PackageReference Include="Sitecore.AspNet.RenderingEngine" />
-        <PackageReference Include="SolrNet.Core" />
-        <PackageReference Include="SolrNet.Linq" />
-        <PackageReference Include="SolrNet.Microsoft.DependencyInjection" />
     </ItemGroup>
 
 </Project>

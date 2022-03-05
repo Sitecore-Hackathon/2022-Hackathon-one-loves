@@ -24,10 +24,6 @@ services:
     depends_on:
       id:
         condition: service_healthy
-      cd:
-        condition: service_healthy
-      cm:
-        condition: service_healthy
   redis:
     isolation: ${ISOLATION}
     image: ${SITECORE_DOCKER_REGISTRY}sitecore-redis:${SITECORE_VERSION}
@@ -104,6 +100,7 @@ services:
       - "traefik.http.routers.id-secure.entrypoints=websecure"
       - "traefik.http.routers.id-secure.rule=Host(`${ID_HOST}`)"
       - "traefik.http.routers.id-secure.tls=true"
+      
   cd:
     isolation: ${ISOLATION}
     image: ${SITECORE_DOCKER_REGISTRY}sitecore-xm1-cd:${SITECORE_VERSION}

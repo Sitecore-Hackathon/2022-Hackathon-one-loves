@@ -1,6 +1,5 @@
 ﻿using Hackathon.Foundation.SitecoreExtensions.Extensions;
 using Microsoft.Extensions.DependencyInjection;
-using Sitecore.Buckets.FieldTypes;
 using Sitecore.DependencyInjection;
 
 namespace Hackathon.Foundation.SitecoreExtensions
@@ -9,7 +8,6 @@ namespace Hackathon.Foundation.SitecoreExtensions
     {
         public void Configure(IServiceCollection serviceCollection)
         {
-            serviceCollection.AddSingleton<SourceFilterBuilderFactory, QueryTokenSourceFilterBuilderFactory>();
         }
     }
 }
