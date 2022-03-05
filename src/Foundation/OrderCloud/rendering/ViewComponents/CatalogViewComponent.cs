@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Hackathon.Foundation.OrderCloud.Models;
 using Hackathon.Foundation.OrderCloud.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -7,26 +8,26 @@ using Sitecore.AspNet.RenderingEngine.Binding;
 
 namespace Hackathon.Foundation.OrderCloud.ViewComponents
 {
-    public class ProductViewComponent : ViewComponent
+    public class CatalogViewComponent : ViewComponent
     {
         private readonly IViewModelBinder _modelBinder;
         private readonly IOrderCloudService _orderCloudService;
-        public ProductViewComponent(IViewModelBinder modelBinder, IOrderCloudService orderCloudService)
+        public CatalogViewComponent(IViewModelBinder modelBinder, IOrderCloudService orderCloudService)
         {
             _modelBinder = modelBinder;
             _orderCloudService = orderCloudService;
         }
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            Product product = null;
+            IList<Product> products = null;
 
-            var model = await _modelBinder.Bind<ProductModel>(this.ViewContext);
-            if (!string.IsNullOrEmpty(model.ProductId?.Value))
+            var model = await _modelBinder.Bind<CatalogModel>(this.ViewContext);
+            if (!string.IsNullOrEmpty(model.CatalogId?.Value))
             {
-                product = await _orderCloudService.GetProductById(model.ProductId?.Value);
+                products = await _orderCloudService.GetProducts(model.CatalogId?.Value);
             }
  
-            return View(product);
+            return View(products);
         }
     }
 }

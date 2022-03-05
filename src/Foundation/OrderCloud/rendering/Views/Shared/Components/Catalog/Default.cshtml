@@ -1,0 +1,37 @@
+﻿@using System.Text
+@using Microsoft.Extensions.Localization
+@using OrderCloud.SDK
+@inject IStringLocalizer Localizer
+@model IList<Product>
+
+<section class="new-arrivals">
+	<div class="container text-center">
+		<h2 class="heading-center">New Arrivals</h2>
+		<div class="items">
+			<div class="row">
+				@foreach (var product in Model)
+				{
+					var image = product.xp.Images?[0]?.Url;
+
+					<div class="col-lg-4 item">
+						<div class="item-image">
+							<img src="@image" alt="shirt">
+							<div class="hover-overlay">
+								<ul class="list-inline">
+									<li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="item-info">
+							<h5>@product.Name</h5>
+							<ul class="price list-inline">
+								<li class="list-inline-item current">70.00$</li>
+							</ul>
+						</div>
+					</div>
+				}
+
+			</div>
+		</div>
+	</div>
+</section>

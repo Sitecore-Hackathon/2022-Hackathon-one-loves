@@ -3,8 +3,8 @@
 
 namespace Hackathon.Foundation.OrderCloud.Models
 {
-    public  class ProductModel
+    public  class CatalogModel
     {
-        public TextField ProductId { get; set; }
+        public TextField CatalogId { get; set; }
     }
 }

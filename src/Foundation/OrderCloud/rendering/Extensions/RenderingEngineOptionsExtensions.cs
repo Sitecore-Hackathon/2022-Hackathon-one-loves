@@ -8,7 +8,8 @@ namespace Hackathon.Foundation.OrderCloud.Extensions
         public static RenderingEngineOptions AddFeatureOrderCloud(this RenderingEngineOptions options)
         {
             options
-                .AddViewComponent("Product");
+                .AddViewComponent("Product")
+                .AddViewComponent("Category");
 //                .AddModelBoundView<Techtalk>("Techtalk");
             return options;
         }
