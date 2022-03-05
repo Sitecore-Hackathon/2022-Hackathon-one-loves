@@ -1,0 +1,23 @@
+﻿---
+ID: "f7db55a6-6965-4c86-817d-63b85c9ac339"
+Parent: "46c14737-6860-4ed1-a701-99bbaeac3504"
+Template: "6edd13e1-2317-4820-bcf8-4721ea970cff"
+Path: /sitecore/content/Hackathon/Global/Data/Styles Folder
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210928T090050Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "97fc4262-4afb-40e6-8f74-14db4b4884a3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210928T090050Z

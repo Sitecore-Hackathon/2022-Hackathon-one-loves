@@ -1,0 +1,30 @@
+﻿---
+ID: "92de1ced-35b9-4ba7-bf56-318f1a9b8edf"
+Parent: "ad3d0b11-d7e7-4e4a-8337-c13ddc415947"
+Template: "ad3d0b11-d7e7-4e4a-8337-c13ddc415947"
+Path: /sitecore/templates/Feature/Basic Content/Data Folders/Media Slides Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {39425500-0335-45EF-A160-99AB3FE640E6}
+    {87F6AD54-E852-4FAB-8AC0-D229D6A225F2}
+    {AD3D0B11-D7E7-4E4A-8337-C13DDC415947}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210816T101119Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "29f25aeb-f239-482b-ad60-a036705b622d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210913T081440Z

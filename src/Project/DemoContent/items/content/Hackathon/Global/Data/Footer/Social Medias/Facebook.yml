@@ -1,0 +1,38 @@
+﻿---
+ID: "d95a3693-abbc-464c-adce-fc1257808967"
+Parent: "42c3363c-d6ad-4c1d-a598-4ff73e23d3db"
+Template: "d45c8e03-5d1e-426a-9f78-834a143aab76"
+Path: /sitecore/content/Hackathon/Global/Data/Footer/Social Medias/Facebook
+SharedFields:
+- ID: "014400fb-d837-4400-9607-7a1c508130d0"
+  Hint: SvgIconSource
+  Value: |
+    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor">
+                      <g id="Icon/socialmedia/facebook" fill-rule="evenodd" stroke="none" stroke-width="1">
+                        <path id="Icon-Facebook" d="M30 18.07C30 11.41 24.63 6 18 6S6 11.4 6 18.07C6 24.1 10.39 29.1 16.13 30v-8.44h-3.05v-3.49h3.05v-2.66c0-3.02 1.79-4.7 4.53-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.5c-1.5 0-1.96.93-1.96 1.89v2.26h3.32l-.53 3.5h-2.8V30C25.62 29.1 30 24.1 30 18.07"></path>
+                      </g></svg>
+- ID: "36b2f1f4-6688-4d49-90c2-89711736857a"
+  Hint: Link
+  Value: |
+    <link linktype="external" url="https://www.facebook.com/" anchor="" target="_blank" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210729T114648Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dfb58e20-d378-44b1-80bc-1912f732fe41"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d55a18a4-856c-4232-9819-0bdc9e7edfe0"
+      Hint: Title
+      Value: Facebook
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210802T203729Z

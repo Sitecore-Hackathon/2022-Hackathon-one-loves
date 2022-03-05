@@ -1,0 +1,23 @@
+﻿---
+ID: "c9af57eb-5748-4bd9-ab2a-bad135f995fe"
+Parent: "76089c11-6bcd-49c9-be08-3f3f1cbcedb0"
+Template: "c6416fe1-68c7-441b-889c-efc64ad9bb76"
+Path: /sitecore/templates/Branches/Project/Hackathon/Team Overview Page/$name/Data/Team Overview
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210917T084402Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6c00028f-f2f9-469a-83c8-198fcdf3ccff"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210917T084402Z

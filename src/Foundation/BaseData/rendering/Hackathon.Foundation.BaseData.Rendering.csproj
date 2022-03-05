@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+        <RootNamespace>Hackathon.Foundation.BaseData</RootNamespace>
+        <AssemblyName>Hackathon.Foundation.BaseData</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Sitecore.LayoutService.Client" />
+        <PackageReference Include="Sitecore.AspNet.RenderingEngine" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Dictionary\rendering\Hackathon.Foundation.Dictionary.Rendering.csproj" />
+    </ItemGroup>
+
+</Project>

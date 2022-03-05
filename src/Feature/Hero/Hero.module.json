@@ -1,0 +1,27 @@
+{
+    "namespace": "Feature.Hero",
+    "items": {
+        "includes": [
+          {
+            "name": "templates",
+            "path": "/sitecore/templates/Feature/Hero"
+          },
+          {
+            "name": "branches",
+            "path": "/sitecore/templates/Branches/Feature/Hero"
+          },
+          {
+            "name": "settings",
+            "path": "/sitecore/system/Settings/Feature/Hero"
+          },
+          {
+            "name": "media",
+            "path": "/sitecore/media library/Feature/Hero"
+          },
+          {
+            "name": "rendering",
+            "path": "/sitecore/layout/Renderings/Feature/Hero"
+          }
+        ]
+    }
+}

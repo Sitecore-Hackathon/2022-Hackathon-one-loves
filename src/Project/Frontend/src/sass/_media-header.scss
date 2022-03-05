@@ -1,0 +1,44 @@
+.media-header {
+  margin-top: -80px;
+  min-height: calc(100vh + 80px);
+  margin-bottom: 48px;
+  position: relative;
+
+  @include media("l") {
+    min-height: auto;
+    padding-bottom: 85px; 
+    flex-grow: 1;
+  }
+
+  @include media("m") {
+    margin-bottom: 0;
+  }
+
+  .container {
+    display: flex; 
+    height: 100%;
+  }
+
+  video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  h1 {
+    z-index: 1;
+    position: relative;
+    max-width: 760px;
+    margin-top: 70vh;
+    width: 100%;
+    word-break: break-word;
+    hyphens: auto;
+
+    @include media("m") {
+      margin-top: 400px;
+    }
+  }
+}

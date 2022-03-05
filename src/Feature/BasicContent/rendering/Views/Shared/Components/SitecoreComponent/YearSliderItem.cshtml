@@ -1,0 +1,14 @@
+﻿@model YearSliderItem
+
+<div class="swiper-slide">
+    <input type="hidden" class="year-slider__year" value="@Model?.Timestamp?.Value.Year">
+    <div class="img-responsive">
+        <sc-img asp-for="Image" />
+    </div>
+    <div class="year-slider__blogpost-content">
+        <h2 class="h2">
+            <sc-text asp-for="Headline" />
+        </h2>
+        <sc-text asp-for="CopyText" />
+    </div>
+</div>

@@ -1,0 +1,39 @@
+﻿---
+ID: "a29ca9f2-174d-4e2e-a51d-cda0bc0e6464"
+Parent: "c163a241-0661-456b-87b4-bf8c7546c4d8"
+Template: "12547079-661c-4a1b-a9d8-eb4d65ed1095"
+Path: /sitecore/content/Hackathon/Global/Home/Data/Standard Text First
+SharedFields:
+- ID: "dd0b878e-b3b9-483a-afb0-05cc0395a2c9"
+  Hint: Link
+  Value: |
+    <link text="Unsere Leistungen" anchor="" linktype="internal" class="" title="" target="|Custom" querystring="" id="{97479C6B-BB30-4A15-AFD1-2C89F207E9D6}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ae40a52-2a5a-467c-a049-3e3af82c0f25"
+      Hint: Headline
+      Value: "Expertise unterschiedlicher Dienstleister – full-thinking."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210913T080602Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7b56419c-91d9-45ee-bffd-8e1befbc3cd4"
+    - ID: "9bed58e6-03dd-47db-846c-16068081aa3f"
+      Hint: Text
+      Value: |
+        Wir denken mit und zu Ende – business-driven. Egal ob Website, Software,
+                Social Media oder Video – implementation-ready!
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210913T080652Z
+    - ID: "e80251b7-3b27-441b-91b7-9b415e9cd625"
+      Hint: Title
+      Value: Wir vereinen die

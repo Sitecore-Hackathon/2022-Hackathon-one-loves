@@ -1,0 +1,105 @@
+@import "./variables";
+@import "./media";
+
+.app-footer {
+  background: $black;
+  padding: 96px 0 104px 0;
+
+  @include media("m") {
+    padding: 96px 0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    @include media("m") {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  }
+
+  &__mail-link {
+    margin: 16px 0 0;
+    display: inline-block;
+    font-size: $font-size-lg;
+    color: $black;
+    text-decoration: none;
+    padding: 5px 0 0;
+    font-family: "TheMixE2s-SemiBoldItalic";
+  }
+
+  &__social-links {
+    margin: 0 15px;
+
+    @include media("m") {
+      margin: 48px 0 86px 0;
+    }
+  }
+
+  &__links-list {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 16px 0 -5px;
+    list-style: none;
+
+    @include media("m") {
+      margin: 16px 0 0;
+    }
+
+    li {
+      margin: 0 30px 0 0;
+
+      @include media("xl") {
+        margin: 0 20px 0 0;
+      }
+
+      @include media("l") {
+        margin: 0 15px 0 0;
+      }
+
+      &:last-of-type {
+        margin: 0;
+      }
+    }
+  }
+
+  &__social-link {
+    flex-shrink: 0;
+    color: $white;
+  }
+
+  &__info-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    @include media("m") {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+
+  &__info {
+    font-size: 0.8em;
+    font-family: "TheSansC2s-5_Plain";
+  }
+
+  &__info-link {
+    color: $white;
+    margin: 10px 0 0;
+    display: inline-block;
+
+    @include media("m") {
+      margin: 16px 0 0;
+    }
+  }
+
+  &__copyright {
+    margin: 0;
+  }
+}

@@ -1,0 +1,18 @@
+﻿@model StandardTextModule
+
+<section class="text-module text-module--left">
+    <div class="container">
+        <div class="text-module__wrapper">
+            <p class="paragraph-plain">
+                <sc-text asp-for="Title" />
+            </p>
+            <h2 class="h2">
+                <sc-text asp-for="Headline" />
+            </h2>
+            <p class="paragraph-plain">
+                <sc-text asp-for="Text" />
+            </p>
+            <sc-link class="main-btn main-btn--black" asp-for="Link" />
+        </div>
+    </div>
+</section>

@@ -1,0 +1,23 @@
+﻿---
+ID: "5bff1ac4-d14a-404a-96c6-013259a2f704"
+Parent: "f1501c19-35ca-409e-807c-4021c61f68d7"
+Template: "28296eb4-e9e4-4ab3-b1f1-0494ba7de92c"
+Path: /sitecore/content/Hackathon/Global/Data/Footer/Footer Links
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210802T131150Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "51a0ad36-e5f8-4804-85aa-81c434b1d264"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210802T132259Z

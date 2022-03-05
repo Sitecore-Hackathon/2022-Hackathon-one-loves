@@ -1,0 +1,23 @@
+﻿---
+ID: "5e4e3d97-d925-4a02-ba07-9abd27ef2346"
+Parent: "098f9271-a7a5-4e37-9e8e-97b3f13418bf"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Basic Content/Data Source/Base/_Slider/Slider Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210816T115123Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "62a52024-fce9-4d63-9e4d-5e19d2bbd053"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210816T115125Z

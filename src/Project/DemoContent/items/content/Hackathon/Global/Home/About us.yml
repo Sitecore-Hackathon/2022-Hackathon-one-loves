@@ -1,0 +1,53 @@
+﻿---
+ID: "bbae950d-1fc2-498e-a366-fa3d65b8f215"
+Parent: "97479c6b-bb30-4a15-afd1-2c89f207e9d6"
+Template: "f8687ebb-3d79-4a11-810b-ee1b866bc167"
+Path: /sitecore/content/Hackathon/Global/Home/About us
+BranchID: "d7529ce6-a5bc-47f0-9873-4b8d9436b274"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{AC85F253-13BD-404F-988D-8BB4D863A8F8}"
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{8B83A152-7312-41C6-956D-C1B5E5F88697}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{8C3F68D2-C256-4CE1-821B-66130F8FA9BA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07713781-a4a0-4b69-b49b-29c127fd127d"
+      Hint: PageTitle
+      Value: Company
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210916T131021Z
+    - ID: "39299ca5-4309-4748-b233-8bf05cf95512"
+      Hint: BrowserTitle
+      Value: Company
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "08eb4e74-0613-44ac-a1ab-88c6db9f4270"
+    - ID: "9520125c-0a72-43d9-8c8f-f534808f015e"
+      Hint: TwitterTitle
+      Value: Company Page
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bf9c882c-0fba-4f27-899e-d70e356c2719"
+      Hint: OGTitle
+      Value: Company Page
+    - ID: "d4b52aa9-7974-4704-8a64-5329a5a83512"
+      Hint: NavigationTitle
+      Value: Company
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210916T144147Z

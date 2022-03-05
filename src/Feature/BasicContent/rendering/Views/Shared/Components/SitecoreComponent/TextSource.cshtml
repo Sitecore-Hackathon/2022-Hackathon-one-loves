@@ -1,0 +1,19 @@
+﻿@model TextSource
+
+@{
+    var cssClass = string.Empty;
+
+    if (!string.IsNullOrEmpty(Model?.CssClass))
+        cssClass = Model.CssClass;
+}
+
+<p class="@cssClass">
+    @if (this.SitecoreContext().IsEditing)
+    {
+        <sc-text asp-for="Text" />
+    }
+    else
+    {
+        @Html.Raw(Model?.Text?.Value)
+    }
+</p>

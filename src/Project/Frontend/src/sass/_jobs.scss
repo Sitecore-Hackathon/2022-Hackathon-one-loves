@@ -1,0 +1,48 @@
+@import "./variables";
+
+.jobs {
+  padding: 0 0 60px;
+  @include media("m") {
+    padding: 0 0 120px;
+  }
+
+  &__list {
+    margin: 32px 0 85px;
+    display: flex;
+    flex-wrap: wrap;
+
+    @include media("m") {
+      margin: 32px 0 60px;
+    }
+  }
+
+  &__title {
+    font-family: "TheMixE2s-SemiBold";
+    font-size: $font-size-lg;
+    margin: 0 0 16px;
+  }
+
+  &__list-link {
+    &:nth-of-type(4),
+    &:nth-of-type(5),
+    &:nth-of-type(6) {
+      border-top: none;
+    }
+
+    @include media("m") {
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(3) {
+        display: flex;
+      }
+    }
+  }
+
+  &__cta {
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+    text-align: center;
+    min-width: 160px;
+  }
+}

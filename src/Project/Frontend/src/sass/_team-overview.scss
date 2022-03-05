@@ -1,0 +1,97 @@
+@import "./variables";
+
+.team-overview {
+  &__controls {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__filter-btn {
+    display: flex;
+    align-items: center;
+    font-family: "TheSerifE2s-6_SemiBold"; 
+  }
+
+  &__search {
+    display: flex;
+    align-items: center;
+  }
+
+  &__search-input {
+    background: none;
+    font-family: "TheSansC2s-6_SemiBold";
+    outline: none;
+    color: $black;
+    margin-left: 8px; 
+
+    &::placeholder {
+      color: $black;
+      opacity: 1;
+    }
+
+    @include media("m") {
+      width: 44px;
+    }
+  }
+
+  &__list {
+    // overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px 0 160px;
+
+    @include media("m") {
+      padding: 16px 0 48px;
+    }
+  }
+
+  &__employee-link {
+    margin: 0 20px 32px 0;
+    width: calc(33.3% - 14px);
+    text-decoration: none;
+    color: $black;
+
+    &:nth-child(3n) {
+      margin: 0 0 32px 0;
+    }
+
+    @include media("m") {
+      width: 100%;
+      margin: 0 0 32px;
+
+      &:nth-child(3n) {
+        margin: 0 0 32px;
+      }
+
+      &:last-of-type {
+        margin: 0;
+      }
+    }
+  }
+
+  &__employee-name {
+    font-family: "TheMixE2s-SemiBold";
+    font-size: $font-size-lg;
+    padding-top: 6px;
+    display: block;
+  }
+
+  &__employee-job {
+    font-family: "TheSansC2s-5_Plain";
+    font-size: $font-size-base;
+    display: block;
+    padding-top: 10px;
+  }
+
+  &__cta {
+    display: none;
+
+    @include media("m") {
+      display: block;
+      text-decoration: underline;
+      margin: 0 auto 160px;
+    }
+  } 
+}

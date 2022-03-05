@@ -11,14 +11,6 @@
 *.itempackage
 *.sicpackage
 
-
-# User-specific files
-*.rsuser
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
 #Ignore thumbnails created by Windows
 Thumbs.db
 #Ignore files built by Visual Studio
@@ -48,5 +40,9 @@ obj/
 _ReSharper*/
 [Tt]est[Rr]esult*
 .vs/
-#Nuget packages folder
+.vscode/
+# Nuget packages folder
 packages/
+node_modules
+package-lock.json
+/.env

@@ -1,0 +1,29 @@
+﻿---
+ID: "4bd3568f-c90e-4b0b-ac3a-43c4da2013a7"
+Parent: "6ac01b33-2d7f-449f-abaf-20e67ba06f66"
+Template: "6ac01b33-2d7f-449f-abaf-20e67ba06f66"
+Path: /sitecore/templates/Feature/Basic Content/Data Folders/Perks Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {96D24C41-2A3B-4D8B-B662-92A28BA30DE0}
+    {6AC01B33-2D7F-449F-ABAF-20E67BA06F66}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210816T121842Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "02640c4b-29d7-4227-a594-3f5878e041ae"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210817T071623Z

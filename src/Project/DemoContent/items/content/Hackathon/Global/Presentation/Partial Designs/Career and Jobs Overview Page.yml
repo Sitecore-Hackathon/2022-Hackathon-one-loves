@@ -1,0 +1,117 @@
+﻿---
+ID: "348cf357-811a-4c1c-afe9-9a185b64340b"
+Parent: "3cece152-eaed-4a4e-b07a-fc758aad7d1d"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/content/Hackathon/Global/Presentation/Partial Designs/Career and Jobs Overview Page
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "career-and-jobs-overview-page"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        s:l="{4ED48317-062F-4465-B9AF-1E636841525B}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{30CA3A80-2F40-44B1-9B59-B518F876DE69}"
+              p:before="*"
+              s:ds="query:./Data/Hero Section Media"
+              s:id="{98EDE150-748D-4914-A02B-DBF52E852116}"
+              s:par=""
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{43657ECD-8292-434C-99F0-5448A2F8A7E1}"
+              p:after="r[@uid='{30CA3A80-2F40-44B1-9B59-B518F876DE69}']"
+              s:ds="query:./Data/Hero Image "
+              s:id="{88BA0D7D-08D1-4077-92DE-DAD172A4D127}"
+              s:par=""
+              s:ph="media"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{F7895261-9F3B-42DC-A4F3-6B38ECEBB20C}"
+              p:after="r[@uid='{43657ECD-8292-434C-99F0-5448A2F8A7E1}']"
+              s:ds="query:./Data/Perks Section"
+              s:id="{2E1E39B7-7EFC-402C-A4FD-BDA925705771}"
+              s:par=""
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{8B2B025E-BFAC-4BF4-A583-55DC66786359}"
+              p:after="r[@uid='{F7895261-9F3B-42DC-A4F3-6B38ECEBB20C}']"
+              s:ds="query:./Data/Blog Post Overview"
+              s:id="{17E0948B-8C16-4052-B704-BE50E24A88BE}"
+              s:par="ShowLoadMore&amp;ShowTechtalk&amp;SortAsc"
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{203C01EF-096F-478F-B8EE-F36907217F63}"
+              p:after="r[@uid='{8B2B025E-BFAC-4BF4-A583-55DC66786359}']"
+              s:ds="query:./Data/Open Jobs"
+              s:id="{3E3C9159-43F1-4892-BDF3-20B61D92D917}"
+              s:par=""
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{45269EF1-E25D-40E7-AEA5-ED81FE302620}"
+              p:after="r[@uid='{203C01EF-096F-478F-B8EE-F36907217F63}']"
+              s:ds="query:./Data/Logo Wall"
+              s:id="{2CC95C79-1646-4839-97CA-75EB008C822F}"
+              s:par="CssClass=%7B46F9DA94-D351-40DD-AF54-8D9190C22E3A%7D&amp;ItemsCount=12"
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{F469DE22-6401-492B-A779-E378A14A7141}"
+              p:after="r[@uid='{45269EF1-E25D-40E7-AEA5-ED81FE302620}']"
+              s:ds="query:./Data/Team Section"
+              s:id="{B9C1F16E-CD91-48DB-ACE5-B76C7C6E926D}"
+              s:par=""
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{122FF10A-D3B6-4CB0-BB46-75448885258D}"
+              p:after="*[1=2]"
+              s:ds="query:./Data/FAQ Root"
+              s:id="{AE06708B-21BC-487A-85C9-7D9C59F620A1}"
+              s:par=""
+              s:ph="main"
+              s:ccb="Clear on publish" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210916T133947Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "72ca2f81-5692-4909-b055-2655a559832f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210928T140137Z

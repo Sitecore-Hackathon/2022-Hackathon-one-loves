@@ -1,0 +1,13 @@
+@import "./variables";
+
+.quote-module {
+    font-family: "TheSerifE2s-8_Bold";
+    font-size: $font-size-base * 2;
+    margin: 48px auto;
+    max-width: 620px;
+    text-align: center;
+
+    &--italic {
+      font-family: "TheMixE2s-BoldItalic";
+    }
+}

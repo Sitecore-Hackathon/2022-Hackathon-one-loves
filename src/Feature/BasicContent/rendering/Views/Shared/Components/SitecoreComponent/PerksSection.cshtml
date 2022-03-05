@@ -1,0 +1,38 @@
+﻿@model PerksSection
+
+<section class="perks-section">
+    <div class="container">
+        <h2 class="h2">
+            @if (this.SitecoreContext().IsEditing)
+            {
+                <sc-text asp-for="Headline" />
+            }
+            else
+            {
+                @Html.Raw(Model?.Headline?.Value)
+            }
+        </h2>
+        <div class="perks-section__list">
+            @if (Model?.Perks != null && Model.Perks.Any())
+            {
+                @foreach (var perk in Model.Perks)
+                {
+                    <div class="perks-section__list-item">
+                        @if (perk?.Fields?.Icon != null)
+                        {
+                            <div class="perks-section__list-item-img img-wrapper-stretch">
+                                <sc-img asp-for="@perk.Fields.Icon" />
+                            </div>
+                        }
+                        @if (perk?.Fields?.Text != null)
+                        {
+                            <p class="perks-section__list-item-text">
+                                <sc-text asp-for="@perk.Fields.Text" />
+                            </p>
+                        }
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</section>

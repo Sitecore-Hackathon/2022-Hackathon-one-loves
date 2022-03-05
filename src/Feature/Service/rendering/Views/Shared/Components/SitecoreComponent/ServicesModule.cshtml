@@ -1,0 +1,38 @@
+﻿@model ServicesModule
+
+<section class="services-module">
+    <div class="container">
+        <h2 class="h2">
+            <sc-text asp-for="Headline" />
+        </h2>
+        <div class="services-module__content">
+            @{
+                var classes = new string[]
+                {
+                    "services-module__item--50",
+                    "services-module__item--50",
+                    "services-module__item--30",
+                    "services-module__item--30",
+                    "services-module__item--30"
+                };
+            }
+            @if (Model?.Items != null && Model.Items.Any())
+            {
+                var i = 0;
+                foreach (var item in Model.Items)
+                {
+                    <div class="services-module__item @classes[i]">
+                        <span class="services-module__item-title">
+                            <sc-text asp-for="@item.Fields.Title" />
+                        </span>
+                        <p class="plain-text">
+                            <sc-text asp-for="@item.Fields.CopyText" />
+                        </p>
+                        <sc-link type="button" class="main-btn" asp-for="@item.Fields.Link" />
+                    </div>
+                    i++;
+                }
+            }
+        </div>
+    </div>
+</section>

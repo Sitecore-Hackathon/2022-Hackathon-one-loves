@@ -1,0 +1,23 @@
+﻿@model TeaserModule
+
+<section class="all-jobs-content">
+    <div class="container">
+        <div class="all-jobs-content__item">
+            <div class="img-responsive" style="@(this.SitecoreContext().IsEditing ? "margin-right: 200px;" : null)">
+                <sc-img asp-for="Image" />
+            </div>
+            <div class="all-jobs-content__item-content">
+                <span class="all-jobs-content__item-title text-white">
+                    <sc-text asp-for="Headline" />
+                </span>
+                <p class="paragraph-plain text-white">
+                    <sc-text asp-for="CopyText" />
+                </p>
+            </div>
+            @if (!string.IsNullOrEmpty(Model?.Link?.Value?.Href))
+            {
+                <sc-link class="main-btn" asp-for="Link" />
+            }
+        </div>
+    </div>
+</section>

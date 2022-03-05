@@ -1,0 +1,23 @@
+﻿---
+ID: "573016b7-f6df-4006-808c-2ca957400e41"
+Parent: "c11d28d0-d973-4b3b-8da4-2370f6c944da"
+Template: "9edfb03d-248c-4e26-a9c9-e63e2d107fe3"
+Path: /sitecore/templates/Branches/Project/Hackathon/Company Page/$name/Data/Hero Section Media
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210916T073230Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cd1e8df8-f0b7-4079-b290-29d5ba07baab"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210916T073230Z

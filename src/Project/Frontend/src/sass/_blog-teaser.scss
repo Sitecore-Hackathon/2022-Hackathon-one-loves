@@ -1,0 +1,13 @@
+@import './variables';
+
+.blog-teaser {
+  &__list {
+    padding: 48px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    @include media("m") {
+      padding: 48px 0 25px;
+    }
+  }
+}

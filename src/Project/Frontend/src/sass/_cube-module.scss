@@ -1,0 +1,109 @@
+@import './variables';
+
+.cube-module {
+  &__block {
+    background: $black;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    padding: 12px;
+    height: 0;
+    flex-shrink: 0;
+    position: relative;
+
+    &--lg {
+      width: 40%;
+      margin: 0 3% 0 0;
+      padding-top: 38.8%;
+
+      @include media('m') {
+        width: 100%;
+        padding-top: 100%;
+        margin: 0 0 3%;
+       }
+    }
+
+    &--m {
+      width: 65.55%;
+      padding-top: calc(33.45% - 11px);  
+      margin: 0 0 3%;
+
+      @include media('m') {
+        width: 100%;
+        padding-top: 50%; 
+        margin: 3% 0; 
+       }
+    }
+
+    &--s {
+      width: calc(34.45% - 20px);
+      padding-top: calc(33.45% - 11px);  
+
+      @include media('m') {
+        width: 48.5%;
+        padding-top: 50%;   
+       }
+
+      &:last-of-type {
+        margin: 0;
+      }
+
+      &:nth-child(3) {
+        @include media('m') {
+          order: -1;
+         }
+      }
+
+      
+
+     &:nth-of-type(3),
+     &:nth-of-type(4) {
+       margin-right: 3%;
+     }
+    }
+  }
+
+  &__left-bar {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+  }
+
+  &__block-title {
+    font-family: 'TheSerifE2s-8_Bold';
+    font-size: $font-size-base * 2;
+    word-break: break-word;
+    width: 90%;   
+
+    @include media('l') {
+      font-size: $font-size-base * 1.4;
+    }
+
+    @include media('m') {
+      font-size: $font-size-base * 2;
+    }
+  }
+
+  &__block-text {
+    font-family: 'TheMixE2s-SemiBold';
+    word-break: break-word; 
+
+    @include media('l') {
+      font-size: $font-size-base * 0.8;
+    }
+
+    @include media('m') {
+      font-size: $font-size-base;
+    }
+  }
+
+  .container {
+    display: flex;
+    align-items: stretch;
+
+    @include media('m') {
+     flex-direction: column;
+    }
+  }
+}

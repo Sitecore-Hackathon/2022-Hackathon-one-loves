@@ -1,0 +1,85 @@
+@import "./variables";
+
+.all-jobs {
+  padding: 0 0 80px;
+
+  @include media('m') {
+    padding: 0;
+  }
+
+  &__filters {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &__filter {
+    margin: 0 80px 0 0;
+
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+
+  &__controls {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__filter-btn {
+    display: flex;
+    align-items: center;
+    font-family: "TheSerifE2s-6_SemiBold";
+  }
+
+  &__search {
+    display: flex;
+    align-items: center;
+  }
+
+  &__search-input {
+    background: none;
+    font-family: "TheSansC2s-6_SemiBold";
+    border: none;
+    outline: none;
+    color: $black;
+    margin-left: 8px;
+    border-bottom: 2px solid $black;
+
+    &::placeholder {
+      color: $black;
+      opacity: 1;
+    } 
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 0 50px;
+  }
+
+  &__list-link {
+    @include media("m") {
+      &:nth-of-type(1),
+      &:nth-of-type(2),
+      &:nth-of-type(3),
+      &:nth-of-type(4),
+      &:nth-of-type(5),
+      &:nth-of-type(6) {
+        display: flex;
+      }
+
+      &.shown {
+        display: flex;
+      }
+    }
+  }
+
+  &__cta {
+    display: none;
+    display: block;
+    text-decoration: underline;
+    margin: 0 auto;
+  }
+}

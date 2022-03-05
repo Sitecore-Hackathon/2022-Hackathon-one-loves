@@ -1,0 +1,31 @@
+﻿---
+ID: "9c5de83c-0db5-4c6a-b4ff-7d9a809382f3"
+Parent: "5bff1ac4-d14a-404a-96c6-013259a2f704"
+Template: "f3d92634-0b9b-48bd-b7a4-f673f38746d5"
+Path: /sitecore/content/Hackathon/Global/Data/Footer/Footer Links/Legal Notice
+SharedFields:
+- ID: "36b2f1f4-6688-4d49-90c2-89711736857a"
+  Hint: Link
+  Value: |
+    <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{97479C6B-BB30-4A15-AFD1-2C89F207E9D6}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210802T165700Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "37a7a104-2e59-4843-8c87-14397ce16c2f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d55a18a4-856c-4232-9819-0bdc9e7edfe0"
+      Hint: Title
+      Value: Legal Notice
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210802T165753Z

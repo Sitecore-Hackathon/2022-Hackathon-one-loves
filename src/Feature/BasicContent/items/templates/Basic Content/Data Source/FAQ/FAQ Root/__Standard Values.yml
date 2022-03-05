@@ -1,0 +1,38 @@
+﻿---
+ID: "05d7ce4b-af47-4b75-856e-d94f9828a67d"
+Parent: "df81ba80-9f3f-4716-913a-b3d5f29e701c"
+Template: "df81ba80-9f3f-4716-913a-b3d5f29e701c"
+Path: /sitecore/templates/Feature/Basic Content/Data Source/FAQ/FAQ Root/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{F1EB0533-057A-455E-AA18-22EEC4A75505}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210816T124932Z
+    - ID: "4c008280-b05b-4ea1-baa8-6faaf72fd660"
+      Hint: Headline
+      Value: $name
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "22a920ee-2919-4c05-9393-654b108fb4a9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210910T111521Z

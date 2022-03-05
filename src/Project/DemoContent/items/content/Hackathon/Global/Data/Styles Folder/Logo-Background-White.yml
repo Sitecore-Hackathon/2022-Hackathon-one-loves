@@ -1,0 +1,27 @@
+﻿---
+ID: "717a6a77-b810-40de-89d7-37eaaf08e2bb"
+Parent: "f7db55a6-6965-4c86-817d-63b85c9ac339"
+Template: "3a6d80c9-0978-44a2-9829-b80d6171927f"
+Path: "/sitecore/content/Hackathon/Global/Data/Styles Folder/Logo-Background-White"
+SharedFields:
+- ID: "d6152158-e033-4b10-94a3-6e671eee22cd"
+  Hint: Class
+  Value: "bg-white"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210928T090535Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "24fe1325-5028-400b-af36-1073c4075f90"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210928T113315Z

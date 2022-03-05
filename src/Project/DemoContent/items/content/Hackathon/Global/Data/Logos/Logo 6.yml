@@ -1,0 +1,31 @@
+﻿---
+ID: "078931e2-f67b-41c8-a25c-f27b4f2797ab"
+Parent: "bb069f0c-6786-407a-87e3-a6b01ab57d71"
+Template: "daf9e1fa-ecdf-4756-9460-caa2d11be9ee"
+Path: /sitecore/content/Hackathon/Global/Data/Logos/Logo 6
+SharedFields:
+- ID: "7781cca9-d623-424c-bb88-116010b872e4"
+  Hint: Image
+  Value: |
+    <image mediaid="{3E16891F-2D1D-4C25-816B-D99C30BFBC3F}" ></image>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210910T133339Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ea2ab795-6ae9-46d0-9bbb-1f56ebe44c1f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210913T122256Z

@@ -1,0 +1,67 @@
+@model LogoWall
+
+@{
+    var cssClass = string.Empty;
+
+    if (!string.IsNullOrEmpty(Model?.CssClass))
+        cssClass = Model.CssClass;
+}
+
+<section class="logo-wall logo-wall--reference">
+    <div class="container">
+        <h2 class="h2">
+            <sc-text asp-for="Headline" />
+        </h2>
+    </div>
+    <h4 class="h4">
+        @if (this.SitecoreContext().IsEditing)
+        {
+            <sc-text asp-for="CopyText" />
+        }
+        else
+        {
+            @Html.Raw(Model?.CopyText?.Value)
+        }
+    </h4>
+    <div class="logo-wall__list @cssClass">
+        <div class="container">
+            @if (Model?.Logos != null && Model.Logos.Any())
+            {
+                @foreach (var logo in Model.Logos.Take(
+           Convert.ToInt32(Model.ItemsCount.Value != 0 ? Model.ItemsCount.Value : 12)))
+                {
+                    if (string.IsNullOrEmpty(logo?.Fields?.Url.Value?.Href))
+                    {
+                        <a class="logo-wall__link">
+                            <div class="img-wrapper-contain">
+                                @if (logo?.Fields?.Image != null)
+                                {
+                                    <sc-img asp-for="@logo.Fields.Image" />
+                                }
+                            </div>
+                        </a>
+                    }
+                    else
+                    {
+                        <a href="@logo?.Fields?.Url.Value?.Href" class="logo-wall__link">
+                            <div class="img-wrapper-contain">
+                                @if (logo?.Fields?.Image != null)
+                                {
+                                    <sc-img asp-for="@logo.Fields.Image" />
+                                }
+                            </div>
+                        </a>
+                    }
+                    @*<sc-link asp-for="@logo.Fields.Url" />*@
+                    @*<sc-text asp-for="@logo.Fields.Title" />*@
+                }
+            }
+        </div>
+    </div>
+    @if (!string.IsNullOrEmpty(Model?.Link?.Value?.Href) || this.SitecoreContext().IsEditing)
+    {
+        <div class="container">
+            <sc-link class="main-btn main-btn--black" asp-for="Link" />
+        </div>
+    }
+</section>

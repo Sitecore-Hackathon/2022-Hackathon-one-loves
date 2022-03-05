@@ -1,0 +1,35 @@
+﻿@model FAQ
+
+<section class="faq">
+    <div class="container">
+        <h2 class="h2">
+            @if (this.SitecoreContext().IsEditing)
+            {
+                <sc-text asp-for="Headline" />
+            }
+            else
+            {
+                @Html.Raw(Model?.Headline?.Value)
+            }
+        </h2>
+
+        <div class="faq__list">
+            @if (Model?.Items != null && Model.Items.Any())
+            {
+                foreach (var item in Model.Items)
+                {
+                    <div class="faq__list-item">
+                        <button class="faq__btn">
+                            <span class="faq__btn-text">
+                                <sc-text asp-for="@item.Fields.Question" />
+                            </span>
+                        </button>
+                        <p class="paragraph-plain">
+                            <sc-text asp-for="@item.Fields.Answer" />
+                        </p>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</section>

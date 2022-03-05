@@ -1,0 +1,34 @@
+﻿---
+ID: "e8c1f045-31f4-42a3-970d-c2d06582f1ad"
+Parent: "1148374f-7c95-473e-a08d-47bcf0941502"
+Template: "1148374f-7c95-473e-a08d-47bcf0941502"
+Path: /sitecore/templates/Feature/Basic Content/Data Source/Cube Module Item/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210826T081913Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "81509650-faa5-4b08-b12e-32c0e0517a93"
+      Hint: Headline
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "22e0ae0a-a7d8-4f50-8bfe-b8d81a219af3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210909T115839Z

@@ -1,0 +1,17 @@
+@import "./variables";
+.job-detail-content-section {
+  .h3 {
+    margin: 0 0 48px;
+  }
+}
+
+.job-detail {
+  &.bg-gray-polygon {
+    @include media("m") {
+      &:after {
+        clip-path: polygon(0 0, 0 100%, 0 99%, 80% 0);
+        height: 16%;
+      }
+    }
+  }
+}

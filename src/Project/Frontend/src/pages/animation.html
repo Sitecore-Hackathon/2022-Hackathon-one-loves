@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- !!!!!! NOTE: ADD IT TO MAIN LAYOUT  !!!!!-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  </head>
+  <body>
+    <%= require('html-loader!../components/navbar/navbar.html').default %>
+    <main class="business-segments-animation container">
+      <%=
+      require('html-loader!../components/business-segments-animation/business-segments-animation.html').default
+      %>
+    </main>
+  </body>
+  <!-- !!!!!! NOTE: ADD lottie and aos SCRIPTS TO MAIN LAYOUT  !!!!!-->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
+</html>

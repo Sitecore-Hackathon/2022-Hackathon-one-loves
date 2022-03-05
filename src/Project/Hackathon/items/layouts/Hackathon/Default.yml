@@ -1,0 +1,39 @@
+﻿---
+ID: "4ed48317-062f-4465-b9af-1e636841525b"
+Parent: "dcb3c921-7d58-4ab5-a257-c3112f4f89c3"
+Template: "e4e11508-04a4-4b0b-a263-5201f811c9cd"
+Path: /sitecore/layout/Layouts/Project/Hackathon/Default
+SharedFields:
+- ID: "80334869-86dc-4472-aa89-44cf1b2f6c9b"
+  Hint: Placeholders
+  Value: |
+    {DD7D2519-67D7-4CF8-88DA-3F81C4673B52}
+    {47624A93-91D2-427A-95AD-59B03ED6D2F8}
+    {97AAE0E8-B193-4903-B191-325C34796FBF}
+    {72BF450C-1E87-4BE4-852C-912356ABAE47}
+    {787D5095-D681-4D8E-9AE8-D679A563EC53}
+    {E7070B76-37A3-459D-8F40-66C9CDF86707}
+    {D6D7683D-73FA-4D19-90E9-37AA99A6754A}
+    {8F9EF757-D682-45A8-A929-849DF1ECD820}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190221T205604Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+          sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "34775a4a-a77d-4371-b3ec-cb98de67a49a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210908T095633Z

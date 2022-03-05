@@ -1,0 +1,35 @@
+﻿---
+ID: "5eb2f35f-1170-4459-8b80-9b4d04915bb2"
+Parent: "f21d7c5d-3e9d-4ffd-bef2-6a1ce981c779"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: /sitecore/content/Hackathon/Global/Presentation/Placeholder Settings/Blog Page Main
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: blogpost
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {AFF1BCC3-1955-43D9-ADDA-7D604DFF90D4}
+    {A299843D-882E-4775-8782-84A8848FE1EC}
+    {1B035969-B67A-4B42-9218-3EF304E038FB}
+    {75C87FBF-4D8C-4ABA-87AB-0A784FA84885}
+    {B9C1F16E-CD91-48DB-ACE5-B76C7C6E926D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210812T123715Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ab012030-74a9-4da3-9fd6-b2fa8dc88278"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210907T070901Z

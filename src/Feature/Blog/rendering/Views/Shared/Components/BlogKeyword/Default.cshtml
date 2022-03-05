@@ -1,0 +1,15 @@
+﻿@using Microsoft.Extensions.Localization
+@inject IStringLocalizer Localizer
+@model Hackathon.Feature.Blog.Models.ViewModels.BlogKeywordViewModel
+
+<section class="blog-keyword-header">
+    <sc-placeholder name="back-btn" />
+    @if (!string.IsNullOrWhiteSpace(Model.TagName))
+    {
+        <section class="blogpost-keyword">
+            <div class="container">
+                <h1 class="h1 accent-active-item">#@Model.TagName</h1>
+            </div>
+        </section>
+    }
+</section>

@@ -1,0 +1,38 @@
+﻿@using Microsoft.AspNetCore.Http
+@model TagsNavigation
+@inject IHttpContextAccessor httpContext
+@{
+    void Render()
+    {
+        httpContext.HttpContext.Request.Query.TryGetValue("tag", out var keyword);
+
+        if (Model?.Tags == null || !Model.Tags.Any())
+        {
+            return;
+        }
+        foreach (var tag in Model.Tags)
+        {
+            var css = "";
+            if (tag?.Fields?.Title != null && !string.IsNullOrEmpty(keyword) &&
+                keyword.ToString().ToLower().Contains(tag.Fields.Title.Value.ToLower()) == true)
+            {
+                css = "accent-active-item";
+            }
+            <a href="@Model.BlogKeywordPage?.Fields?.Link?.Value?.Href/topics/@tag.Fields?.Title?.Value.ToLower()" class="tags-navigation__tag @css">#@tag.Fields?.Title?.Value</a>
+        }
+    }
+}
+<section class="tags-navigation">
+    <div class="container">
+        <nav class="tag-navigation__link" aria-labelledby="tags navigation for blog posts">
+            @{Render();}
+        </nav>
+        <button type="button" class="tags-navigation__search-btn icon-btn">
+            <svg width="36" height="36">
+                <g id="Icon/interaction/search" fill-rule="evenodd" stroke="none" stroke-width="1">
+                    <path id="Path" d="M30 27.65l-6.25-6.2a9.63 9.63 0 0 0 1.87-5.72c0-5.37-4.4-9.73-9.81-9.73S6 10.37 6 15.73a9.81 9.81 0 0 0 15.34 8.03L27.63 30 30 27.65zM8.88 15.73a6.9 6.9 0 0 1 6.93-6.88 6.91 6.91 0 0 1 6.93 6.88 6.9 6.9 0 0 1-6.93 6.88 6.91 6.91 0 0 1-6.93-6.88z"></path>
+                </g>
+            </svg>
+        </button>
+    </div>
+</section>

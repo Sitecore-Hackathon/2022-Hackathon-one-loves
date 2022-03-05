@@ -1,0 +1,23 @@
+﻿---
+ID: "74a2f6f7-62ba-49b0-b7cb-b6e3b3f8d100"
+Parent: "76089c11-6bcd-49c9-be08-3f3f1cbcedb0"
+Template: "dba14926-b08a-43ec-a8c8-a7dcc9c2c65f"
+Path: /sitecore/templates/Branches/Project/Hackathon/Team Overview Page/$name/Data/Hero Section Text
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210916T090339Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2814644f-f6b2-4b42-9e3a-63a720e4da69"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210916T090339Z

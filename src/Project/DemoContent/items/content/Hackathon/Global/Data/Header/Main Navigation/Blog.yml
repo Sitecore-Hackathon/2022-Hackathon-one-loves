@@ -1,0 +1,31 @@
+﻿---
+ID: "72b8867b-d592-4b2c-b0ad-09207119fc95"
+Parent: "4d0e6d5c-4e9f-41a0-9674-9bca05c7cd50"
+Template: "f3d92634-0b9b-48bd-b7a4-f673f38746d5"
+Path: /sitecore/content/Hackathon/Global/Data/Header/Main Navigation/Blog
+SharedFields:
+- ID: "36b2f1f4-6688-4d49-90c2-89711736857a"
+  Hint: Link
+  Value: |
+    <link id="{B79E5326-8577-427A-81D3-CC1889833E90}" querystring="" text="" anchor="" title="" class="" url="/Hackathon/Global/Home/Blog" linktype="internal" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210913T205114Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5183a385-b900-44b2-8291-cc3c7fccec8e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d55a18a4-856c-4232-9819-0bdc9e7edfe0"
+      Hint: Title
+      Value: Blog
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210916T142422Z

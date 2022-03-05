@@ -1,0 +1,35 @@
+﻿---
+ID: "ad5fe59f-7c22-4903-8f1d-9d1714366fb0"
+Parent: "4f3e8736-6527-48e6-92d6-39c2ff19ccf1"
+Template: "b0f9ed4f-6406-4036-acba-38313a2ddeac"
+Path: /sitecore/content/Hackathon/Global/Home/About us/Data/Image with Left Text
+BranchID: "d7529ce6-a5bc-47f0-9873-4b8d9436b274"
+SharedFields:
+- ID: "aad66475-3bb1-46ad-8bc1-b54bf22cf8d3"
+  Hint: Image
+  Value: |
+    <image mediaid="{0428F4E4-4C99-4A37-AF4B-0D50A6231633}" />
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{9E57A98E-912A-4F81-96BF-FD7D5AD0AC65}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210916T131024Z
+    - ID: "4a7cde93-06a4-4283-aace-a5b2de937ee1"
+      Hint: Text
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "07a95280-f702-4071-890f-d0cad372019a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210916T135304Z

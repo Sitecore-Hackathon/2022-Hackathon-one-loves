@@ -1,0 +1,87 @@
+@import "./variables";
+
+.job-link {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 20px 0 0;
+  width: calc(34% - 20px);
+  padding: 16px 0 32px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid $black;
+  color: $black;
+  text-decoration: none;
+  transition: $transition;
+  justify-content: space-between;
+
+  &:hover {
+    .job-link__title {
+      text-decoration: underline;
+      text-decoration-thickness: 1%;
+      transition: $transition;
+    }
+  }
+
+  
+
+  .jobs__link-data {
+    .paragraph-plain {
+      display: flex;
+      flex-wrap: wrap;
+
+      span {
+        border-right: 2px solid $black;
+        padding-right: 5px;
+        margin-right: 5px;
+
+        &:last-of-type {
+          border-right: none;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  &:focus {
+    border: 1px solid $gray-20 !important; 
+    transition: $transition;
+  }
+
+  &:nth-child(3n) {
+    margin: 0;
+  }
+
+  &:nth-child(-n + 3) {
+    border-top: 1px solid $black;
+  }
+
+  @include media("m") {
+    width: 100%;
+    margin: 0;
+    padding: 16px 0;
+    display: none;
+
+    &:last-of-type {
+      margin: 0;
+    }
+
+    &:nth-child(-n + 3) {
+      border-top: none;
+    }
+
+    &:first-of-type {
+      border-top: 1px solid $black;
+    }
+  }
+
+  &__title {
+    font-family: "TheMixE2s-SemiBold";
+    font-size: $font-size-lg;
+    margin: 0 0 16px;
+    transition: $transition;
+  }
+
+  &.focused-class {
+    border-bottom: 1px solid $gray-20 !important; 
+    transition: $transition;
+  }
+}

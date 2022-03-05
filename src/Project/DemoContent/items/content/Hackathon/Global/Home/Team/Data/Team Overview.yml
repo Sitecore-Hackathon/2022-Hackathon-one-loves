@@ -1,0 +1,30 @@
+﻿---
+ID: "d2872096-7983-466b-ba38-9d815683b936"
+Parent: "3f8d2caf-625c-4d55-915b-93e3d48c40e4"
+Template: "c6416fe1-68c7-441b-889c-efc64ad9bb76"
+Path: /sitecore/content/Hackathon/Global/Home/Team/Data/Team Overview
+SharedFields:
+- ID: "ceb12576-9624-4375-8876-8d33f61d9b4f"
+  Hint: Locations
+  Value: "{BF570EE0-FCBE-4736-8572-D5F80968507D}|{34AD4C32-0C25-4B16-9D5D-2589EEA2ABF7}|{929017F6-08B0-45FF-B92A-28DFD4067D7A}|{F3CADAD2-42BB-4EA5-8A84-F351B60C37CB}|{6235433A-9416-4ECD-AB41-E891EB66C81D}|{B50FCFCC-6E36-4FD8-9372-D54C4D5DF8F6}|{0D63545C-6F41-4E04-8E91-BFCBD4A10F80}|{0CDED21C-88F5-45D1-8FDE-A4DEB8B79F35}"
+- ID: "cefeb3a0-135d-4acf-9521-612de484ce37"
+  Hint: NumberOfMembers
+  Value: 9
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210917T084427Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e2d59b90-8617-4a33-be01-4b35f75c33c1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210917T112826Z

@@ -1,0 +1,37 @@
+﻿---
+ID: "59fe9030-c2e8-4f04-b961-c780e7b35da9"
+Parent: "779c97d4-e7be-4098-8404-85f945dac168"
+Template: "779c97d4-e7be-4098-8404-85f945dac168"
+Path: /sitecore/templates/Foundation/Base Data/_Metadata/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210805T171710Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d3221920-e85f-4467-a9ce-ae094e83b222"
+    - ID: "9520125c-0a72-43d9-8c8f-f534808f015e"
+      Hint: TwitterTitle
+      Value: $name
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bf9c882c-0fba-4f27-899e-d70e356c2719"
+      Hint: OGTitle
+      Value: $name
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210910T134329Z

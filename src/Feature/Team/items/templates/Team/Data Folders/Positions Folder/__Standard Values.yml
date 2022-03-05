@@ -1,0 +1,35 @@
+﻿---
+ID: "ee448a92-9725-42d3-a7c5-8c4b262b25f6"
+Parent: "d6e4e6ac-8608-4dc8-8cd3-6ccca644354c"
+Template: "d6e4e6ac-8608-4dc8-8cd3-6ccca644354c"
+Path: /sitecore/templates/Feature/Team/Data Folders/Positions Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{991E5421-638F-4F10-93FE-C2CBADA73D9E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210917T094117Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a85251fd-31df-49bc-89ae-5f4d0be6c41d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210917T094126Z

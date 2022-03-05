@@ -1,0 +1,23 @@
+﻿---
+ID: "bc13d3a4-cbdc-4137-81d9-cfc4ac18bfa5"
+Parent: "46c14737-6860-4ed1-a701-99bbaeac3504"
+Template: "361bd21d-e0e0-42d2-bbfd-afc8211ad709"
+Path: /sitecore/content/Hackathon/Global/Data/Hero Videos
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210805T184726Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d256c590-8c78-4e3a-adc5-f373dd210f06"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210805T184726Z

@@ -1,0 +1,78 @@
+﻿@using System.Globalization
+@model Header
+
+@{
+    void Render()
+    {
+        var itemId = this.SitecoreRoute()?.ItemId?.ToUpperInvariant() ?? "";
+
+        foreach (var item in Model.HeaderLinks)
+        {
+            var css = "";
+            if (item.Fields?.Link.Value.Id?.ToUpperInvariant().Contains(itemId) == true)
+            {
+                css = "accent-active-item";
+            }
+            <a href="@item.Fields?.Link.Value.Href" class="app-header__nav-link @css">
+                @(!string.IsNullOrWhiteSpace(item.Fields?.Title?.Value) ? item.Fields.Title.Value : item.Fields?.Link.Value.Text)
+            </a>
+        }
+    }
+}
+
+<header class="app-header" style="@(this.SitecoreContext().IsEditing ? "position: static;" : null)">
+    <div class="container">
+        <a href="/" class="img-wrapper app-header__logo image-link">
+            @*<sc-img asp-for="DesktopLogo" id="logo-l" />
+            <sc-img asp-for="MobileLogo" id="logo-s" />*@
+            @Html.Raw(Model?.DesktopLogoSvg?.Value)
+            @Html.Raw(Model?.MobileLogoSvg?.Value)
+        </a>
+        <nav class="app-header__nav">
+            @{Render();}
+        </nav>
+        <div class="app-header__lang-control">
+            <button type="button" class="app-header__lang-control-btn">
+                <div class="app-header__lang-control-btn-cover"></div>
+                <svg class="app-header__lang-control-icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+                    <g id="Icon/navigation/chevron-left" fill-rule="evenodd" stroke="none" stroke-width="1">
+                        <path id="Path" d="M11 9l3.26-3L27 18 14.26 30 11 27l9.6-9z"></path>
+                    </g>
+                </svg>
+                @{
+                    var cultureName = new CultureInfo(this.SitecoreContext()?.Language ?? "");
+                }
+                <span class="current-lang">@cultureName.TwoLetterISOLanguageName</span>
+            </button>
+            <vc:language-switcher></vc:language-switcher>
+        </div>
+
+        <div class="app-header__mobile-menu">
+            <div class="app-header__mobile-menu-btns">
+                <button class="app-header__burger-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+                        <g id="Icon/navigation/burger" fill-rule="evenodd" stroke="none" stroke-width="1">
+                            <path id="Shape" d="M30 12H6V8h24v4zm0 4H6v4h24v-4zm0 8H6v4h24v-4z"></path>
+                        </g>
+                    </svg>
+                </button>
+                <button type="button" class="tags-navigation__search-btn icon-btn">
+                    <svg width="36" height="36">
+                        <g id="Icon/interaction/search" fill-rule="evenodd" stroke="none" stroke-width="1">
+                            <path id="Path" d="M30 27.65l-6.25-6.2a9.63 9.63 0 0 0 1.87-5.72c0-5.37-4.4-9.73-9.81-9.73S6 10.37 6 15.73a9.81 9.81 0 0 0 15.34 8.03L27.63 30 30 27.65zM8.88 15.73a6.9 6.9 0 0 1 6.93-6.88 6.91 6.91 0 0 1 6.93 6.88 6.9 6.9 0 0 1-6.93 6.88 6.91 6.91 0 0 1-6.93-6.88z"></path>
+                        </g>
+                    </svg>
+                </button>
+            </div>
+            <div class="app-header__mobile-nav">
+                <nav class="app-header__nav">
+                    @{Render();}
+                </nav>
+                <nav class="tag-navigation__link" aria-labelledby="tags navigation for blog posts">
+                    <a href="/" class="tags-navigation__tag">#COMPANY</a><a href="/" class="tags-navigation__tag">#CREWLOVE</a><a href="/" class="tags-navigation__tag">#CAMPUS</a><a href="/" class="tags-navigation__tag">#COMETOGETHER</a><a href="/" class="tags-navigation__tag">#TECHTALK</a>
+                </nav>
+                <vc:language-switcher></vc:language-switcher>
+            </div>
+        </div>
+    </div>
+</header>

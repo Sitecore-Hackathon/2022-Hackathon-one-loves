@@ -1,0 +1,33 @@
+﻿---
+ID: "692bdb81-7f8e-4ef6-8776-eec1c4b0b615"
+Parent: "54dd1af6-637c-4ca5-8c9b-865c0e93e875"
+Template: "cb4808f1-001d-443e-86b6-cc496f304775"
+Path: /sitecore/content/Hackathon/Global/Home/Jobs Overview/Data/Jobs Overview
+SharedFields:
+- ID: "4cbfd34f-5825-4e52-a184-9b084e074cbe"
+  Hint: Positions
+  Value: "{3894ADDC-6BC9-4564-BAF0-3EDFD7B19EB3}|{24B2BB13-1545-415B-B9D6-7E02E2FC2D50}|{895F8DCD-C19F-4B2E-91FE-F4F85B54FA38}|{C09D3E83-18F2-4FBF-905B-8455403971D8}"
+- ID: "d0532fb9-d6ab-43f5-9fd2-94580fc19e17"
+  Hint: Locations
+  Value: "{BF570EE0-FCBE-4736-8572-D5F80968507D}|{34AD4C32-0C25-4B16-9D5D-2589EEA2ABF7}|{929017F6-08B0-45FF-B92A-28DFD4067D7A}|{F3CADAD2-42BB-4EA5-8A84-F351B60C37CB}|{6235433A-9416-4ECD-AB41-E891EB66C81D}|{B50FCFCC-6E36-4FD8-9372-D54C4D5DF8F6}|{0D63545C-6F41-4E04-8E91-BFCBD4A10F80}|{0CDED21C-88F5-45D1-8FDE-A4DEB8B79F35}"
+- ID: "d7ddc1c6-b32a-4d7e-aaab-242f5ed6d770"
+  Hint: NumberOfMembers
+  Value: 6
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210920T082128Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6c120c15-72b1-46a2-9b22-5028a4584973"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210920T082146Z

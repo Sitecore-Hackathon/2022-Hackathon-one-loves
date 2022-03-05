@@ -1,0 +1,34 @@
+﻿---
+ID: "299c0cc4-a749-4fdf-adf5-845d940e3d09"
+Parent: "4d0e6d5c-4e9f-41a0-9674-9bca05c7cd50"
+Template: "f3d92634-0b9b-48bd-b7a4-f673f38746d5"
+Path: /sitecore/content/Hackathon/Global/Data/Header/Main Navigation/Leistungen
+SharedFields:
+- ID: "36b2f1f4-6688-4d49-90c2-89711736857a"
+  Hint: Link
+  Value: |
+    <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{9CF9A745-6B4E-4EF0-8B58-F21E5D2416D2}" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210803T125839Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ee378e93-4319-4e9b-873d-e73f51a23b35"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d55a18a4-856c-4232-9819-0bdc9e7edfe0"
+      Hint: Title
+      Value: Services
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210924T072607Z

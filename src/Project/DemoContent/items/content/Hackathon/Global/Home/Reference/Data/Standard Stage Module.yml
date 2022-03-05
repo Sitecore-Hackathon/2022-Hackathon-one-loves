@@ -1,0 +1,39 @@
+﻿---
+ID: "7cbe5190-13f5-4849-970e-c2b249c616c6"
+Parent: "fe1e54f0-5a65-4f20-b849-4285f663eaca"
+Template: "5f16d0cf-bcf4-4a94-a886-7049958c578d"
+Path: /sitecore/content/Hackathon/Global/Home/Reference/Data/Standard Stage Module
+BranchID: "c8e892c2-ce9e-40dd-8cc8-600f643b419d"
+SharedFields:
+- ID: "0e6aa785-8e1f-4f54-8df1-28002b01ed0c"
+  Hint: Link
+  Value: |
+    <link id="{40F4450A-F5C5-4AD4-AC35-D1EC951E8B39}" querystring="" text="Mehr erfahren" anchor="" title="" class="" url="/Hackathon/Global/Home/Reference" linktype="internal" />
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{443A6C8C-540A-4BE0-95D3-C6B4CBE949CF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210916T122958Z
+    - ID: "5f9301dd-e992-46dc-af8d-bc8d8c7a05cc"
+      Hint: Description
+      Value: |
+        <span style="color: #222222;">Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+    - ID: "8a6c9cb5-2780-4393-8b75-34f48442ca34"
+      Hint: Headline
+      Value: Unsere Referenzen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "de3306d1-18d5-4a52-be68-4e13e3a3972d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210916T142503Z

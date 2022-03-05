@@ -1,0 +1,14 @@
+﻿@model HeroBanner
+
+<section class="hero is-medium is-black" style="background-image: url(@Model?.Image?.Value?.Src)">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                <sc-text asp-for="Title" />
+            </h1>
+            <h2 class="subtitle">
+                <sc-text asp-for="Subtitle" />
+            </h2>
+        </div>
+    </div>
+</section>

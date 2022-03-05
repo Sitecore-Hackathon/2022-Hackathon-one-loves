@@ -1,0 +1,35 @@
+﻿---
+ID: "059051ba-cf9f-44bb-b90d-d18ff99ae6ca"
+Parent: "acaee0b1-ce8d-4a41-8180-8ce4c6b5b237"
+Template: "acaee0b1-ce8d-4a41-8180-8ce4c6b5b237"
+Path: /sitecore/templates/Foundation/Base Data/Blog Keyword Settings/__Standard Values
+SharedFields:
+- ID: "0b024665-23df-460c-b4d3-ab57b053b800"
+  Hint: Link
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210923T090329Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5d7bd582-79a9-4bdf-a800-3646b060bdb5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210923T093111Z

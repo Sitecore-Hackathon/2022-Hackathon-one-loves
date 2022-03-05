@@ -1,0 +1,10 @@
+.blog-preview {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 30%;
+  }
+}

@@ -1,0 +1,26 @@
+﻿---
+ID: "9f356cdc-4840-417c-b7eb-de88678269d5"
+Parent: "59dcb699-cc14-4b2e-b865-5ec11172a21d"
+Template: "1148374f-7c95-473e-a08d-47bcf0941502"
+Path: /sitecore/templates/Branches/Project/Hackathon/Company Page/$name/Data/Cube Module/Cube Module Item 3
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210916T075145Z
+    - ID: "81509650-faa5-4b08-b12e-32c0e0517a93"
+      Hint: Headline
+      Value: Cube Module Item 3
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b46a2d66-695f-42be-b256-4922acab8e04"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210916T075145Z

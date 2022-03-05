@@ -1,0 +1,23 @@
+﻿---
+ID: "f4658ec9-1938-4050-b8ac-e21b095d6fb8"
+Parent: "46c14737-6860-4ed1-a701-99bbaeac3504"
+Template: "ec55809a-7a5e-4993-9f7f-370aefa10c20"
+Path: /sitecore/content/Hackathon/Global/Data/Teaser Modules
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210909T074248Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c61a661f-b1a4-4946-bc38-8bb67520fb9a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210909T074248Z

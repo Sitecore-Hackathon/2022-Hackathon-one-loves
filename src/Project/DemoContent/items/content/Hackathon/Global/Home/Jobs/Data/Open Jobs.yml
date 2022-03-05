@@ -1,0 +1,47 @@
+﻿---
+ID: "1b989ad0-b6dd-4fce-af32-6e3930f373cf"
+Parent: "6c2d3a9f-a41b-4a90-8837-ee1edc936dd5"
+Template: "b9c9a7eb-8ea7-4462-9053-176ec6d50d8d"
+Path: /sitecore/content/Hackathon/Global/Home/Jobs/Data/Open Jobs
+BranchID: "c6f5c851-d9e0-4a67-80f7-6097b4118c15"
+SharedFields:
+- ID: "3d926dde-0ea6-4273-8844-4447ea01ea8a"
+  Hint: Link
+  Value: |
+    <link id="{AF19DF91-6DCB-4C68-A8A5-3C52E1622E6C}" querystring="" text="All Jobs" anchor="" title="" class="" url="/Hackathon/Global/Home/Jobs Overview" linktype="internal" />
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{E96F28FE-CFAE-44AE-AF34-BEF3FBAF06A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210916T131009Z
+    - ID: "79f57742-ad0f-42b4-a77c-2dce5a75c73c"
+      Hint: Headline
+      Value: |
+        Unser
+        </br>
+        <span class="text-bold">Top-Jobs</span>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2fa36bf5-79fe-45bc-8cd9-ccea63d9c100"
+    - ID: "8d704b5e-22a6-4a85-bb54-2c86813b9429"
+      Hint: JobDetails
+      Value: |
+        {BEA34C34-33FC-4256-BD16-3DC3E33DAA17}
+        {D6D8ACE5-061E-41B6-8302-2ECD5DB67E8A}
+        {9B89B5CE-D0AA-4585-B5F2-427F7C0FBD15}
+        {775A8C7B-429C-4A18-85AE-78E5950A0BE8}
+        {05395B51-2509-4B2D-994F-B79D60C52E9D}
+        {25EE4C04-95AA-4016-99B0-3A6D9CA3A70A}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210921T100352Z

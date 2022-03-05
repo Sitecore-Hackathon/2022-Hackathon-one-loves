@@ -1,0 +1,37 @@
+﻿---
+ID: "4e37af7f-9888-4d72-b8f3-d881aa3841b2"
+Parent: "8d7a1a0b-fdd8-43ad-87eb-d2b21754618e"
+Template: "8d7a1a0b-fdd8-43ad-87eb-d2b21754618e"
+Path: /sitecore/templates/Feature/Basic Content/Data Folders/Year Slides Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {8D7A1A0B-FDD8-43AD-87EB-D2B21754618E}
+    {F956BDE2-D768-4226-8D3C-10C5AB608580}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210816T104608Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "20fc9092-0729-4071-87dc-9429fda18726"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210825T115510Z

@@ -1,0 +1,50 @@
+﻿---
+ID: "9e848268-865a-4559-8e84-6015d7c6c166"
+Parent: "97479c6b-bb30-4a15-afd1-2c89f207e9d6"
+Template: "9db419d4-94de-4df3-a6da-76aef93fe15c"
+Path: /sitecore/content/Hackathon/Global/Home/Jobs
+BranchID: "c6f5c851-d9e0-4a67-80f7-6097b4118c15"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{AF27A309-7EEA-4B83-9398-5FC58DCBD454}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{04880FB7-ACB2-40EF-885F-298CF968D876}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07713781-a4a0-4b69-b49b-29c127fd127d"
+      Hint: PageTitle
+      Value: Career and Jobs Overview
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210916T131007Z
+    - ID: "39299ca5-4309-4748-b233-8bf05cf95512"
+      Hint: BrowserTitle
+      Value: Career and Jobs Overview
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6dc0776a-b5c5-4c5f-bdab-dd0a3d7fb6a8"
+    - ID: "9520125c-0a72-43d9-8c8f-f534808f015e"
+      Hint: TwitterTitle
+      Value: Career and Jobs Overview Page
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bf9c882c-0fba-4f27-899e-d70e356c2719"
+      Hint: OGTitle
+      Value: Career and Jobs Overview Page
+    - ID: "d4b52aa9-7974-4704-8a64-5329a5a83512"
+      Hint: NavigationTitle
+      Value: Career and Jobs Overview
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210916T144138Z

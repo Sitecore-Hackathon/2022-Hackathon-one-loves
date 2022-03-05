@@ -1,0 +1,27 @@
+﻿---
+ID: "ac7e630b-f3a6-41e7-af22-ebe7b3ff067c"
+Parent: "f7db55a6-6965-4c86-817d-63b85c9ac339"
+Template: "3a6d80c9-0978-44a2-9829-b80d6171927f"
+Path: "/sitecore/content/Hackathon/Global/Data/Styles Folder/Text-Right"
+SharedFields:
+- ID: "d6152158-e033-4b10-94a3-6e671eee22cd"
+  Hint: Class
+  Value: "paragraph-plain content-section__block content-section__block--right           "
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210928T090200Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0da69600-c8c3-4ce7-ade8-ed41262dedd3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210928T140040Z

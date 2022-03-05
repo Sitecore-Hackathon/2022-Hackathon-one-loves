@@ -1,0 +1,357 @@
+@import "./variables";
+
+$points: (
+  "yellow": $accent-yellow-100,
+  "green": $green-100,
+  "purple": $purple-100,
+  "blue": $petrol-100,
+  "red": $orange-100,
+  "orange": $yellow-100,
+);
+
+$max-height: 400px;
+
+@keyframes scrollAnimation {
+  to {
+    transform: translateY(10px);
+    stroke-miterlimit: 23;
+  }
+}
+
+.business-segments-animation {
+  &__box {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: $black;
+
+    .plain-text {
+      margin: 1rem 0;
+    }
+
+    .aos-init {
+      width: 100%;
+    }
+
+    .h1 {
+      word-break: break-word;
+      hyphens: auto;
+
+      @include media("xl") {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  &__slider {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-right: 45px;
+    padding-top: 80px;
+
+    @include media("xl") {
+      padding-right: 0;
+      justify-content: unset;
+    }
+
+    @include media("m") {
+      display: none;
+    }
+
+    @media (max-height: 600px) and (orientation: landscape) {
+      display: none;
+    }
+  }
+
+  &__content {
+    width: calc(100% - 440px);
+    flex-shrink: 0;
+
+    @include media("xl") {
+      width: 40%;
+      flex-shrink: unset;
+    }
+  }
+
+  .scroll-indicator {
+    width: 55px;
+    height: 90px;
+
+    &__line {
+      transform: translateY(2px);
+      animation: scrollAnimation 1s linear alternate infinite;
+      animation-delay: 6s;
+    }
+  }
+
+  &__sections-circle {
+    width: 330px;
+    height: 330px;
+    right: 0;
+    position: sticky;
+    top: 50%;
+    transform: translateY(-50%);
+
+    img {
+      position: absolute;
+    }
+
+    @include media("xl") {
+      width: 280px;
+      height: 280px;
+      left: 50%;
+    }
+  }
+
+  .sections-circle {
+    &__wrapper {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    &__item {
+      position: absolute;
+    }
+
+    &__point {
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.4;
+      transition: $transition;
+
+      &.active {
+        transform: scale(2.5);
+        opacity: 1;
+        transition: $transition;
+
+        @include media("xl") {
+          transform: scale(1.9);
+        }
+      }
+
+      @each $key, $value in $points {
+        &.#{$key} {
+          background: $value;
+        }
+      }
+
+      &[data-section="cloud"] {
+        top: 96%;
+        left: 47%;
+      }
+
+      &[data-section="marketing"] {
+        top: 71%;
+        left: 5%;
+      }
+
+      &[data-section="sap"] {
+        top: 23%;
+        left: 5%;
+      }
+
+      &[data-section="consulting"] {
+        top: -8px;
+        left: 48%;
+      }
+
+      &[data-section="data"] {
+        top: 23%;
+        left: 89%;
+      }
+
+      &[data-section="technology"] {
+        top: 71%;
+        left: 90%;
+      }
+    }
+
+    &__label-text {
+      @each $key, $value in $points {
+        &.#{$key} {
+          background-image: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0) 50%,
+            $value 50%
+          );
+        }
+      }
+
+      display: inline;
+      font-family: "TheSansC2s-7_Bold";
+      transition: $transition;
+      background-size: 200%;
+      background-position: 0 0;
+    }
+
+    &__label {
+      position: absolute;
+      font-size: 1.2rem;
+      min-width: 120px;
+
+      @include media("xl") {
+        font-size: 1rem;
+      }
+
+      &.active {
+        .sections-circle__label-text {
+          transition: $transition;
+          background-position: -100% 0;
+        }
+      }
+
+      &[data-section="cloud"] {
+        top: 112%;
+        left: 36%;
+      }
+
+      &[data-section="marketing"] {
+        top: 90%;
+        left: -25%;
+      }
+
+      &[data-section="sap"] {
+        top: 2%;
+        left: -24%;
+      }
+
+      &[data-section="consulting"] {
+        top: -26%;
+        left: 37%;
+      }
+
+      &[data-section="data"] {
+        top: -1%;
+        left: 90%;
+      }
+
+      &[data-section="technology"] {
+        top: 87%;
+        left: 88%;
+      }
+    }
+  }
+
+  .hidden {
+    transition: opacity 0.2s linear !important;
+    opacity: 0 !important;
+    z-index: -1 !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
+
+  #circleAnimation {
+    width: 100%;
+    height: 100%;
+  }
+
+  #lottieAnimation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 510px;
+    height: 510px;
+
+    @include media("xl") {
+      width: 435px;
+      height: 435px;
+    }
+  }
+
+  //SLIDER
+  .business-segments-swiper {
+    display: none;
+    height: calc(100vh - 80px);
+    margin-top: 80px;
+
+    @include media("m") {
+      display: block;
+    }
+
+    @media (max-height: 600px) and (orientation: landscape) {
+      display: block;
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0 10px 45px 10px;
+
+      .main-button {
+        margin: 20px 0 0;
+      }
+    }
+
+    &__animation,
+    .img-wrapper-stretch {
+      max-height: 40vh;
+      margin-top: 20px;
+
+      @media (max-height: $max-height) and (orientation: landscape) {
+        max-height: 30vh;
+        margin-top: 10px;
+      }
+    }
+
+    &__content {
+      width: 100%;
+      text-align: center;
+
+      .h1 {
+        word-break: break-word;
+        hyphens: auto;
+        font-size: 2rem;
+      }
+
+      .plain-text {
+        @include media("xs") {
+          @include truncateLines(4);
+        }
+
+        @media screen and (orientation: landscape) {
+          @include truncateLines(3);
+        }
+
+        @media (max-height: $max-height) and (orientation: landscape) {
+          @include truncateLines(2);
+        }
+      }
+    }
+
+    .swiper-pagination {
+      top: auto;
+      bottom: 10px;
+      left: 0;
+      width: 100%;
+      justify-content: center;
+      right: 0;
+      display: flex;
+      transform: translate3d(0, 0, 0);
+    }
+
+    .swiper-pagination-bullet {
+      background: $black;
+      width: 20px;
+      height: 20px;
+      margin: 0 10px 0 0;
+      &:last-of-type {
+        margin: 0;
+      }
+    }
+  }
+}

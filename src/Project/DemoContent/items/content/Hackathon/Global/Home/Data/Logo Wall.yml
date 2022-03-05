@@ -1,0 +1,41 @@
+﻿---
+ID: "4d94bfe0-b285-4973-b805-d578625bf97c"
+Parent: "c163a241-0661-456b-87b4-bf8c7546c4d8"
+Template: "4e1db73c-cccc-4017-b264-e27c30604630"
+Path: /sitecore/content/Hackathon/Global/Home/Data/Logo Wall
+SharedFields:
+- ID: "2d9a53ad-5fa6-4bdc-9d73-6fd3c33358b9"
+  Hint: Link
+  Value: |
+    <link text="Referenzen" anchor="" linktype="internal" class="" title="" target="|Custom" querystring="" id="{97479C6B-BB30-4A15-AFD1-2C89F207E9D6}" />
+- ID: "bc4d99f2-55e4-44fd-8d26-10d258123a37"
+  Hint: ItemsCount
+  Value: 12
+- ID: "e939c6c4-35cc-4e51-9828-a7395aa7e01d"
+  Hint: Logos
+  Value: "{48944F63-850E-434D-8074-68126591215D}|{BB6E1A1D-19B2-45DA-9F58-F87CC32A9192}|{692AF292-6219-48BD-B710-F41EF042BC83}|{F919B2B5-F8E1-4101-9B31-2C7B44062273}|{0F999C56-9939-482D-A2D4-140954164CE6}|{078931E2-F67B-41C8-A25C-F27B4F2797AB}|{5E3DFD16-85EE-4679-940B-D09D57C0F993}|{36D1EA5F-3C64-4113-81D4-6A2E132F7810}|{29D5755B-A061-4F32-B1C8-3B84E8A9D19C}|{9C69939B-61AA-4E71-A279-66180EF79044}|{2C04FE7C-7821-4319-8FDA-46AC8088051F}|{CB9CB342-8B31-47F4-AE9E-2F971EB5DA4E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210913T082401Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "150e1e75-5aa9-4fe9-b81f-9c3c4403733e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c0c280c0-2514-4abd-8e3d-db2ed63db3d6"
+      Hint: CopyText
+      Value: |
+        Hier findest du eine kleine Auswahl unserer <span class="text-bold">Referenzen</span> aus den unterschiedlichsten Branchen:
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210928T091226Z

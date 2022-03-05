@@ -1,0 +1,177 @@
+// Color system
+//
+
+$white: #fff;
+
+$gray-100: #222222;
+$gray-80: #4e4e4e;
+$gray-60: #7a7a7a;
+$gray-40: #a7a7a7;
+$gray-20: #d3d3d3;
+$gray-10: #e8e8e8;
+$gray-5: #f4f4f4;
+$gray-0: #fff;
+
+$black: #222222;
+
+$brand-color: #ac162c;
+
+$accent-yellow-100: #ffde00;
+$accent-yellow-80: #ffe533;
+$accent-yellow-60: #ffeb66;
+$accent-yellow-40: #fff299;
+$accent-yellow-20: #fff8cc;
+$accent-yellow-10: #fffbe5;
+
+$orange-100: #f25937;
+$orange-80: #f57b5f;
+$orange-60: #f79c87;
+$orange-40: #fabdaf;
+$orange-20: #fcded7;
+$orange-10: #fdeeeb;
+
+$yellow-100: #ffbd00;
+$yellow-80: #ffca33;
+$yellow-60: #ffd766;
+$yellow-40: #ffe599;
+$yellow-20: #fff2cc;
+$yellow-10: #fff8e5;
+
+$green-100: #00a898;
+$green-80: #33b9ad;
+$green-60: #66cbc1;
+$green-40: #99dcd6;
+$green-20: #cceeea;
+$green-10: #e5f6f4;
+
+$petrol-100: #2a86a8;
+$petrol-80: #559eb9;
+$petrol-60: #7fb6cb;
+$petrol-40: #aacfdc;
+$petrol-20: #d4e7ee;
+$petrol-10: #e9f2f6;
+
+$purple-100: #a757b9;
+$purple-80: #b979c7;
+$purple-60: #ca9ad5;
+$purple-40: #dcbce3;
+$purple-20: #edddf1;
+$purple-10: #f6eef8;
+
+$warning: #fb7a00;
+$success: #72ab00;
+$info: #00b4ff;
+$danger: #d53131;
+
+// Spacing
+//
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer * 0.75,
+  4: $spacer,
+  5: $spacer * 0.25,
+  6: $spacer * 1.5,
+  7: $spacer * 2,
+  8: $spacer * 3,
+  9: $spacer * 4,
+  10: $spacer * 5,
+  11: $spacer * 6,
+  12: $spacer * 8,
+  13: $spacer * 9,
+);
+
+////// ****
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg: $white;
+$body-color: $gray-100;
+
+// Links
+//
+// Style anchor elements.
+
+////// **** TO BE CHECKED ****
+$link-color: $gray-100;
+$link-decoration: underline;
+$link-hover-color: darken($link-color, 15%);
+$link-hover-decoration: underline;
+////// ****
+
+// Paragraphs
+//
+// Style p element.
+
+$paragraph-margin-bottom: 0.5rem;
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+  xl: 940px,
+  l: 768px,
+  m: 640px,
+  s: 375px,
+  xs: 350px,
+);
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+$container-max-width: 970px;
+$container-min-width: 800px;
+
+// Components
+
+$line-height-lg: 1.5;
+$line-height-base: 1.15;
+
+// Fonts
+
+////// **** TO BE DONE ****
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$font-size-lg: ($font-size-base * 1.5);
+$font-size-sm: ($font-size-base * 0.8);
+////// ****
+
+////// HEADLINES
+
+$h1-font-size: $font-size-base * 3;
+$h2-font-size: $font-size-base * 2.5;
+$h3-font-size: $font-size-base * 2;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.2;
+$h6-font-size: $font-size-base * 1;
+
+$transition: 0.2s all ease-in;
+
+@mixin tags-state {
+  transition: $transition;
+  
+  &:visited {
+    transition: $transition;
+    background: $gray-10;
+  }
+
+  &:hover {
+    transition: $transition;
+    background: $gray-20;
+  }
+
+  &:focus {
+    transition: $transition;
+    border-color: $gray-20;
+  }
+
+  &:active {
+    transition: $transition;
+    padding-top: 2px;
+  }
+}

@@ -1,0 +1,31 @@
+﻿---
+ID: "65c61822-d1d4-48f1-8785-82bfbe9e7a91"
+Parent: "3bf5358c-1493-47c7-a234-ab02df595437"
+Template: "74945e55-55eb-4397-9015-32b7d7256c5d"
+Path: /sitecore/content/Hackathon/Global/Home/Jobs Overview/Job Detail 2/Data/General Text Second
+BranchID: "a82a910f-e5e1-41ac-bf6e-4708af6429be"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{1716BA90-1D9B-49B4-81E8-4AAE76D9234A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210920T121832Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1f2d16e7-a6f3-428c-af4f-aa4c03653bdf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210920T121832Z

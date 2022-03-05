@@ -1,0 +1,59 @@
+@import "./variables";
+
+.hero-section-with-back-btn {
+  padding: 80px 0 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    @include media('m') {
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__media {
+    width: 50%;
+    max-width: 460px;
+    height: 460px;
+
+    @include media('l') {
+      width: 60%;
+      height: auto;
+    }
+
+    @include media('m') {
+      width: calc(100% + 30px);
+      margin-left: -15px;
+      max-width: none; 
+      height: 300px;
+    }
+  }
+
+  h1 {
+    margin: 100px 0 0;
+
+    @include media('m') {
+      margin: 40px 0 0;
+    }
+
+    .accent-active-item {
+      display: block;
+      width: fit-content;
+    }
+  }
+
+  &__text {
+    margin: 0 20px 0 0;
+    padding: 32px 0 84px;
+
+    @include media('m') {
+      margin: 0;
+      padding: 12px 0 30px;
+    }
+
+    .paragraph-plain {
+      color: $gray-40;
+    }
+  }
+}

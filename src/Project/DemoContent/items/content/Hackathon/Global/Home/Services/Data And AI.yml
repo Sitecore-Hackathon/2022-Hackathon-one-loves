@@ -1,0 +1,65 @@
+﻿---
+ID: "9bcec651-90e4-496d-8aa1-0892fd48b652"
+Parent: "9cf9a745-6b4e-4ef0-8b58-f21e5d2416d2"
+Template: "b62c98f1-67bd-4c1f-bb69-6606ca219b31"
+Path: /sitecore/content/Hackathon/Global/Home/Services/Data And AI
+BranchID: "f8456da8-6dd4-47cc-9950-6100163a0f39"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{A2823392-88CC-4576-B21F-1D171ABFE2B3}"
+- ID: "70df7ff8-f040-408a-aeaa-4aeac6825aa0"
+  Hint: Tags
+  Value: "{07E18C19-39CB-4AEA-B1E2-F10F39A5CA98}|{87019811-2DA5-4C53-8B23-33DBAB165248}|{02AD0DF9-9A97-48EE-AE9D-E21B9B922078}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c3d5fbae-6a71-42cd-aea9-5cc1c5964d9a"
+  Hint: Image
+  Value: |
+    <image mediaid="{E965A9DC-9641-4307-8077-3FC7BF516BAF}" />
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{4DC54FCD-BB22-4469-B4D2-9C3876C19B20}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "072d0581-6c4b-4949-9e10-dcd6b7c6d240"
+      Hint: Description
+      Value: <em><strong>Neque consequat donec at velit. Imperdiet adipiscing ut id eget. Vitae amet semper diam vulputate ut malesuada amet tristique. Nam ut iaculis maecenas neque ac massa porttitor. Morbi amet at nunc, egestas adipiscing gravida vel quis diam. Cras velit risus nulla donec.</strong></em>
+    - ID: "07713781-a4a0-4b69-b49b-29c127fd127d"
+      Hint: PageTitle
+      Value: Data & AI
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210924T072402Z
+    - ID: "39299ca5-4309-4748-b233-8bf05cf95512"
+      Hint: BrowserTitle
+      Value: Data & AI
+    - ID: "5d7f5cca-1bde-4ede-b48d-27c12fd27ef8"
+      Hint: Headline
+      Value: |
+        <span class="text-bold">Data &</span>
+        </br>
+        AI
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0942cb97-d669-48a9-afd8-cf1fa35d2a73"
+    - ID: "9520125c-0a72-43d9-8c8f-f534808f015e"
+      Hint: TwitterTitle
+      Value: Data & AI
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bf9c882c-0fba-4f27-899e-d70e356c2719"
+      Hint: OGTitle
+      Value: Data & AI
+    - ID: "d4b52aa9-7974-4704-8a64-5329a5a83512"
+      Hint: NavigationTitle
+      Value: Data & AI
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210924T094545Z

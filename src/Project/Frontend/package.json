@@ -1,0 +1,27 @@
+{
+  "name": "_src-webpack",
+  "version": "1.0.0",
+  "description": "Hi there!\r There is a short introduction how to work with components and styles.\r Please, if you add some special reusable class or components , add it to the list with some description. \r Thank you :)",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "file-loader": "^6.2.0"
+  }
+}

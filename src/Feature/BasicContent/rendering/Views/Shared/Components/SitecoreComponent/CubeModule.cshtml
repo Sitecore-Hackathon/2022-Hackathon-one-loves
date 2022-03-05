@@ -1,0 +1,45 @@
+﻿@model CubeModule
+
+<section class="cube-module">
+    <div class="container">
+        @if (Model?.Items?.Count >= 6)
+        {
+            <div class="cube-module__block cube-module__block--lg">
+                <span class="cube-module__block-title">
+                    <sc-text asp-for="@Model.Items[0].Fields.Headline" />
+                </span>
+                <span class="cube-module__block-text">
+                    <sc-text asp-for="@Model.Items[0].Fields.Text" />
+                </span>
+            </div>
+            <div class="cube-module__left-bar">
+
+                @{
+                    var classes = new string[]
+                    {
+                        "cube-module__block--s",
+                        "cube-module__block--m",
+                        "cube-module__block--s",
+                        "cube-module__block--s",
+                        "cube-module__block--s"
+                }.Take(Model.Items.Count - 1);
+
+                    var counter = 1;
+
+                    foreach (var className in classes)
+                    {
+                        <div class="cube-module__block @className">
+                            <span class="cube-module__block-title">
+                                <sc-text asp-for="@Model.Items[counter].Fields.Headline" />
+                            </span>
+                            <span class="cube-module__block-text">
+                                <sc-text asp-for="@Model.Items[counter].Fields.Text" />
+                            </span>
+                        </div>
+                        counter++;
+                    }
+                }
+            </div>
+        }
+    </div>
+</section>

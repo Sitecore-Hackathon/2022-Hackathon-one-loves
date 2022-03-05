@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <RootNamespace>Hackathon.Feature.Navigation</RootNamespace>
+    <AssemblyName>Hackathon.Feature.Navigation</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sitecore.LayoutService.Client" />
+    <PackageReference Include="Sitecore.AspNet.RenderingEngine" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\BaseData\rendering\Hackathon.Foundation.BaseData.Rendering.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\SitecoreExtensions\rendering\Hackathon.Foundation.SitecoreExtensions.Rendering.csproj" />
+    <ProjectReference Include="..\..\Blog\rendering\Hackathon.Feature.Blog.Rendering.csproj" />
+  </ItemGroup>
+
+</Project>

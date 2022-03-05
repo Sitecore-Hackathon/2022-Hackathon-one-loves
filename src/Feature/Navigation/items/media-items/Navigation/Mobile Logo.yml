@@ -1,0 +1,52 @@
+﻿---
+ID: "ced65293-f5ea-4d34-b47e-35e78cb6f043"
+Parent: "a18b1c8a-7643-49a6-a1b1-3583d5c7ff8d"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Feature/Navigation/Mobile Logo
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/CED65293F5EA4D34B47E35E78CB6F043.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 47
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "afbde4a7-f27b-4137-ad43-ac76247b8b4b"
+  Value: iVBORw0KGgoAAAANSUhEUgAAAC8AAAAoCAYAAABuIqMUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAhdEVYdENyZWF0aW9uIFRpbWUAMjAyMTowODowNSAxMDoyMzoxOMRC5l4AAAJoSURBVFhHzZnNLjVBEIYPkbgBdyHuxr3Yir2NuApiZ2fDFUi+jSVihUTChkT81EOP1FdT/TvDzJO86jiZrq6urpk6p8+iki3Rh9GmqAZ83IpeRe8i7Yv3HkWnog3RqFyJ9GRvolL2RQSnx+d0KRptEQSrnd+JcjA52dTjanUkGgTlYZ1SAikYYxfcKnahmTORdZiCjMcC531KkFIiAVzLazL8JPLGIGJo4kWkHTFJiliplATAYmKLyO22i3WSqkOyaK9HtRN7u81NXwWBWiepp4D3VGFBLXg7UOWLp4oeTAnFYFH6WpQrsRSev9T8PWwz+SeK4W11a9Y7vOwXQZ3agamu2jxRAq9si+4fsqwH5bqqrffqG8zBK52i3aztqjb4IfWu0T7R1bL8ScGK7TW7wZbyEOxQro2ORUlquyrYzNNJJ6G2q8KfBZ8rm9VgO06CnT21XbVjFmVju2rpI28WZbMWbMdFsLMhFjzda+n75Q87wc4e21VRKZOXzXqwHffBzgoveK+rHgQ7e1q6qmbSR2VLV9VMWvO2q54HOzUcfWj1PhK3dlWNzfyvfSQW/UdrV9XY4Ft8WNwvI7Zsxuiqz8F2rAQ7hO1gNTfBfuEd59WeAMMkX8CHdFWNt8VD6r7In63VkhPgGNYXas2+vQ97vtwbQtQKY60/9CvHfUO7qodXp4hfPXKQTH498cb3EmAnGlKjHQQQO+LmBI5GsyciGK7l9aEo9UMESe5RdFEDY/644B4xevVJJsYCX/bzUq2ix+n2bs4d57VCkrynUErElkxkzQnwGFDjzMFC7GL4n12ibDO7v1h8AlLYCgse/B0VAAAAAElFTkSuQmCC
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 768
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 47 x 40
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 40
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210805T074011Z
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Mobile Logo
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c726a41-3c98-4a0d-87f7-3d88443b29a3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210805T074121Z

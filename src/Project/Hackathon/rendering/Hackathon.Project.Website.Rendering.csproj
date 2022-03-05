@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>0dd80cb0-354b-425e-aa55-eb26c6f571fc</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..\..\..</DockerfileContext>
+    <AssemblyName>Hackathon.Project.Website.Rendering</AssemblyName>
+    <RootNamespace>Hackathon.Project.Website.Rendering</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Http" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
+    <PackageReference Include="Sitecore.LayoutService.Client" />
+    <PackageReference Include="Sitecore.AspNet.RenderingEngine" />
+    <PackageReference Include="Sitecore.AspNet.ExperienceEditor" />
+    <PackageReference Include="Sitecore.AspNet.Tracking" />
+    <PackageReference Include="Sitecore.AspNet.Tracking.VisitorIdentification" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Feature\BasicContent\rendering\Hackathon.Feature.BasicContent.Rendering.csproj" />
+    <ProjectReference Include="..\..\..\Feature\Blog\rendering\Hackathon.Feature.Blog.Rendering.csproj" />
+    <ProjectReference Include="..\..\..\Feature\Career\rendering\Hackathon.Feature.Career.Rendering.csproj" />
+    <ProjectReference Include="..\..\..\Feature\Hero\rendering\Hackathon.Feature.Hero.Rendering.csproj" />
+    <ProjectReference Include="..\..\..\Feature\Navigation\rendering\Hackathon.Feature.Navigation.Rendering.csproj" />
+    <ProjectReference Include="..\..\..\Feature\Service\rendering\Hackathon.Feature.Service.Rendering.csproj" />
+    <ProjectReference Include="..\..\..\Feature\Team\rendering\Hackathon.Feature.Team.Rendering.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\Basic Content\rendering\Hackathon.Foundation.BasicContent.Rendering.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\Dictionary\rendering\Hackathon.Foundation.Dictionary.Rendering.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\Search\rendering\Hackathon.Foundation.Search.Rendering.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\lottie-animation\" />
+  </ItemGroup>
+
+</Project>

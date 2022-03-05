@@ -1,0 +1,26 @@
+﻿---
+ID: "929017f6-08b0-45ff-b92a-28dfd4067d7a"
+Parent: "19594838-5446-44c1-a339-d617ad4d02e9"
+Template: "9d247ce7-d2c0-48e4-a577-ad55d8d4ba33"
+Path: /sitecore/content/Hackathon/Global/Data/Locations/Dusseldorf
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a8f0231-f33a-451e-94be-b1cce9c1f28e"
+      Hint: Title
+      Value: Düsseldorf
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210910T134134Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "702ab976-4bc4-4165-9faa-aa5b423a82a7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210917T112519Z

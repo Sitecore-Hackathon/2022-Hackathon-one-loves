@@ -1,0 +1,83 @@
+﻿@using System.Text
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor _httpContextAccessor
+@model BlogPost
+
+<section class="blog-post">
+    <div class="container">
+        <h2 class="h2 blog-post__container">
+            <sc-text asp-for="TeaserTitle"/>
+        </h2>
+        <div class="blog-post__image img-wrapper-stretch">
+            <sc-img asp-for="FeaturedImage" />
+        </div>
+        <div class="blog-post__container">
+            <sc-text asp-for="PostBody" />
+
+            <div class="blog-post__footer blog-post__container">
+                <div class="blog-post__social-links">
+
+                    <a class="blog-post__social-link app-icon-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+                            <g id="Icon/socialmedia/facebook" fill-rule="evenodd" stroke="none" stroke-width="1">
+                                <path id="Icon-Facebook" d="M30 18.07C30 11.41 24.63 6 18 6S6 11.4 6 18.07C6 24.1 10.39 29.1 16.13 30v-8.44h-3.05v-3.49h3.05v-2.66c0-3.02 1.79-4.7 4.53-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.5c-1.5 0-1.96.93-1.96 1.89v2.26h3.32l-.53 3.5h-2.8V30C25.62 29.1 30 24.1 30 18.07"></path>
+                            </g>
+                        </svg>
+                    </a>
+
+                    <a class="blog-post__social-link app-icon-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+                            <g id="Icon/socialmedia/twitter" fill-rule="evenodd" stroke="none" stroke-width="1">
+                                <path id="Icon-Twitter" d="M13.55 28c9.05 0 14-7.7 14-14.37v-.65A10.2 10.2 0 0 0 30 10.36c-.9.41-1.85.68-2.83.8a5.05 5.05 0 0 0 2.17-2.8c-.97.6-2.03 1-3.13 1.23a4.84 4.84 0 0 0-6.97-.22 5.14 5.14 0 0 0-1.42 4.83A13.87 13.87 0 0 1 7.67 8.92a5.13 5.13 0 0 0 1.52 6.74 4.8 4.8 0 0 1-2.23-.63v.06c0 2.4 1.65 4.48 3.95 4.95a4.8 4.8 0 0 1-2.22.1 4.95 4.95 0 0 0 4.6 3.5A9.72 9.72 0 0 1 6 25.74 13.69 13.69 0 0 0 13.55 28"></path>
+                            </g>
+                        </svg>
+                    </a>
+
+                    <a class="blog-post__social-link app-icon-link" data-share-title="@Model.TeaserTitle?.Value">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+                            <g id="Icon/socialmedia/linkedin" fill-rule="evenodd" stroke="none" stroke-width="1">
+                                <path id="Icon-LinkedIn" d="M24.1 13.8c1.77 0 3.2.57 4.28 1.7S30 18.3 30 20.49V29h-5.14v-7.93c0-2.24-.87-3.36-2.6-3.36-.66 0-1.21.18-1.65.52-.44.35-.77.78-.99 1.28-.12.28-.18.68-.18 1.2V29h-5.15c.03-4.09.05-7.34.05-9.75v-1.3c0-2.1-.02-3.36-.05-3.8h5.15v2.12a5.31 5.31 0 0 1 4.65-2.47zm-12.66.36V29H6.3V14.16h5.14zM8.92 7c.85 0 1.54.24 2.06.71.54.49.81 1.13.81 1.91 0 .71-.26 1.3-.79 1.78-.54.49-1.25.73-2.13.73h-.02a2.9 2.9 0 0 1-2.06-.73A2.41 2.41 0 0 1 6 9.56c0-.75.27-1.36.81-1.84A3.05 3.05 0 0 1 8.91 7z"></path>
+                            </g>
+                        </svg>
+                    </a>
+
+                    <a href="mailto:?subject=TO DO:link to the post" class="blog-post__social-link app-icon-link blog-post__social-link app-icon-link--mail">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+                            <g id="Icon/share/mail" fill-rule="evenodd" stroke="none" stroke-width="1">
+                                <path id="Icon-Mail" d="M6 9v18h24V9H6zm6.62 7.93L8 22.64v-9.46l4.62 3.75zM8.48 11h19.04L18 18.71 8.48 11zm5.7 7.19l3.82 3.1 3.83-3.1L27.44 25H8.66l5.52-6.81zm9.2-1.27L28 13.18v9.35l-4.62-5.6z"></path>
+                            </g>
+                        </svg>
+                    </a>
+                    <button type="button" id="copy-post-url-btn" class="blog-post__social-link app-icon-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+                            <g id="Icon/share/link" fill-rule="evenodd" stroke="none" stroke-width="1">
+                                <path id="Icon-Link" d="M12.19 14.72a6.42 6.42 0 0 1 9.89.98l-2.25 2.25a3.38 3.38 0 0 0-5.47-1.06l-4.3 4.31a3.36 3.36 0 0 0 4.74 4.74l1.33-1.33c1.2.48 2.5.67 3.78.58l-2.93 2.93a6.43 6.43 0 1 1-9.1-9.1l4.3-4.3zm6.83-6.84l-2.93 2.93c1.28-.1 2.58.1 3.78.58l1.33-1.33a3.36 3.36 0 0 1 4.74 4.74l-4.3 4.3a3.36 3.36 0 0 1-5.47-1.05l-2.25 2.25a6.4 6.4 0 0 0 9.89.98l4.3-4.3a6.43 6.43 0 1 0-9.09-9.1z"></path>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+                <div class="blog-post__meta-data">
+                    <div class="blog-post__author-img img-wrapper-stretch">
+                        <sc-img asp-for="Author.Fields.ProfileImage" />
+                    </div>
+                    <div>
+                        <a href="" class="blog-post__name paragraph-bold paragraph-bold--xs">@Model.Author?.Target?.Surname.Value @Model.Author?.Target?.Name.Value</a>
+                        @{
+                            var text = new StringBuilder(Model?.ReleaseDate?.Value.ToString("d MMMM yyyy HH:mm:ss"));
+
+                            if (Model.TimeToRead != null)
+                            {
+                                text.Append(" - ");
+                                text.Append(Model.TimeToRead.Value);
+                                text.Append(" min");
+                            }
+                            <p class="blog-post__info paragraph-plain paragraph-plain--xs">
+                                @text.ToString()
+                            </p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,40 @@
+﻿---
+ID: "041d7e4f-f6a9-489a-bd9d-8f539bdfce0c"
+Parent: "62962c98-9cfd-4033-9ff2-55386907f1c4"
+Template: "9546fd77-ae67-429c-b7ee-570e50874ee5"
+Path: "/sitecore/content/Hackathon/Global/Home/Solutions/SAP HCM On-Premise/Data/Blog Post Overview"
+BranchID: "40216241-f6ec-405f-a248-7d33c9cbb354"
+SharedFields:
+- ID: "5a6a47e9-0583-4af7-bcb5-60da3ab60873"
+  Hint: NumberOfPosts
+  Value: 6
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 843
+- ID: "dd65470b-1715-4bca-9fd2-aabeacd6dc41"
+  Hint: NumberOfTags
+  Value: 3
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{56F90F6A-6D56-483E-9567-664BA43D3F74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03b1e2cf-629e-487c-a118-a0df67b89f89"
+      Hint: Headline
+      Value: Blogartikel
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210924T120405Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "740f1bbd-b5f1-433f-bb04-18e151ff6941"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210924T120921Z

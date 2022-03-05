@@ -1,0 +1,30 @@
+﻿---
+ID: "2b692e24-283b-4056-8f38-6ca44e5833e1"
+Parent: "3bdaaf7c-91be-42b9-931f-711b414c7d91"
+Template: "87f6ad54-e852-4fab-8ac0-d229d6a225f2"
+Path: /sitecore/content/Hackathon/Global/Data/Media Slides/Media Slide 4
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210913T081455Z
+    - ID: "41f00e8f-62d9-49a7-8e12-66563513b805"
+      Hint: Image
+      Value: |
+        <image mediaid="{617AB922-87E1-423E-BD99-AC8376058758}" ></image>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "abf75b98-ffff-4a9f-a4a6-03e25afba9f4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210913T084355Z

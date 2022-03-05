@@ -1,0 +1,20 @@
+@import "./variables";
+
+.blogpost-keyword {
+  padding-top: 100px;
+
+  .h1 {
+    display: table;
+    margin: 0 auto;
+    word-break: break-all;
+    text-transform: uppercase;
+  }
+}
+
+.blog-keyword-header {
+  .back-btn {
+    @include media("m") {
+      margin-top: 100px;
+    }
+  }
+}

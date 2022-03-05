@@ -1,0 +1,160 @@
+﻿---
+ID: "c3066fa1-4236-4ea2-84ff-795f605109be"
+Parent: "bdd63e1a-dbf1-408a-b1fa-23df7b9c75ca"
+Template: "dd22f1b3-bd87-4db2-9e7d-f7a496888d43"
+Path: /sitecore/system/Modules/PowerShell/Script Library/Hackathon/Hackathon/Json Parcer/Parser
+SharedFields:
+- ID: "b1a94ff0-6897-47c0-9c51-aa6acb80b1f0"
+  Hint: Script
+  Value: |
+    $formDataItem = Get-Item -Path '/sitecore/media library/Files/file'
+    $formJson = $formDataItem.Json
+    $formData = ConvertFrom-Json $formJson
+    
+    $parsedTags = $formData.db.data.tags
+    $parsedAuthors = $formData.db.data.users
+    $parsedPosts = $formData.db.data.posts
+    $parsedPostTags = $formData.db.data.posts_tags
+    $parsedPostsMeta = $formData.db.data.posts_meta
+    
+    $tagsIdsHashTable = @{}
+    $authorsIdsHashTable = @{}
+    $postsIdsHashTable = @{}
+    $metaTitleHashTable = @{}
+    $metaDescHashTable = @{}
+    
+    function Create-Tags($tags)
+    {
+    	$tags | ForEach-Object {
+    		
+    		$item = New-Item -Path "master:/sitecore/content/Hackathon/Global/Data/Tags" -Name $_.Name -ItemType "{D766B6A1-91CD-4707-9456-4074F4290949}"
+    		
+    		$item.Editing.BeginEdit()
+    		$item["Title"] = $_.Name
+    		$item["Description"] = $_.Name
+    		$item.Editing.EndEdit()
+    		
+    		$tagsIdsHashTable.add($_.Id, $item.ID)
+    	}
+    }
+    
+    function Create-Authors($authors)
+    {
+    	New-Item -Path "master:/sitecore/content/Hackathon/Global/Data" -Name "Authors" -ItemType "{239F9CF4-E5A0-44E0-B342-0F32CD4C6D8B}"
+    	
+    	$authors | ForEach-Object {
+    		
+    		$item = New-Item -Path "master:/sitecore/content/Hackathon/Global/Data/Authors" -Name $_.Name -ItemType "{5DBF65F6-5A47-4DBE-A772-3A77DBC34D44}"
+    		
+    		$item.Editing.BeginEdit()
+    		
+    		$item["Name"] = $_.Name
+    		$item["PageTitle"] = $_.Name
+    		$item["Email"] = "<link text='email' linktype='mailto' style='' url='mailto:"+ $_.Email + "?subject=subject'  title='"+ $_.Email +"' />"
+    		$item["ProfileImage"] = $_.Profile_image
+    		$item["CoverImage"] = $_.Cover_image
+    		$item["Bio"] = $_.Bio
+    		$item["Website"] = "<link text='Website' linktype='external' url='" + $_.Website + "' anchor='' target='' />"
+    		$item["Location"] = $_.Location
+    		$item["Facebook"] = "<link text='Facebook' linktype='external' url='" + $_.Facebook + "' anchor='' target='' />"
+    		$item["Twitter"] = "<link text='Twitter' linktype='external' url='" + $_.Twitter + "' anchor='' target='' />"
+    		$item["MetaDescription"] = $_.Meta_description
+    		$item["BrowserTitle"] = $_.Meta_title
+    		
+    		$item.Editing.EndEdit()
+    		
+    		$authorsIdsHashTable.add($_.Id, $item.ID)
+    	}
+    }
+    
+    function Replace-SpecialChars {
+    	param($inputString)
+    
+    	$specialChars = '[#?\/\\\{\[\(\)\]\}]'
+    	$eeplacement  = ' '
+    
+    	$inputString -replace $specialChars,$replacement
+    }
+    
+    function Create-Posts($posts)
+    {
+    	New-Item -Path "master:/sitecore/content/Hackathon/Global/Home" -Name "Blog Posts" -ItemType "{239F9CF4-E5A0-44E0-B342-0F32CD4C6D8B}"
+    	
+    	$posts | ForEach-Object {
+    		
+    		$parcedPostId = $_.Id
+    		$parcedAuthorId = $_.Author_id
+    		
+    		$metaData = $parsedPostsMeta | Where-Object {$_.post_id -eq $parcedPostId}
+    		
+    		$itemTitle = Replace-SpecialChars -InputString $_.Title
+    		
+    		$item = New-Item -Path "master:/sitecore/content/Hackathon/Global/Home/Blog Posts" -Name $itemTitle -ItemType "{0AAA8ABF-CAEC-46BC-B785-5C321F397729}"
+    		
+    		$postsIdsHashTable.add($parcedPostId, $item.ID)
+    	
+    		$item.Editing.BeginEdit()
+    		
+    		$item["PageTitle"] = $itemTitle
+    		$item["FeaturedImage"] = $_.feature_image
+    		$item["PostBody"] = $_.Html
+    		if ($_.Published_at -ne $null)
+    		{
+    		    $item["ReleaseDate"] = [sitecore.dateutil]::ToIsoDate($_.Published_at)
+    		}
+    		$item["Author"] = $authorsIdsHashTable[$parcedAuthorId]
+    		$item["Title"] = $itemTitle
+    		$item["BrowserTitle"] = $metaData.Meta_title
+    		$item["MetaDescription"] = $metaData.Meta_description
+    		$item["OgImage"] = $metaData.og_image
+    		$item["OgTitle"] = $metaData.og_title
+    		$item["OgDescription"] = $metaData.og_description
+    		$item["TwitterImage"] = $metaData.twitter_image
+    		$item["TwitterTitle"] = $metaData.twitter_title
+    		$item["TwitterDescription"] = $metaData.twitter_description
+    			
+    		$postTags = $parsedPostTags | Where-Object {$_.post_id -eq $parcedPostId}
+    		
+    		$postTags | ForEach-Object {
+    			if (![string]::IsNullOrEmpty($item["Tags"])) {
+    				$item["Tags"] += "|";
+    			}
+    			if (![string]::IsNullOrEmpty($tagsIdsHashTable[$_.tag_id])) {
+    				$item["Tags"] += $tagsIdsHashTable[$_.tag_id];
+    			}
+    		}
+    		
+    		$item.Editing.EndEdit()
+    		
+    	}
+    }
+    
+    Create-Tags $parsedTags
+    Create-Authors $parsedAuthors
+    Create-Posts $parsedPosts
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210812T124616Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f030a16d-451a-479e-b113-398868c0c5df"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210823T100258Z

@@ -1,0 +1,55 @@
+﻿---
+ID: "aa8bc6ca-c319-4d7b-a616-cce01a50e7b0"
+Parent: "3e630377-c7b0-4f10-9eca-17b44836b07e"
+Template: "0f3b941b-fe1f-4e73-9ac4-927ac345fd40"
+Path: /sitecore/content/Hackathon/Global
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "1230d2cb-4948-4d43-8a3b-b39978f6f1b3"
+  Hint: Modules
+  Value: |
+    {AE5D1384-BB75-4C6B-A8B5-4B008C2AC5DA}
+    {CA502DCF-20D2-4618-A735-E4FCB6D5E114}
+    {E2AF1A41-799E-481B-8FDC-B2D33FB729A1}
+    {C4658673-5D70-44ED-9004-D66EAC1DC718}
+    {DC665EE9-166A-4E39-8BC6-474ABA4B4887}
+    {F79EA9F2-44BC-40D7-A3BE-D65CD089C411}
+    {56D78A04-4865-4AE4-8966-96CB68A70010}
+    {EC47843C-981F-4C9A-A025-365C777C6D61}
+    {2B836797-51D0-4B67-AD24-150A48E231D0}
+    {DC665EE9-166A-4E39-8BC6-474ABA4B4887}
+    {F79EA9F2-44BC-40D7-A3BE-D65CD089C411}
+    {56D78A04-4865-4AE4-8966-96CB68A70010}
+    {EC47843C-981F-4C9A-A025-365C777C6D61}
+- ID: "33d9005e-1f71-415f-b107-53b965c3b037"
+  Hint: SiteMediaLibrary
+  Value: "{D951E671-3978-4847-B13C-8FB1D66001C4}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A0EECF65-09AD-4A10-AE46-7DF70106CFE6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210722T170731Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8dc12ab1-7016-45ea-803a-c533d428fa29"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210910T125317Z

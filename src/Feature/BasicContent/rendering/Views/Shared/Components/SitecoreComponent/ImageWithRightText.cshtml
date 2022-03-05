@@ -1,0 +1,14 @@
+﻿@model ImageWithRightText
+
+<section class="location-section">
+    <div class="container">
+        <section class="image-with-text image-with-text--right">
+            <div class="img-responsive">
+                <sc-img asp-for="Image" />
+            </div>
+            <p class="image-with-text__text">
+                <sc-text asp-for="Text" />
+            </p>
+        </section>
+    </div>
+</section>

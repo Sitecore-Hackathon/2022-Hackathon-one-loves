@@ -1,0 +1,27 @@
+﻿---
+ID: "a1826170-f3db-4d97-874a-eb96ab00b1ea"
+Parent: "f7db55a6-6965-4c86-817d-63b85c9ac339"
+Template: "3a6d80c9-0978-44a2-9829-b80d6171927f"
+Path: "/sitecore/content/Hackathon/Global/Data/Styles Folder/Text-Bold-Center"
+SharedFields:
+- ID: "d6152158-e033-4b10-94a3-6e671eee22cd"
+  Hint: Class
+  Value: "content-section__block content-section__block--center quote"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210928T090247Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ab6ff9ea-30ca-44a0-a3ca-c35789879e5d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210928T113323Z

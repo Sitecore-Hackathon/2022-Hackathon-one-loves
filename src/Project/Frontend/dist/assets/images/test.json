@@ -1,0 +1,12 @@
+[
+  {
+    "title": "job1",
+    "locations": ["Berlin", "Darmstafdt", "Sofia"],
+    "offices": ["Berlin", "Darmstadt1", "Sofia"]
+  },
+  {
+    "title": "job1",
+    "offices": ["München", "Darmstadt", "Sofia"],
+    "locations": ["München4", "München", "Darmstadt3", "Sofia"]
+  }
+]

@@ -1,0 +1,15 @@
+@import './variables';
+
+.team-detail {
+  .post-suggestions {
+    @include media('m') {
+      padding: 0 0 160px;
+    }
+  }
+
+  @include media('m') {
+    &::after {
+      display: none;
+    }
+  }
+}

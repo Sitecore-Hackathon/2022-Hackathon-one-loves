@@ -1,0 +1,82 @@
+﻿@using System.Text
+@using Microsoft.Extensions.Localization
+@inject IStringLocalizer Localizer
+@model Hackathon.Feature.Blog.Models.ViewModels.BlogPostOverviewViewModel
+
+<div class="reference-overview">
+    <section class="post-suggestions">
+        <div class="container">
+            <h2 class="h2 h2--lighter">
+                @Html.Raw(Model.Headline)
+            </h2>
+
+            <div class="post-suggestions__list">
+                @if (Model.Posts != null)
+                {
+                    @foreach (var blogPost in Model.Posts)
+                    {
+                        <div class="blogpost-suggestion-item">
+                            @if (!string.IsNullOrWhiteSpace(blogPost.FeaturedImageUrl))
+                            {
+                                <div class="img-wrapper-stretch">
+                                    <img src="@blogPost.FeaturedImageUrl" alt="@blogPost.FeaturedImageAltText" />
+                                </div>
+                            }
+                            <div class="blogpost-suggestion-item__blogpost-item-data">
+                                @if (blogPost.Tags != null && blogPost.Tags.Any())
+                                {
+                                    <div class="blogpost-suggestion-item__blogpost-tags">
+                                        @foreach (var tag in blogPost.Tags.Take(Model.NumberOfTags != 0 ? Model.NumberOfTags : 3))
+                                        {
+                                            <a href="@Model.BlogKeywordPageUrl/topics/@tag" class="blogpost-suggestion-item__blogpost-tag">#@tag</a>
+                                        }
+                                    </div>
+                                }
+                                <a href="@blogPost.Url" class="blogpost-suggestion-item__blogpost-headline">
+                                    <h4 class="h4">
+                                        @blogPost.TeaserTitle
+                                    </h4>
+                                </a>
+                                @if (blogPost.ReleaseDate != null || !string.IsNullOrWhiteSpace(blogPost.AuthorSurname) || !string.IsNullOrWhiteSpace(blogPost.AuthorName))
+                                {
+                                    var sb = new StringBuilder();
+                                    if (blogPost.ReleaseDate.HasValue)
+                                    {
+                                        sb.Append(blogPost.ReleaseDate?.ToString("d MMMM yyyy HH:mm:ss"));
+                                    }
+                                    if (!string.IsNullOrWhiteSpace(blogPost.AuthorSurname) || !string.IsNullOrWhiteSpace(blogPost.AuthorName))
+                                    {
+                                        if (blogPost.ReleaseDate.HasValue)
+                                        {
+                                            sb.Append(" - ");
+                                        }
+                                        sb.Append(string.Join(" ", blogPost.AuthorSurname?.Trim(), blogPost.AuthorName?.Trim()));
+                                    }
+                                    <p class="blogpost-suggestion-item__meta-data">
+                                        @sb.ToString()
+                                    </p>
+                                }
+                                <a class="main-btn main-btn--black" href="@blogPost.Url">
+                                    @Localizer["Learn More"]
+                                </a>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+            @if (Model.ShowLoadMore)
+            {
+                <button class="post-suggestions__cta app-inline-link show-more-btn">
+                    @Localizer["Load More"]
+                </button>
+            }
+            @if (Model.ShowGoToAll)
+            {
+                // TODO: remove hardcode
+                <a href="/Blog" class="post-suggestions__cta app-inline-link">
+                    @Localizer["Show more references"]
+                </a>
+            }
+        </div>
+    </section>
+</div>

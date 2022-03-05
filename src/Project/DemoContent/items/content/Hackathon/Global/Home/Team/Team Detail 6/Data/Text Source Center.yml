@@ -1,0 +1,30 @@
+﻿---
+ID: "84b82243-548e-4ae0-91d6-6e409691c2a5"
+Parent: "ceb543ea-dc47-4526-bfb5-3cce1a461c87"
+Template: "a1cb5a94-b6bd-44b8-919e-3c180de8d808"
+Path: /sitecore/content/Hackathon/Global/Home/Team/Team Detail 6/Data/Text Source Center
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210928T150132Z
+    - ID: "4a7cde93-06a4-4283-aace-a5b2de937ee1"
+      Hint: Text
+      Value: Lorem ipsum dolor sit amet, consectetur sed ex adipiscing elit.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "28e9b530-0f9e-4177-bd37-14c14e9a6724"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210928T153755Z

@@ -1,0 +1,79 @@
+@import "./variables";
+
+.business-segments-detail {
+  padding: 110px 0 80px;
+
+  @include media("m") {
+    padding: 110px 15px 80px;
+  }
+
+  &__tags {
+    padding: 10px 0 0;
+  }
+
+  &__tag {
+    font-size: $font-size-sm;
+    color: $black;
+    background: $gray-10;
+    text-decoration: none;
+    margin: 0 8px 0 0;
+
+    @include tags-state;
+  }
+
+  .container {
+    display: flex;
+    align-items: flex-end;
+
+    @include media("m") {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .back-btn {
+    margin: 0 0 85px;
+
+    @include media("m") {
+      margin: 0 0 40px;
+    }
+  }
+
+  h1 {
+    margin: 0 0 48px;
+    font-family: "TheSansC2s-3_Light";
+    line-height: 1.15;
+  }
+
+  &__content {
+    margin: 0 100px 0 0;
+    max-width: 420px;
+
+    @include media("l") {
+      margin: 0 20px 0 0;
+    }
+
+    @include media("m") {
+      max-width: none;
+      margin: 0 0 40px; 
+    }
+  }
+
+  .img-wrapper-stretch {
+    width: 380px;
+    height: 380px;
+    flex-shrink: 0;
+    margin-bottom: -30px;
+
+    @include media("l") {
+      width: 320px;
+      height: 320px;
+    }
+
+    @include media("m") {
+      width: 100%;
+      height: auto;
+      margin-bottom: 0;
+    }
+  }
+}

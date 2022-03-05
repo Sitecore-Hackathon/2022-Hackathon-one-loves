@@ -1,0 +1,35 @@
+﻿@model StandardStageModule
+
+<div class="stage-module">
+    <div class="container">
+        <div class="stage-module__text">
+            <h1 class="h1 accent-active-item">
+                @if (this.SitecoreContext().IsEditing)
+                {
+                    <sc-text asp-for="Headline" />
+                }
+                else
+                {
+                    @Html.Raw(Model?.Headline?.Value)
+                }
+            </h1>
+            <p class="paragraph-plain">
+                <sc-text asp-for="Description" />
+            </p>
+            <sc-link type="button" class="main-btn main-btn--black" asp-for="Link" />
+        </div>
+    </div>
+
+    <div class="stage-module__media">
+        @if (this.SitecoreContext().IsEditing)
+        {
+            <div style="min-width: 600px; min-height: 100px;">
+                <sc-placeholder name="media" />
+            </div>
+        }
+        else
+        {
+            <sc-placeholder name="media" />
+        }
+    </div>
+</div>

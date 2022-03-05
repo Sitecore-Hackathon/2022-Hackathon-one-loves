@@ -1,0 +1,43 @@
+@import "./variables";
+
+.text-module {
+  padding: 112px 0;
+
+  @include media("m") {
+    padding: 65px 0;
+  }
+
+  .container {
+    padding: 0 80px;
+
+    @include media("m") {
+      padding: 0 15px;
+    }
+  }
+
+  @include media("m") {
+    padding: 73px 0 65px;
+  }
+
+  .h2 {
+    font-family: "TheMixE2s-Plain";
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .main-btn {
+    margin: 32px 0 0;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  &--left {
+    .text-module__wrapper {
+      justify-content: flex-start;
+      max-width: 500px;
+      width: 100%;
+    }
+  }
+}

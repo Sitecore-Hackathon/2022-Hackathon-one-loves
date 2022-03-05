@@ -1,0 +1,229 @@
+@import "./variables";
+
+img {
+  vertical-align: middle;
+  border-style: none; // Remove the border on images inside links in IE 10-.
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+// Responsive images (ensure images don't scale beyond their parents)
+.img-responsive {
+  img {
+    display: block;
+    max-width: 100%; // Part 1: Set a maximum relative to the parent
+    height: auto; // Part 2: Scale the height according to the width, otherwise you get
+  }
+}
+
+.img-wrapper-stretch {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.img-wrapper-contain {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+}
+
+@mixin nowrap() {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+// Transfer of long words to the next line
+@mixin break-word() {
+  overflow-wrap: break-word; //does not support IE, Firefox; is a copy of word-wrap
+  word-wrap: break-word;
+}
+
+@mixin truncateLines($lines) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.image-link {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-family: "TheSansC2s-7_Bold";
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-dark {
+  color: $black;
+}
+
+.text-white {
+  color: $white;
+}
+
+.bg-black {
+  background: $black;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+
+  &[disabled] {
+    cursor: default;
+  }
+}
+
+a {
+  outline: none;
+}
+
+.accent-active-item {
+  background: $accent-yellow-100;
+  border: 1px solid transparent;
+  transition: $transition;
+}
+
+.plain-text {
+  margin: 0;
+  font-family: "TheSansC2s-3_Light";
+  line-height: 1.5;
+
+  &.text-bold {
+    font-family: "TheSansC2s-7_Bold";
+  }
+}
+
+.paragraph-plain {
+  font-size: $font-size-base;
+  font-family: "TheSansC2s-5_Plain";
+
+  &--xs {
+    font-size: $font-size-sm;
+  }
+}
+
+.paragraph-plain {
+  font-size: $font-size-base;
+  font-family: "TheSansC2s-5_Plain";
+
+  &--xs {
+    font-size: $font-size-sm;
+  }
+}
+
+.paragraph-bolditalic {
+  font-size: $font-size-base;
+  font-family: "TheSansC2s-7iBoldItalic";
+
+  &--xs {
+    font-size: $font-size-sm;
+  }
+}
+
+.paragraph-bold {
+  font-size: $font-size-base;
+  font-family: "TheMixE2s-Bold";
+
+  &--xs {
+    font-size: $font-size-sm;
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.quote {
+  font-family: 'TheSerifE2s-8_Bold';
+  font-size: $font-size-base * 2;
+
+  &--lg {
+    font-size: $font-size-lg;
+  }
+
+  &--sm {
+    font-size: $font-size-sm;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.h1 {
+  font-size: $h1-font-size;
+  font-family: "TheSerifE2s-8_Bold";
+  line-height: $line-height-lg;
+}
+
+.h2 {
+  font-size: $h2-font-size;
+  font-family: "TheSansC2s-7_Bold";
+  line-height: $line-height-base;
+
+  &--lighter {
+    font-family: "TheSansC2s-3_Light";
+  }
+}
+
+.h3 {
+  font-size: $h3-font-size;
+  font-family: "TheMixE2s-SemiBold";
+}
+
+.h4 {
+  font-size: $h4-font-size;
+  font-family: "TheMixE2s-SemiBold";
+
+  &--light {
+    font-family: "TheMixE2s-Light";
+  }
+}
+
+.h6 {
+  font-size: $h6-font-size;
+  font-family: "TheMixE2s-SemiBold";
+}
+
+.bg-gray {
+  background-color: $gray-5;
+}
+
+
+.d-none {
+  display: none !important;
+}

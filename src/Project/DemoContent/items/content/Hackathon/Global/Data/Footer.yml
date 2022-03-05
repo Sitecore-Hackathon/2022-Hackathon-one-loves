@@ -1,0 +1,40 @@
+﻿---
+ID: "f1501c19-35ca-409e-807c-4021c61f68d7"
+Parent: "46c14737-6860-4ed1-a701-99bbaeac3504"
+Template: "596bd801-f593-4abc-85d8-73e094ad2e27"
+Path: /sitecore/content/Hackathon/Global/Data/Footer
+SharedFields:
+- ID: "bc10d7d3-87a5-47ff-869c-f491cb7be104"
+  Hint: Email
+  Value: "<link text='hello@Hackathon.one' linktype='mailto' style='' url='mailto:hello@Hackathon.one'  title='' />"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210729T114609Z
+    - ID: "47b6a806-a9dc-4586-82ad-0acfe3aa9d26"
+      Hint: EmailText
+      Value: |
+        <p class="plain-text text-white">Wir lieben Herausforderungen.</p>
+                        <p class="plain-text text-white text-bold">Haben Sie eine für uns?</p>
+    - ID: "500fbe20-2a96-489e-9226-91b86c0a29c5"
+      Hint: Copyright
+      Value: "Copyright © {0} Hackathon AG"
+    - ID: "54ee9203-2a42-4bdf-a6bb-87275d960179"
+      Hint: SocialLinksText
+      Value: |
+        <p class="plain-text text-white">Oder</p>
+                        <p class="plain-text text-white text-bold">folgen Sie uns</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a5778c29-08e0-463b-8714-df94eaa0c6ee"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210802T205900Z

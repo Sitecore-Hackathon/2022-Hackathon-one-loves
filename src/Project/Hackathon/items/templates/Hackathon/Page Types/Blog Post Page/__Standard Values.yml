@@ -1,0 +1,37 @@
+﻿---
+ID: "f63e2a8f-f3f9-4654-8c2d-dbd7d6180207"
+Parent: "0aaa8abf-caec-46bc-b785-5c321f397729"
+Template: "0aaa8abf-caec-46bc-b785-5c321f397729"
+Path: /sitecore/templates/Project/Hackathon/Page Types/Blog Post Page/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190222T152115Z
+    - ID: "5900db34-d00c-4404-84d3-c0f38daea4c6"
+      Hint: MetaKeyword
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+          sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b98a7144-58a0-408c-99cf-2609a7afbfe6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bd3a865e-8a56-4e53-8da6-642aa8dfd875"
+      Hint: MetaDescription
+      Value: $name
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210813T075516Z

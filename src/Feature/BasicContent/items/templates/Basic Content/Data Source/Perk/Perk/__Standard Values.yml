@@ -1,0 +1,31 @@
+﻿---
+ID: "6cbae097-fe6f-4d7b-8f44-896a864bf0c2"
+Parent: "96d24c41-2a3b-4d8b-b662-92a28ba30de0"
+Template: "96d24c41-2a3b-4d8b-b662-92a28ba30de0"
+Path: /sitecore/templates/Feature/Basic Content/Data Source/Perk/Perk/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210816T122451Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7c2b3504-8b29-4801-93de-c6e47b7e08f5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210820T111453Z

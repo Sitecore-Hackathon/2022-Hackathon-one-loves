@@ -1,0 +1,12 @@
+@import './variables';
+
+.container {
+  width: 100%;
+  max-width: $container-max-width;
+  padding: 0 15px;
+  margin: 0 auto;   
+
+  &--xs {
+    max-width: $container-min-width;
+  }
+} 

@@ -1,0 +1,30 @@
+﻿---
+ID: "e4908264-05e5-47b3-8361-2cb2b3c2a4b4"
+Parent: "95b624e7-2fd3-4a97-bab4-c6a06d740e8a"
+Template: "dd3dbcdd-beb9-4dc0-92c7-84d9327a6b0b"
+Path: /sitecore/system/Settings/Foundation/Instagram/Instagram Settings
+SharedFields:
+- ID: "1b20c811-2420-4135-a77b-4ebd8464dbd9"
+  Hint: ImagesCount
+  Value: 5
+- ID: "757be764-f326-404c-9d59-abf8638c3c48"
+  Hint: AccessToken
+  Value: IGQVJYZA0xKZA2dKRmRGa0FpY0kzZAC11alNsMGNkWlV6b1dIQTExdDVBZAkJhNFJPTXZA0T0tMSDBSRU1pdlIzMDQtWGpkNHVCcUF5LWFHSFZAuLUZA5NkFzVWNDN1dHa05EWlh3YV9sZAnlR
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210922T151426Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e3b658fe-1544-4183-9b60-37a671686e05"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210922T151632Z

@@ -1,0 +1,29 @@
+﻿---
+ID: "d329cb6c-ca69-4df7-ae86-0f553f13c827"
+Parent: "e9e23f91-7908-4de2-b278-afd2e8b524db"
+Template: "e9e23f91-7908-4de2-b278-afd2e8b524db"
+Path: /sitecore/templates/Feature/Basic Content/Data Folders/Images Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {19C7D8B0-1FC1-454A-879D-C724CD7C96CD}
+    {E9E23F91-7908-4DE2-B278-AFD2E8B524DB}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210812T101656Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "86427b7e-d4a2-4563-a051-5812b1dfe4a7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210817T071647Z

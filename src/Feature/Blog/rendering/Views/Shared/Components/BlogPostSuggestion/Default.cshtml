@@ -1,0 +1,68 @@
+﻿@using System.Text
+@using Microsoft.Extensions.Localization
+@inject IStringLocalizer Localizer
+@model Hackathon.Feature.Blog.Models.ViewModels.BlogPostSuggestionViewModel
+
+<section class="post-suggestions post-suggestions--detailed-page">
+    <div class="container">
+        <h2 class="h2">
+            @Html.Raw(Model.Headline)
+        </h2>
+
+        <div class="blog-teaser__list">
+            @if (Model.Posts != null)
+            {
+                @foreach (var blogPost in Model.Posts.Take(3))
+                {
+                    <div class="blogpost-suggestion-item">
+                        @if (!string.IsNullOrWhiteSpace(blogPost.FeaturedImageUrl))
+                        {
+                            <div class="img-wrapper-stretch">
+                                <img src="@blogPost.FeaturedImageUrl" alt="@blogPost.FeaturedImageAltText" />
+                            </div>
+                        }
+                        <div class="blogpost-suggestion-item__blogpost-item-data">
+                            @if (blogPost.Tags != null && blogPost.Tags.Any())
+                            {
+                                <div class="blogpost-suggestion-item__blogpost-tags">
+                                    @foreach (var tag in blogPost.Tags)
+                                    {
+                                        <a href="@Model.BlogKeywordPageUrl/topics/@tag.ToLower()" class="blogpost-suggestion-item__blogpost-tag">#@tag.ToLower()</a>
+                                    }
+                                </div>
+                            }
+                            <a href="@blogPost.Url" class="blogpost-suggestion-item__blogpost-headline">
+                                <h4 class="h4">@blogPost.TeaserTitle</h4>
+                            </a>
+                            <p class="paragraph-plain">
+                                @blogPost.TeaserText
+                            </p>
+                            @if (blogPost.ReleaseDate != null || !string.IsNullOrWhiteSpace(blogPost.AuthorSurname) || !string.IsNullOrWhiteSpace(blogPost.AuthorName))
+                            {
+                                var sb = new StringBuilder();
+                                if (blogPost.ReleaseDate.HasValue)
+                                {
+                                    sb.Append(blogPost.ReleaseDate?.ToString("d MMMM yyyy HH:mm:ss"));
+                                }
+                                if (!string.IsNullOrWhiteSpace(blogPost.AuthorSurname) || !string.IsNullOrWhiteSpace(blogPost.AuthorName))
+                                {
+                                    if (blogPost.ReleaseDate.HasValue)
+                                    {
+                                        sb.Append(" - ");
+                                    }
+                                    sb.Append(string.Join(" ", blogPost.AuthorSurname?.Trim(), blogPost.AuthorName?.Trim()));
+                                }
+                                <p class="blogpost-suggestion-item__meta-data">
+                                    @sb.ToString()
+                                </p>
+                            }
+                            <a href="@blogPost.Url" class="main-btn main-btn--black">
+                                @Localizer["Learn More"]
+                            </a>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</section>

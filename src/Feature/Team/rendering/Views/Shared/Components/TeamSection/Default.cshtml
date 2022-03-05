@@ -1,0 +1,28 @@
+﻿@model TeamSectionViewModel
+
+<section class="team-preview-teaser">
+    <div class="container">
+        <h2 class="h2">
+            @Model.Headline
+        </h2>
+        <div class="team-preview-teaser__list">
+            @if (Model.Team != null && Model.Team.Any())
+            {
+                @foreach (var teamMember in Model.Team)
+                {
+                    <a href="@teamMember?.Url" class="team-preview-teaser__list-item">
+                        <div class="img-wrapper-stretch">
+                            <img src="@teamMember?.ProfileImageUrl" alt="@teamMember?.ProfileImageAltText" />
+                        </div>
+                    </a>
+                }
+            }
+        </div>
+        @if (Model != null && !string.IsNullOrEmpty(Model.LinkUrl) && !string.IsNullOrEmpty(Model.LinkText))
+        {
+            <a href="@Model.LinkUrl" class="team-preview-teaser__cta link-cta text-dark app-inline-link">
+                @Model.LinkText
+            </a>
+        }
+    </div>
+</section>

@@ -1,0 +1,136 @@
+@import "../css/normalize.css";
+@import "./typography";
+@import "./variables";
+@import "./media";
+@import "./helpers";
+@import "./layout";
+@import "./buttons";
+
+@import "./header";
+@import "./footer";
+
+@import "./media-header";
+
+@import "./blogpost-suggestion-item";
+@import "./job-link-item";
+@import "./text-left-module";
+@import "./text-right-module";
+@import "./quote-module";
+@import "./editor-mode";
+@import "./_links";
+@import "./filter";
+@import "./swiper";
+
+// blog start
+@import "./tags-navigation";
+@import "./blog-preferences";
+@import "./techtalk";
+@import "./post-suggestions";
+@import "./search-overlay";
+
+//blog detailed
+@import "./blog-post";
+
+//blog keyword
+@import "./blog-keyword";
+
+//error page
+@import "./error-detailed-text";
+
+//homepage
+@import "./text-module";
+@import "./gallery-slider";
+@import "./blog-teaser";
+@import "./logo-wall";
+@import "./jobs";
+
+// reference overview
+@import "./stage-module";
+@import "./reference-overview";
+
+//company page
+@import "./hero-section";
+@import "./general-text-module";
+@import "./cube-module";
+@import "./year-slider";
+@import "./team-preview-teaser";
+@import "./social-gallery-slider";
+@import "./image-with-text";
+@import "./location-section";
+
+//team overview
+@import "./text-hero-section";
+@import "./team-overview";
+
+//team detail
+@import "./hero-section-with-back-btn";
+@import "./content-section.scss";
+@import "./team-detail";
+
+//jobs overview
+@import "./perks-section";
+@import "./jobs-overview";
+@import "./faq";
+
+//all jobs search
+@import "./all-jobs";
+@import "./all-jobs-content";
+
+//job detail 
+@import "./job-detail";
+@import "./banner-module";
+@import "./paragraph-list-module";
+@import "./paragraph-hero-section";
+
+//animation
+@import "./animation";
+@import "./business-segments-detail";
+@import "./services-module";
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  // height: 100%;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $black;
+  font-family: "TheMixE2s-Light";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bg-gray-polygon {
+  position: relative;
+
+  &:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 55%, 60% 0);
+    background: $gray-5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+
+    @include media("m") {
+      clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+    }
+  }
+
+  &--reverse {
+    &:after {
+      clip-path: polygon(0 0, 0 100%, 0 120%, 56% 0);
+    }
+  }
+}

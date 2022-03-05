@@ -1,0 +1,23 @@
+﻿---
+ID: "794d954f-057b-4045-949c-50f56a5f44d4"
+Parent: "bb85ba93-c2a5-40cc-a191-2e62a8295fd7"
+Template: "bb85ba93-c2a5-40cc-a191-2e62a8295fd7"
+Path: /sitecore/templates/Feature/Blog/Data Source/Blog Post Suggestion/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210911T172722Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4e0c6ba5-b48b-457d-82d4-c5a63d4f0644"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210911T172722Z

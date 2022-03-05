@@ -1,0 +1,43 @@
+﻿---
+ID: "57e037f3-7cf9-442f-9e8c-e6fb09a14982"
+Parent: "e47a9743-7ace-4072-9481-68fadca5dd8e"
+Template: "d11575b6-2d4f-41ed-a2c9-fd3fb64c4e46"
+Path: /sitecore/content/Hackathon/Global/Home/Blog/Data/Techtalk
+SharedFields:
+- ID: "397e66cf-08c8-4a7d-9ef9-f6fc2f7c077d"
+  Hint: BlogPosts
+  Value: "{4A3F5E3A-1C52-4655-BE52-AE1E1D60FC9A}|{6B8A36E7-72EA-4831-886E-41BF613067BF}|{2EECEA1F-D136-46B8-BBF0-2731FCC444B7}|{F44A4B09-A094-4D6B-A5BF-9716809B3F5E}|{19B87E12-AE21-4E5D-AC11-F04F026D5A85}|{1EFBE72E-48C1-4F55-BBD6-F64224A1ED90}"
+- ID: "7f56e0d5-7cf7-4083-8681-ee2029ea4d7f"
+  Hint: BlogKeywordPage
+  Value: "{7C0039CC-9CEC-43CB-92CD-FFD4B7B9329A}"
+- ID: "c9962f81-e0f6-4ffa-a648-3f515f9a168a"
+  Hint: Tag
+  Value: "{02AD0DF9-9A97-48EE-AE9D-E21B9B922078}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{57F48C59-40EE-4539-99F7-F20099CDA599}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1100889f-f758-4a15-8f81-f4d69bb158bd"
+      Hint: Headline
+      Value: Techtalk
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210916T130732Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3835f27c-b511-4c0f-9eda-150a31ca8ed5"
+    - ID: "a1dd5ab1-fdf6-4b7c-8cb0-45c15534df71"
+      Hint: RedirectLink
+      Value: |
+        <link id="{B79E5326-8577-427A-81D3-CC1889833E90}" querystring="" text="Alle Techtalk Beiträge" anchor="" title="" class="" url="/Hackathon/Global/Home/Blog" linktype="internal" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210924T135840Z

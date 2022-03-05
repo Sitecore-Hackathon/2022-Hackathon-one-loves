@@ -1,0 +1,19 @@
+{
+    "namespace": "Feature.Service",
+    "items": {
+        "includes": [
+          {
+            "name": "templates",
+            "path": "/sitecore/templates/Feature/Service"
+          },
+          {
+            "name": "media",
+            "path": "/sitecore/media library/Feature/Service"
+          },
+          {
+            "name": "rendering",
+            "path": "/sitecore/layout/Renderings/Feature/Service"
+          }
+        ]
+    }
+}	

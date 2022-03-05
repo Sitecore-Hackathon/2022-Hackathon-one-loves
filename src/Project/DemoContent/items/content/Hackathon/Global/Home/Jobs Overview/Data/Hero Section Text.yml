@@ -1,0 +1,39 @@
+﻿---
+ID: "c5645264-459e-499d-ade7-3db55cd23b3e"
+Parent: "54dd1af6-637c-4ca5-8c9b-865c0e93e875"
+Template: "dba14926-b08a-43ec-a8c8-a7dcc9c2c65f"
+Path: /sitecore/content/Hackathon/Global/Home/Jobs Overview/Data/Hero Section Text
+BranchID: "499111f2-f0ae-4041-b071-c3ac41933190"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F8E4B996-BD1E-47E2-9F45-D6FE4493B901}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1cd609e1-f929-48e0-adae-d3586b638d1c"
+      Hint: Headline
+      Value: |
+        Alle
+        <span class="accent-active-item">Jobs</span>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210916T131051Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c6d34b03-bc85-4dff-860c-3aa4ef147060"
+    - ID: "a5faf87a-96a8-4492-b400-47d014fbe23e"
+      Hint: CopyText
+      Value: |
+        Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        nostrud exercitation ullamcout aliquip ex consequat.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210916T140100Z

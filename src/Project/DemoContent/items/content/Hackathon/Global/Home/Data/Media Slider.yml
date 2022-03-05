@@ -1,0 +1,32 @@
+﻿---
+ID: "f74bc65e-92b1-461d-9d2c-ef34b8fb1270"
+Parent: "c163a241-0661-456b-87b4-bf8c7546c4d8"
+Template: "39425500-0335-45ef-a160-99ab3fe640e6"
+Path: /sitecore/content/Hackathon/Global/Home/Data/Media Slider
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210913T080937Z
+    - ID: "6390fad2-9a85-4948-a78d-c6a32f7d5c72"
+      Hint: Headline
+      Value: Das sind wir
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "086fd086-74a6-4687-bf97-788853360c84"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210913T083831Z
+    - ID: "f0c87e1a-33b1-4881-837a-8932c9a0cb30"
+      Hint: CopyText
+      Value: "Mehr als 250 Berater, Projektmanager, Analysten, Kreative, Software-Entwickler, Redakteure und Tüftler."

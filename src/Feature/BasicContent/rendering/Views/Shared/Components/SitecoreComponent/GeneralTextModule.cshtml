@@ -1,0 +1,22 @@
+﻿@model GeneralTextModule
+
+<section class="content-section">
+    <div class="container">
+        <h3 class="h3">
+            @if (this.SitecoreContext().IsEditing)
+            {
+                <sc-text asp-for="Headline"/>
+            }
+            else
+            {
+                @Html.Raw(Model?.Headline?.Value)
+            }
+        </h3>
+
+        <sc-placeholder name="top-text" />
+
+        <sc-placeholder name="central-text" />
+
+        <sc-placeholder name="bottom-text" />
+    </div>
+</section>

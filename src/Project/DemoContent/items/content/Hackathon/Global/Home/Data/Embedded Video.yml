@@ -1,0 +1,36 @@
+﻿---
+ID: "6b72d89a-036d-45a3-95a7-2f2219369a82"
+Parent: "c163a241-0661-456b-87b4-bf8c7546c4d8"
+Template: "4abd7028-ff27-4140-99d8-df2ede967c16"
+Path: /sitecore/content/Hackathon/Global/Home/Data/Embedded Video
+SharedFields:
+- ID: "0fe060cb-0e74-4e64-b31a-ece6794c80a8"
+  Hint: Poster
+  Value: "https://vlcnash.com/wp-content/uploads/2017/02/video-player-placeholder-very-large.png"
+- ID: "ba677ec8-8f4f-4529-826c-9ecc296041a3"
+  Hint: Type
+  Value: "{3DB8574B-C68D-42A2-892D-F0620E991DF5}"
+- ID: "f4a6651d-50ee-4f96-b208-3814a4c7b145"
+  Hint: Source
+  Value: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210913T075814Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "63919c99-35b1-4210-a201-464d711d7656"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210913T082849Z

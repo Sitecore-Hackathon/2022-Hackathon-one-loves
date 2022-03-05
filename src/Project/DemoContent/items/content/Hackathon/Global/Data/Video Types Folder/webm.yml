@@ -1,0 +1,27 @@
+﻿---
+ID: "cc2bfd14-d608-4468-a7ab-5f0a6f501f4b"
+Parent: "5c658583-1374-43a9-a14f-1c01b8868543"
+Template: "7c2c7e23-3e63-4192-a2b3-34f9372f78c8"
+Path: /sitecore/content/Hackathon/Global/Data/Video Types Folder/webm
+SharedFields:
+- ID: "b25c2506-510c-49b6-ae84-ef1fdf5a83f0"
+  Hint: Type
+  Value: video/webm
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210905T213313Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6a79e713-1a5c-45e7-9e64-146814024b06"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210905T213318Z

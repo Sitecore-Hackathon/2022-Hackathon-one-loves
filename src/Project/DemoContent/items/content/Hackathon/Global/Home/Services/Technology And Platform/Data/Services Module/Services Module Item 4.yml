@@ -1,0 +1,33 @@
+﻿---
+ID: "3c3f6bb9-e333-42ee-93f2-a0c5f0785f28"
+Parent: "1dede66a-00dc-4588-88c3-372c27beb30c"
+Template: "9641fd8c-8f3d-4fcc-b825-552b82b0900a"
+Path: /sitecore/content/Hackathon/Global/Home/Services/Technology And Platform/Data/Services Module/Services Module Item 4
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210924T101928Z
+    - ID: "2b540c24-dd4c-449a-84e0-8e168f9e8cbc"
+      Hint: Title
+      Value: "SAP HCM On-Premise"
+    - ID: "4e5b02b0-4b5e-44ab-80bb-269f0a70beb8"
+      Hint: CopyText
+      Value: "Wir implementierung und beraten bei Ihrem SAP HCM On-Premise Projekt."
+    - ID: "82e0eb2a-49a7-4cb2-af01-511b55cfd7f6"
+      Hint: Link
+      Value: |
+        <link id="{56522080-5E97-467A-9917-008D9F5266E4}" querystring="" text="Mehr erfahren" anchor="" url="/Hackathon/Global/Home/Solutions/SAP HCM On-Premise" title="" class="" linktype="internal" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "01c670ad-6751-439f-9e57-22924d02e5f9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210924T122457Z

@@ -1,0 +1,23 @@
+﻿---
+ID: "57f48c59-40ee-4539-99f7-f20099cda599"
+Parent: "294fe54a-d26b-40b4-87fc-98dc48432310"
+Template: "d11575b6-2d4f-41ed-a2c9-fd3fb64c4e46"
+Path: /sitecore/templates/Branches/Project/Hackathon/Blog Overview Page/$name/Data/Techtalk
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210913T092207Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ac7d655d-32b4-41c5-81d2-6696165b9318"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210913T092207Z

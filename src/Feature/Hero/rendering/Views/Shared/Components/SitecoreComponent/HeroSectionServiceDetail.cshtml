@@ -1,0 +1,39 @@
+﻿@model HeroSectionServiceDetail
+
+<section class="business-segments-detail">
+    <div class="container">
+        <div class="business-segments-detail__content">
+            @if (this.SitecoreContext().IsEditing)
+            {
+                <div style="min-width: 200px; min-height: 50px;">
+                    <sc-placeholder name="back-btn" />
+                </div>
+            }
+            else
+            {
+                <sc-placeholder name="back-btn" />
+            }
+            <h1 class="h1">
+                <sc-text asp-for="Headline" />
+            </h1>
+            <p class="paragraph-plain">
+                <sc-text asp-for="Description" />
+            </p>
+
+            <div class="business-segments-detail__tags">
+                @if (Model?.Tags != null && Model.Tags.Any())
+                {
+                    <div class="blogpost-suggestion-item__blogpost-tags">
+                        @foreach (var tag in Model.Tags)
+                        {
+                            <a href="@Model.BlogKeywordPage?.Fields?.Link?.Value?.Href/topics/@tag.Fields?.Title?.Value.ToLower()" class="business-segments-detail__tag">#@tag.Fields?.Title?.Value?.ToLower()</a>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="img-wrapper-stretch">
+            <sc-img asp-for="Image" />
+        </div>
+    </div>
+</section>

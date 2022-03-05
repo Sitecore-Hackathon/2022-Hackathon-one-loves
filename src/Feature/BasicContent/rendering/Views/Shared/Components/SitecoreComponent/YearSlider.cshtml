@@ -1,0 +1,84 @@
+﻿@model YearSlider
+
+<section class="year-slider bg-black">
+    <div class="container">
+        <div class="year-slider__slider">
+            <div class="year-slider__slider-content swiper-container" id="year-swiper">
+                <div class="swiper-wrapper">
+                    @if (this.SitecoreContext().IsEditing)
+                    {
+                        <div style="min-width: 600px; min-height: 100px;">
+                            <sc-placeholder name="year-slides" />
+                        </div>
+                    }
+                    else
+                    {
+                        <sc-placeholder name="year-slides" />
+                    }
+                </div>
+            </div>
+            <div class="year-slider__slider-controls">
+                <button class="year-slider__slider-btn main-btn prev accent-active-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+                        <g id="Icon/navigation/chevron-right"
+                           fill-rule="evenodd"
+                           stroke="none"
+                           stroke-width="1">
+                            <path id="Path"
+                                  d="M9 9l3.26-3L25 18 12.26 30 9 27l9.6-9z"
+                                  transform="matrix(-1 0 0 1 34 0)" />
+                        </g>
+                    </svg>
+                </button>
+                <button class="year-slider__slider-btn main-btn next accent-active-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+                        <g id="Icon/navigation/chevron-left"
+                           fill-rule="evenodd"
+                           stroke="none"
+                           stroke-width="1">
+                            <path id="Path" d="M11 9l3.26-3L27 18 14.26 30 11 27l9.6-9z" />
+                        </g>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="year-slider__timeline">
+            <div class="year-slider__timeline-line year-slider__timeline-line--hidden"></div>
+            <div class="year-slider__timeline-line year-slider__timeline-line--hidden"></div>
+            <div class="year-slider__timeline-line year-slider__timeline-line--hidden"></div>
+            <div class="year-slider__timeline-line year-slider__timeline-line--hidden"></div>
+            <div class="year-slider__timeline-line year-slider__timeline-line--hidden">
+                <div class="year-slider__timeline-year year-slider__timeline-year--prev">
+                    2000
+                </div>
+            </div>
+            <div class="year-slider__timeline-line year-slider__timeline-line--hidden"></div>
+            <div class="year-slider__timeline-line"></div>
+            <div class="year-slider__timeline-line"></div>
+            <div class="year-slider__timeline-line"></div>
+            <div class="year-slider__timeline-line year-slider__timeline-line--m"></div>
+            <div class="year-slider__timeline-line year-slider__timeline-line--l">
+                <div class="year-slider__timeline-year year-slider__timeline-year--current">
+                    2004
+                </div>
+            </div>
+            <div class="year-slider__timeline-line year-slider__timeline-line--m"></div>
+            <div class="year-slider__timeline-line"></div>
+            <div class="year-slider__timeline-line"></div>
+            <div class="year-slider__timeline-line"></div>
+            <div class="year-slider__timeline-line year-slider__timeline-line--hidden"></div>
+            <div class="year-slider__timeline-line year-slider__timeline-line--hidden">
+                <div class="year-slider__timeline-year year-slider__timeline-year--next">
+                    2004
+                </div>
+            </div>
+            <div class="year-slider__timeline-line year-slider__timeline-line--hidden"></div>
+            <div class="year-slider__timeline-line year-slider__timeline-line--hidden"></div>
+            <div class="year-slider__timeline-line year-slider__timeline-line--hidden"></div>
+            <div class="year-slider__timeline-line year-slider__timeline-line--hidden"></div>
+            <div class="year-slider__timeline-line year-slider__timeline-line--hidden"></div>
+            <div class="year-slider__timeline-line year-slider__timeline-line--hidden"></div>
+            <div class="year-slider__timeline-line year-slider__timeline-line--hidden"></div>
+        </div>
+    </div>
+</section>

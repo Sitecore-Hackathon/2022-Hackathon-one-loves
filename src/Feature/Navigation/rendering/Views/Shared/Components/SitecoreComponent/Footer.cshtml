@@ -1,0 +1,59 @@
+﻿@model Footer
+
+<footer class="app-footer">
+    <div class="container">
+        <div class="app-footer__mail-block">
+            <p class="plain-text text-white">
+                <sc-text asp-for="EmailText" />
+            </p>
+            <sc-link asp-for="Email" class="accent-active-item app-footer__mail-link text-bold" />
+        </div>
+        <div class="app-footer__social-links">
+            <p class="plain-text text-white">
+                <sc-text asp-for="SocialLinksText" />
+            </p>
+            @if (Model.SocialMedias != null)
+            {
+                <ul class="app-footer__links-list">
+                    @foreach (var item in Model.SocialMedias)
+                    {
+                        if (item.Fields?.Link?.Value != null && !string.IsNullOrWhiteSpace(item.Fields.Link.Value.Href))
+                        {
+                            <li>
+                                <a href="@item.Fields.Link.Value.Href" class="app-footer__social-link app-icon-link">
+                                    @Html.Raw(!string.IsNullOrWhiteSpace(item.Fields.SvgIconSource?.Value) ? item.Fields.SvgIconSource.Value : item.Fields.Link.Value.Text)
+                                </a>
+                            </li>
+                        }
+
+                    }
+                </ul>
+            }
+        </div>
+        <div class="app-footer__info">
+            <p class="app-footer__copyright text-white">
+                @if (Model.IsEditing)
+                {
+                    <sc-text asp-for="Copyright"></sc-text>
+                }
+                else if (!string.IsNullOrWhiteSpace(Model.Copyright?.Value))
+                {
+                    @string.Format(Model.Copyright.Value, DateTime.Now.Year)
+                }
+            </p>
+            @if (Model.FooterLinks != null)
+            {
+                <ul class="app-footer__info-links">
+                    @foreach (var item in Model.FooterLinks.Where(item => item.Fields?.Link?.Value != null && !string.IsNullOrWhiteSpace(item.Fields.Link.Value.Href)))
+                    {
+                        <li>
+                            <a href="@item.Fields.Link.Value.Href" target="@item.Fields.Link.Value.Target" class="app-footer__info-link app-inline-link">
+                                @(!string.IsNullOrWhiteSpace(item.Fields.Title?.Value) ? item.Fields.Title.Value : item.Fields.Link.Value.Text)
+                            </a>
+                        </li>
+                    }
+                </ul>
+            }
+        </div>
+    </div>
+</footer>

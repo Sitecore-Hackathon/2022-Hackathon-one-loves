@@ -1,0 +1,23 @@
+﻿---
+ID: "29c3e97a-b0dc-485e-a1f5-577b8449e00f"
+Parent: "e9353382-b8ff-4258-bb53-89f70a225c0f"
+Template: "a6a9c2d6-8f6a-4f7f-aaa8-4c735aba11ca"
+Path: /sitecore/templates/Branches/Project/Hackathon/Services Overview Page/$name/Data/Business Animation Module
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210921T152345Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "22c61078-8f57-476a-b3a1-0920b9edf075"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210921T152345Z

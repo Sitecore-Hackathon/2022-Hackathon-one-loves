@@ -1,0 +1,116 @@
+@import "./variables";
+
+a.accent-active-item {
+  &:hover {
+    background: $white !important;
+    transition: $transition;
+  }
+
+  &:focus {
+    border: 1px solid $gray-20;
+    transition: $transition;
+  }
+
+  &:visited {
+    background: $accent-yellow-100;
+    border: 1px solid transparent;
+    transition: $transition;
+  }
+
+  &:active {
+    padding-top: 2px;
+    transition: $transition;
+  }
+}
+
+.app-inline-link {
+  text-decoration: underline;
+  transition: $transition;
+  border: 1px solid transparent;
+
+  &:hover {
+    text-decoration: none;
+    transition: $transition;
+  }
+
+  &:focus {
+    border: 1px solid $gray-20;
+    transition: $transition;
+  }
+
+  &:visited {
+    color: $gray-60;
+    transition: $transition;
+  }
+
+  &:active {
+    padding-top: 2px;
+    transition: $transition;
+  }
+
+  &--white {
+    &:focus {
+      border: 1px solid $gray-60;
+      transition: $transition;
+    }
+
+    &:visited {
+      color: $gray-20;
+      transition: $transition;
+    }
+  }
+}
+
+.app-icon-link {
+  transition: $transition;
+  border: 1px solid transparent;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    svg {
+      fill: $gray-60;
+      transition: $transition;
+    }
+  }
+
+  &:focus {
+    border: 1px solid $gray-20;
+  }
+
+  &:disabled {
+    cursor: pointer;
+    transition: $transition;
+    &:hover {
+      svg {
+        fill: $black;
+      }
+    }
+  }
+
+  &--light {
+    &:hover {
+      svg {
+        fill: $gray-40;
+        transition: $transition;
+      }
+    }
+
+    &:focus {
+      border: 1px solid $gray-60;
+    }
+
+    &:disabled {
+      cursor: pointer;
+      transition: $transition;
+
+      &:hover {
+        svg {
+          fill: $white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+﻿@model ImageWithLeftText
+
+<section class="location-section">
+    <div class="container">
+        <section class="image-with-text image-with-text--left">
+            <p class="image-with-text__text">
+                <sc-text asp-for="Text" />
+            </p>
+            <div class="img-responsive">
+                <sc-img asp-for="Image" />
+            </div>
+        </section>
+    </div>
+</section>

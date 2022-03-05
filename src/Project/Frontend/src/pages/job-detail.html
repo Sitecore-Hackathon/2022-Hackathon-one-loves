@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    /> 
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  </head> 
+  <body >
+    <%= require('html-loader!../components/navbar/navbar.html').default %> 
+    <main class="bg-gray-polygon bg-gray-polygon--reverse job-detail">
+    <%= require('html-loader!../components/paragraph-hero-section/paragraph-hero-section.html').default %> 
+    <section class="job-detail-content-section">
+      <div class="container container--xs">
+        <h3 class="h3">Display 3</h3>
+        <%= require('html-loader!../components/text-left/text-left.html').default %> 
+        <%= require('html-loader!../components/text-right/text-right.html').default %>
+      </div>
+    </section>
+    <%= require('html-loader!../components/banner-module/banner-module.html').default %>  
+    <section class="paragraph-list-content-section">
+      <div class="container container--xs">
+        <%= require('html-loader!../components/paragraph-list-module/paragraph-list-module.html').default %> 
+        <%= require('html-loader!../components/paragraph-list-module/paragraph-list-module.html').default %> 
+      </div>
+    </section>
+    <%= require('html-loader!../components/perks-section/perks-section.html').default %>  
+    <%= require('html-loader!../components/all-jobs-content/all-jobs-content.html').default %>  
+    </main>
+    <%= require('html-loader!../components/footer/footer.html').default %> 
+  </body>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</html>

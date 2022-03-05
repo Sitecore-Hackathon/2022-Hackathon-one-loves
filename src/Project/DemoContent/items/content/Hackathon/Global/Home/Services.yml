@@ -1,0 +1,49 @@
+﻿---
+ID: "9cf9a745-6b4e-4ef0-8b58-f21e5d2416d2"
+Parent: "97479c6b-bb30-4a15-afd1-2c89f207e9d6"
+Template: "02e13d29-3019-4044-bbb7-957286ec161f"
+Path: /sitecore/content/Hackathon/Global/Home/Services
+BranchID: "24ec28d0-deb5-46f9-b1f8-4d7be9eacf8f"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{F8456DA8-6DD4-47CC-9950-6100163A0F39}"
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{5A92F5B0-54DE-40DC-9331-B9386D7595A9}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{AF429657-4933-40A4-817D-8A7EB8606330}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07713781-a4a0-4b69-b49b-29c127fd127d"
+      Hint: PageTitle
+      Value: Services Overview Page
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210924T072301Z
+    - ID: "39299ca5-4309-4748-b233-8bf05cf95512"
+      Hint: BrowserTitle
+      Value: Services Overview Page
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9925684b-9e75-47cc-ad0e-e27ac659ebab"
+    - ID: "9520125c-0a72-43d9-8c8f-f534808f015e"
+      Hint: TwitterTitle
+      Value: Services Overview Page
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bf9c882c-0fba-4f27-899e-d70e356c2719"
+      Hint: OGTitle
+      Value: Services Overview Page
+    - ID: "d4b52aa9-7974-4704-8a64-5329a5a83512"
+      Hint: NavigationTitle
+      Value: Services Overview Page
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210924T072549Z

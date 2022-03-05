@@ -1,0 +1,26 @@
+﻿@model HeroSectionText
+
+<section class="text-hero-section">
+    <div class="container">
+        <h1 class="h1 text-center">
+            @if (this.SitecoreContext().IsEditing)
+            {
+                <sc-text asp-for="Headline" />
+            }
+            else
+            {
+                @Html.Raw(Model?.Headline?.Value)
+            }
+        </h1>
+        <div class="text-hero-section__text">
+            @if (this.SitecoreContext().IsEditing)
+            {
+                <sc-text asp-for="CopyText" />
+            }
+            else
+            {
+                @Html.Raw(Model?.CopyText?.Value)
+            }
+        </div>
+    </div>
+</section>

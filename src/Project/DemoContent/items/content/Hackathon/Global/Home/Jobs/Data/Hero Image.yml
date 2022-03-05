@@ -1,0 +1,32 @@
+﻿---
+ID: "e8ef7b20-9af4-49ca-b03b-805f1d4cead7"
+Parent: "6c2d3a9f-a41b-4a90-8837-ee1edc936dd5"
+Template: "19c7d8b0-1fc1-454a-879d-c724cd7c96cd"
+Path: /sitecore/content/Hackathon/Global/Home/Jobs/Data/Hero Image
+BranchID: "c6f5c851-d9e0-4a67-80f7-6097b4118c15"
+SharedFields:
+- ID: "7781cca9-d623-424c-bb88-116010b872e4"
+  Hint: Image
+  Value: |
+    <image mediaid="{617AB922-87E1-423E-BD99-AC8376058758}" />
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{D398491A-4B9F-4FC1-994F-B877123046BD}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210916T131008Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "12825554-9cb7-4dca-b125-88a6260abac8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210916T133552Z

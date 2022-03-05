@@ -1,0 +1,14 @@
+@import './variables';
+
+.text-left-module {
+  padding-bottom: 26px;
+
+  p {
+    max-width: 380px;
+    margin: 0;
+
+    @include media('m') {
+      max-width: none;
+    }
+  }
+}

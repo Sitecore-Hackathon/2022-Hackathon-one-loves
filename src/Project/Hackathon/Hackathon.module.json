@@ -1,0 +1,53 @@
+{
+  "namespace": "Project.Hackathon",
+  "items": {
+    "includes": [
+      {
+        "name": "layouts",
+        "path": "/sitecore/layout/Layouts/Project/Hackathon"
+      },
+      {
+        "name": "renderings",
+        "path": "/sitecore/layout/Renderings/Project/Hackathon"
+      },
+      {
+        "name": "placeholders",
+        "path": "/sitecore/layout/Placeholder Settings/Project/Hackathon"
+      },
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Project/Hackathon"
+      },
+      {
+        "name": "branches",
+        "path": "/sitecore/templates/Branches/Project/Hackathon"
+      },
+      {
+        "name": "site-root-rule",
+        "path": "/sitecore/system/Settings/Rules/Insert Options/Rules/Hackathon Site Root"
+      },
+      {
+        "name": "api-key",
+        "path": "/sitecore/system/Settings/Services/API Keys/Hackathon"
+      },
+      {
+        "name": "languages",
+        "path": "/sitecore/system/Languages",
+        "rules": [
+          {
+            "path": "/en",
+            "scope": "ignored"
+          }
+        ]
+      },
+      {
+        "name": "files",
+        "path": "/sitecore/media library/Files"
+      },
+      {
+        "name": "scripts",
+        "path": "/sitecore/system/Modules/PowerShell/Script Library/Hackathon"
+      }
+    ]
+  }
+}

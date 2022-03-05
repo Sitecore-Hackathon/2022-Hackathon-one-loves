@@ -1,0 +1,26 @@
+﻿---
+ID: "07e18c19-39cb-4aea-b1e2-f10f39a5ca98"
+Parent: "34fe9977-dc68-4df6-856b-940953dc4cce"
+Template: "d766b6a1-91cd-4707-9456-4074f4290949"
+Path: /sitecore/content/Hackathon/Global/Data/Tags/COMPANY
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210910T132741Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d262b51d-a3d3-4c80-8504-762c9c989c36"
+    - ID: "b8a8b6c9-4757-496b-9aae-5f46ff381563"
+      Hint: Title
+      Value: COMPANY
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210915T065926Z

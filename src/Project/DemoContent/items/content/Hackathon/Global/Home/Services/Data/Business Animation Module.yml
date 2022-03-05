@@ -1,0 +1,37 @@
+﻿---
+ID: "5505ed2f-b6c5-42c6-805d-3ee6e178c126"
+Parent: "f695444a-ca4f-41e8-90e0-9b4ea6a18162"
+Template: "a6a9c2d6-8f6a-4f7f-aaa8-4c735aba11ca"
+Path: /sitecore/content/Hackathon/Global/Home/Services/Data/Business Animation Module
+SharedFields:
+- ID: "1bd67864-f328-4da5-b06d-9948f90e2460"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{D0506163-9CFC-45DC-97D1-15F2A0992351}" />
+- ID: "2ffa9dcc-f107-4208-85df-94be59b91c46"
+  Hint: Items
+  Value: "{3DD549E3-A631-4E5D-8FDD-5F70857C159F}|{82ADB377-3315-4A04-9A1A-55DE704B4D98}|{CE85D453-1D11-4C00-BF0F-08485D99DE48}|{357F961A-80ED-4292-8D28-B97390789E90}|{AA681779-DC67-450C-92C3-5A02E3E511F9}|{27FC607B-806B-4A4A-A8B8-3F51E01FD7B0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210921T125318Z
+    - ID: "299b2302-c3eb-454a-85af-9251845bfee4"
+      Hint: CopyText
+      Value: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "626d9db0-c863-4e62-add5-352f5f135295"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d33967e0-a2fe-43c2-ab3b-68baeadee0e5"
+      Hint: Headline
+      Value: Unsere Geschäftsfelder
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210924T074004Z

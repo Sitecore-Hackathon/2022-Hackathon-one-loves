@@ -1,0 +1,10 @@
+﻿@model EmbeddedVideo
+
+<video playsinline
+       autoplay
+       muted
+       loop
+       poster="@Model?.Poster?.Value"
+       id="bgvid">
+    <source src="@Model?.Source?.Value" type="@Model?.Type?.Fields?.Type?.Value" />
+</video>

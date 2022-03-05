@@ -1,0 +1,32 @@
+{
+  "namespace": "Project.DemoContent",
+  "description": "An example of separating content into a separate module, so it can be excluded from deploy.",
+  "items": {
+    "includes": [
+      {
+        "name": "content",
+        "path": "/sitecore/content/Hackathon",
+        "rules": [
+          {
+            "path": "/Global/Dictionary",
+            "scope": "ignored"
+          },
+          {
+            "path": "/Global/Settings",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "*",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+          }
+        ]
+      },
+      {
+        "name": "media",
+        "path": "/sitecore/media library/Hackathon"
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+﻿---
+ID: "49077cb6-5da4-44e5-8d05-f10250c5d5b8"
+Parent: "e9a6c2f1-c75f-49f2-93b2-74a82007578e"
+Template: "dba14926-b08a-43ec-a8c8-a7dcc9c2c65f"
+Path: /sitecore/content/Hackathon/Global/Home/Jobs Overview/Job Detail 3/Data/Hero Section Text
+BranchID: "a82a910f-e5e1-41ac-bf6e-4708af6429be"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{CF08D8EA-93E5-4AEC-8940-8E4ADD32001F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1cd609e1-f929-48e0-adae-d3586b638d1c"
+      Hint: Headline
+      Value: |
+        München
+        <span class="accent-active-item">Concept Devoloper m/w/d</span>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210920T121831Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "729a2228-f3b2-4bfa-accf-3438d8d9c060"
+    - ID: "a5faf87a-96a8-4492-b400-47d014fbe23e"
+      Hint: CopyText
+      Value: |
+        
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur.
+            
+        
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur.
+            
+        
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.
+            
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210920T122003Z

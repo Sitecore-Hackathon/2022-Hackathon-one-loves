@@ -1,0 +1,26 @@
+﻿@model HeroSectionVideo
+
+<section class="media-header">
+    <div class="container">
+        <h1 class="h1 text-white">
+            @if (this.SitecoreContext().IsEditing)
+            {
+                <sc-text asp-for="Headline" />
+            }
+            else
+            {
+                @Html.Raw(Model?.Headline?.Value)
+            }
+        </h1>
+        @if (this.SitecoreContext().IsEditing)
+        {
+            <div style="min-width: 600px; min-height: 100px;">
+                <sc-placeholder name="media" />
+            </div>
+        }
+        else
+        {
+            <sc-placeholder name="media" />
+        }
+    </div>
+</section>

@@ -1,0 +1,62 @@
+@import "./variables";
+
+.tags-navigation {
+  padding-top: 80px;
+
+  @include media("m") {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__tag {
+    font-family: "TheSansC2s-5_Plain";
+    font-size: $font-size-base;
+    color: $black;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 32px 0 0;
+    transition: $transition;
+    border: 1px solid transparent;
+
+    @include media("l") {
+      margin: 0 20px 0 0;
+    }
+
+    &:last-of-type {
+      margin: 0 48px 0 0;
+    }
+
+    &:hover {
+      color: $gray-60 !important;
+      transition: $transition;
+    }
+
+    &:active {
+     background: $accent-yellow-100;
+      transition: $transition;
+    }
+
+    &:focus {
+      transition: $transition;
+      border: 1px solid $gray-20;
+    }
+  }
+
+  &__search-btn {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      flex-shrink: 0;
+      transform: scale(0.7);
+    }
+  }
+}

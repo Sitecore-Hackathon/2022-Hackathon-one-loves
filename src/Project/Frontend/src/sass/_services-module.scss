@@ -1,0 +1,70 @@
+@import './variables';
+
+.services-module {
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 45px;
+  }
+
+  &__item-title {
+    font-size: $font-size-base * 1.4;
+    font-family: 'TheMixE2s-SemiBold';
+    display: block;
+    margin: 0 0 16px;
+  }
+
+  &__item {
+    background: $black;
+    padding: 16px 20px 34px;
+    position: relative;
+    margin-bottom: 35px;
+    color: $white;
+
+    .main-btn {
+      position: absolute;
+      right: 20px;
+      bottom: -15px;
+    }
+
+    &--50 {
+      width: calc(50% - 10px);
+      margin-right: 20px;
+
+      &:nth-child(even) { 
+        margin-right: 0;
+      }
+
+      @include media('m') {
+        width: 100%;
+        margin-right: 0;
+      }
+    }
+
+    &--30 {
+      width: calc(33.3% - 14px);
+      margin-right: 20px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      @include media('m') {
+        width: 100%;
+        margin-right: 0;
+      }
+    }
+
+   
+  }
+
+  &__tag {
+    font-size: $font-size-sm;
+    color: $black;
+    background: $gray-10;
+    text-decoration: none;
+    margin: 0 8px 0 0;
+
+    @include tags-state;
+  }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  </head>
+  <body>
+    <%= require('html-loader!../components/navbar/navbar.html').default %>
+    <main>
+    <%= require('html-loader!../components/hero-section/hero-section.html').default %>
+    <section class="general-text-module">
+      <div class="container">
+        <%= require('html-loader!../components/text-left/text-left.html').default %> 
+        <%= require('html-loader!../components/quote-module/quote-module.html').default %> 
+        <%= require('html-loader!../components/text-right/text-right.html').default %>
+      </div>
+    </section>  
+    <%= require('html-loader!../components/cube-module/cube-module.html').default %>
+    <!-- <section class="general-text-module">
+      <div class="container">
+        <%= require('html-loader!../components/text-left/text-left.html').default %> 
+        <%= require('html-loader!../components/quote-module/quote-module.html').default %> 
+        <%= require('html-loader!../components/text-right/text-right.html').default %>
+      </div>
+    </section> -->
+
+    <section class="content-section">
+      <div class="container">
+        <p class="paragraph-plain content-section__block">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur.
+        </p>
+        <p class="content-section__block content-section__block--center quote">
+          Lorem ipsum dolor sit amet, consectetur sed ex adipiscing elit.
+        </p>
+        <p
+          class="
+            paragraph-plain
+            content-section__block content-section__block--right
+          "
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur.
+        </p>
+      </div>
+    </section>
+    
+    <%= require('html-loader!../components/year-slider/year-slider.html').default %>
+    <section class="location-section">
+      <div class="container">
+        <h2 class="h2">Die Standorte</h2>
+        <%= require('html-loader!../components/image-with-right-text/image-with-right-text.html').default %>
+        <%= require('html-loader!../components/image-with-left-text/image-with-left-text.html').default %>
+        <%= require('html-loader!../components/image-block/image-block.html').default %>
+      </div> 
+    </section>
+    <%= require('html-loader!../components/team-preview-teaser/team-preview-teaser.html').default %>
+    <%= require('html-loader!../components/social-gallery-slider/social-gallery-slider.html').default %>
+    </main>
+    <%= require('html-loader!../components/footer/footer.html').default %>
+  </body>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</html>

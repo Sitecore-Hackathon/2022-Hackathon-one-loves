@@ -1,0 +1,23 @@
+﻿---
+ID: "447b3304-6ce9-4778-a396-2683e6ca9330"
+Parent: "68262407-d966-4dc1-9b27-58d5117a1ac0"
+Template: "2fae4e28-0154-4d1d-8bb1-7854ded7101e"
+Path: /sitecore/templates/Branches/Project/Hackathon/Blog Keyword Page/$name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210910T213734Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cc068a05-b880-4ab8-9e4f-6dd828b1f32a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210910T213734Z

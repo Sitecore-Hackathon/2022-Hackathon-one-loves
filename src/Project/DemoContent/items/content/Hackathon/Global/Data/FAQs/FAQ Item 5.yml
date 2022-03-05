@@ -1,0 +1,29 @@
+﻿---
+ID: "557edefb-da1b-429c-8b6c-b67760a89f07"
+Parent: "9eeabe70-ebe2-440e-9f0f-b67a309a7d9d"
+Template: "f1eb0533-057a-455e-aa18-22eec4a75505"
+Path: /sitecore/content/Hackathon/Global/Data/FAQs/FAQ Item 5
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210914T140659Z
+    - ID: "416c5afa-f231-49b4-a26c-86153ba0b653"
+      Hint: Answer
+      Value: Answer
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "70086d2b-bbf0-4990-8240-0b9dabe114d6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "cd7bc676-b1d5-4524-ba58-9460c23c17a9"
+      Hint: Question
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210922T152346Z

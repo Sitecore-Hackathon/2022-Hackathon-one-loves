@@ -1,0 +1,66 @@
+﻿---
+ID: "6d3efe62-456a-4c74-aa1f-d74539687e21"
+Parent: "0d89c1cb-0cfb-44b6-a8f0-33a6bd98f2ac"
+Template: "5dbf65f6-5a47-4dbe-a772-3a77dbc34d44"
+Path: /sitecore/content/Hackathon/Global/Home/Team/Team Detail 6
+BranchID: "23be1a0b-586d-4680-80fd-77b05cf7ef0c"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{157771C3-E08A-46E3-A66F-CD562403D50A}"
+- ID: "81fa483b-547b-48f0-8a83-6b180d58f589"
+  Hint: ProfileImage
+  Value: |
+    <image mediaid="{40EC083E-0B2F-434C-ACAE-080548074778}" />
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A23CE334-9431-4A69-9909-0E12305E9A6B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07713781-a4a0-4b69-b49b-29c127fd127d"
+      Hint: PageTitle
+      Value: Team Detail 6
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210916T131413Z
+    - ID: "39299ca5-4309-4748-b233-8bf05cf95512"
+      Hint: BrowserTitle
+      Value: Team Detail 6
+    - ID: "43ad0b86-dc90-4711-9ee1-6f09f7d24d2b"
+      Hint: Name
+      Value: Name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2852228c-6d2e-4659-9858-cb043f1a836d"
+    - ID: "9520125c-0a72-43d9-8c8f-f534808f015e"
+      Hint: TwitterTitle
+      Value: Team Detail 6
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bd0bfe0b-476b-48ed-95d8-43f9a3fcb37d"
+      Hint: Position
+      Value: "{3894ADDC-6BC9-4564-BAF0-3EDFD7B19EB3}"
+    - ID: "bf9c882c-0fba-4f27-899e-d70e356c2719"
+      Hint: OGTitle
+      Value: Team Detail 6
+    - ID: "d4b52aa9-7974-4704-8a64-5329a5a83512"
+      Hint: NavigationTitle
+      Value: Team Detail 6
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210917T112713Z
+    - ID: "dbeb8b4f-2e8d-4584-96f0-d19e23b69e29"
+      Hint: Surname
+      Value: Surname
+    - ID: "f7d1aacc-d625-406c-95c6-b48845685d51"
+      Hint: Location
+      Value: "{0CDED21C-88F5-45D1-8FDE-A4DEB8B79F35}"

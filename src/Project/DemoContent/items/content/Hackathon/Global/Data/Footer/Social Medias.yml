@@ -1,0 +1,23 @@
+﻿---
+ID: "42c3363c-d6ad-4c1d-a598-4ff73e23d3db"
+Parent: "f1501c19-35ca-409e-807c-4021c61f68d7"
+Template: "52bc4a5c-12ea-4048-a98c-5fdb02386486"
+Path: /sitecore/content/Hackathon/Global/Data/Footer/Social Medias
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210802T125823Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c93fd51-1216-45b1-b3a2-cefc2ae1fb99"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210802T125823Z

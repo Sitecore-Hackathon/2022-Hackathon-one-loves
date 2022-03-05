@@ -1,0 +1,23 @@
+﻿---
+ID: "486357dc-d21d-4b50-ae4b-eda9f37f7911"
+Parent: "c8e892c2-ce9e-40dd-8cc8-600f643b419d"
+Template: "4e2f47f1-c553-433c-901f-0ce34e333f5d"
+Path: /sitecore/templates/Branches/Project/Hackathon/Reference Overview Page/$name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210913T121825Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6ce7e8f7-a842-45c9-8bdd-a50f18547ae1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210913T121825Z

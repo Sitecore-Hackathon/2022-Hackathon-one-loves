@@ -1,0 +1,42 @@
+@import "./variables";
+
+.paragraph-list {
+  width: 48%;
+  max-width: 380px;
+
+  @include media("m") {
+    max-width: none;
+    width: 100%;
+    margin: 0 0 62px;
+
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+
+  .h3 {
+    margin: 0 0 48px;
+  }
+
+  &:nth-of-type(even) {
+    margin-top: 30%;
+
+    @include media("m") {
+      margin-top: 0;
+    }
+  }
+}
+
+.paragraph-list-content-section {
+  padding: 0 0 80px;
+
+  @include media("m") {
+    padding: 0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

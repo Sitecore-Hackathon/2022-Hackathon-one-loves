@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="@this.SitecoreContext()?.Language">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewData["Title"]</title>
+    <link href="/assets/images/favicon.png" type="image/png" rel="icon" />
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Montserrat" rel="stylesheet" />
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
+</head>
+<body class="@(this.SitecoreContext().IsEditing ? "isEditorMode" : null)">
+    @RenderBody()
+    @{
+        const string lottieSrc = "https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js";
+        <script src="@lottieSrc"></script>
+    }
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="~/js/main.js"></script>
+</body>
+</html>

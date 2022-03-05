@@ -1,0 +1,16 @@
+﻿@model Heading
+
+<section class="location-section">
+    <div class="container">
+        <div>
+            @if (this.SitecoreContext().IsEditing)
+            {
+                <sc-text asp-for="Headline" />
+            }
+            else
+            {
+                @Html.Raw(Model?.Headline?.Value)
+            }
+        </div>
+    </div>
+</section>

@@ -1,0 +1,161 @@
+@import "./variables";
+
+.main-btn {
+  cursor: pointer;
+  background: $accent-yellow-100;
+  transition: $transition;
+  padding: 8px 16px;
+  text-align: center;
+  justify-content: center;
+  font-family: "TheSansC2s-7_Bold";
+  border: 2px solid transparent;
+
+  &:hover {
+    background: $accent-yellow-80;
+    transition: $transition;
+  }
+
+  &:active {
+    background: $accent-yellow-60;
+    transition: $transition;
+  }
+
+  &:focus {
+    background: $accent-yellow-100;
+    border-color: $gray-60;
+    transition: $transition;
+  }
+
+  &[disabled] {
+    background: $gray-80;
+    opacity: 0.3;
+    cursor: default;
+    color: $white;
+
+    svg {
+      fill: $white;
+    }
+
+    &:hover {
+      background: $gray-80;
+    }
+
+    &:active,
+    &:focus {
+      background: $gray-80;
+    }
+  }
+
+  &--black {
+    background: $gray-100;
+    transition: $transition;
+    color: $white;
+
+    &:hover {
+      background: $gray-80;
+      transition: $transition;
+    }
+
+    &:active {
+      background: $gray-60;
+      transition: $transition;
+    }
+
+    &:focus {
+      background: $gray-100;
+      border-color: $accent-yellow-100;
+      transition: $transition;
+    }
+  }
+}
+
+.back-btn {
+  display: flex;
+  font-family: "TheSansC2s-7_Bold";
+  align-items: center;
+  transition: $transition;
+  border: 1px solid transparent;
+
+  &__text {
+    text-decoration: underline;
+  }
+
+  svg {
+    transition: $transition;
+    position: relative;
+    left: 0;
+  }
+
+  &:hover {
+    svg {
+      position: relative;
+      left: -8px;
+      transition: $transition;
+    }
+
+    .back-btn__text {
+      transition: $transition;
+      text-decoration: none;
+    }
+  }
+
+  &:active {
+    padding-top: 2px;
+    transition: $transition;
+  }
+
+  &:focus {
+    transition: $transition;
+    border: 1px solid $gray-20;
+  }
+}
+
+.link-cta {
+  font-family: "TheSansC2s-7_Bold";
+  display: block;
+}
+
+//with svg
+.icon-btn {
+  transition: $transition;
+  fill: $black;
+  border: 1px solid transparent;
+
+  &:hover {
+    transition: $transition;
+    fill: $gray-60;
+  }
+
+  &:focus {
+    border: 1px solid $gray-20;
+    transition: $transition;
+  }
+
+  &[disabled] {
+    opacity: 0.3;
+  }
+
+  &--dark {
+    fill: $white;
+
+    &:hover {
+      transition: $transition;
+      fill: $gray-40;
+    }
+  
+    &:focus {
+      border: 1px solid $gray-60;
+      transition: $transition;
+    }
+  
+    &[disabled] {
+      opacity: 0.3;
+    }
+  }
+}
+
+.show-more-btn {
+  &.hidden {
+    display: none;
+  }
+}

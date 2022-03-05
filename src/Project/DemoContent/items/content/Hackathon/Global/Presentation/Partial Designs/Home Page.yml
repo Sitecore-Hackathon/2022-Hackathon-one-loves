@@ -1,0 +1,156 @@
+﻿---
+ID: "56245b7b-b3ca-4e12-8063-716d8aaf1bce"
+Parent: "3cece152-eaed-4a4e-b07a-fc758aad7d1d"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/content/Hackathon/Global/Presentation/Partial Designs/Home Page
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "home-page"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        s:l="{4ED48317-062F-4465-B9AF-1E636841525B}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{45925741-0476-427A-9CE7-AFC0948DC283}"
+              p:before="*"
+              s:ds="{07CCED1A-599D-434C-8E96-BA5537099E4C}"
+              s:id="{A1BD813F-EA9D-48CB-8380-0C8CFB10E575}"
+              s:par=""
+              s:ph="/main/media-slides-{F8379E21-8F6C-4A8D-8C1D-C64546F3E3AF}-0" />
+            <r
+              uid="{F9F183CB-D3BD-4B3F-B780-44383671CED4}"
+              p:after="r[@uid='{45925741-0476-427A-9CE7-AFC0948DC283}']"
+              s:ds="{E48C87A5-2DBD-4676-83CB-4747A3ACE757}"
+              s:id="{A1BD813F-EA9D-48CB-8380-0C8CFB10E575}"
+              s:par=""
+              s:ph="/main/media-slides-{F8379E21-8F6C-4A8D-8C1D-C64546F3E3AF}-0" />
+            <r
+              uid="{98479B21-82FB-4EA3-A4C9-CF3D7E627167}"
+              p:after="r[@uid='{F9F183CB-D3BD-4B3F-B780-44383671CED4}']"
+              s:ds="{A5989133-EFD8-441B-9469-6492A0EC14E4}"
+              s:id="{A1BD813F-EA9D-48CB-8380-0C8CFB10E575}"
+              s:par=""
+              s:ph="/main/media-slides-{F8379E21-8F6C-4A8D-8C1D-C64546F3E3AF}-0" />
+            <r
+              uid="{40CA0F1B-1CEF-4993-89A8-9A54D7394345}"
+              p:after="r[@uid='{98479B21-82FB-4EA3-A4C9-CF3D7E627167}']"
+              s:ds="{2B692E24-283B-4056-8F38-6CA44E5833E1}"
+              s:id="{A1BD813F-EA9D-48CB-8380-0C8CFB10E575}"
+              s:par=""
+              s:ph="/main/media-slides-{F8379E21-8F6C-4A8D-8C1D-C64546F3E3AF}-0" />
+            <r
+              uid="{AD0A07A2-2FC6-4B0D-8C9E-74FC2039D7EF}"
+              p:after="r[@uid='{40CA0F1B-1CEF-4993-89A8-9A54D7394345}']"
+              s:ds="query:./Data/Embedded Video"
+              s:id="{491826D9-9763-4053-B9B0-2F10282400DE}"
+              s:par=""
+              s:ph="/main/media-{155B2A7B-1459-4807-9959-60CD9EF0C0A4}-0"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{155B2A7B-1459-4807-9959-60CD9EF0C0A4}"
+              p:after="r[@uid='{AD0A07A2-2FC6-4B0D-8C9E-74FC2039D7EF}']"
+              s:ds="query:./Data/Hero Section Video"
+              s:id="{0AB61365-382D-4C71-8071-4F9F5DE08193}"
+              s:par=""
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{58A0D24D-8203-4D26-9A19-AA4E906A2B65}"
+              p:after="r[@uid='{155B2A7B-1459-4807-9959-60CD9EF0C0A4}']"
+              s:ds="query:./Data/Standard Text First"
+              s:id="{A299843D-882E-4775-8782-84A8848FE1EC}"
+              s:par=""
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{F8379E21-8F6C-4A8D-8C1D-C64546F3E3AF}"
+              p:after="r[@uid='{58A0D24D-8203-4D26-9A19-AA4E906A2B65}']"
+              s:ds="query:./Data/Media Slider"
+              s:id="{17F50C30-F25B-41EF-A52E-59FEED02D34F}"
+              s:par=""
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{D332BBD6-2C63-4DDA-BC78-579AD55DE228}"
+              p:after="r[@uid='{F8379E21-8F6C-4A8D-8C1D-C64546F3E3AF}']"
+              s:ds="query:./Data/Standard Text Second"
+              s:id="{A299843D-882E-4775-8782-84A8848FE1EC}"
+              s:par=""
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{0A563E29-1D02-44B1-B84C-DB0FFE77C16B}"
+              p:after="r[@uid='{D332BBD6-2C63-4DDA-BC78-579AD55DE228}']"
+              s:ds="query:./Data/Blog Post Overview"
+              s:id="{17E0948B-8C16-4052-B704-BE50E24A88BE}"
+              s:par="ShowLoadMore&amp;ShowAllBlogs=1&amp;SortAsc"
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{EEDFE721-F0F1-4453-A4EB-96266929F4CC}"
+              p:after="r[@uid='{0A563E29-1D02-44B1-B84C-DB0FFE77C16B}']"
+              s:ds="query:./Data/Standard Text Third"
+              s:id="{A299843D-882E-4775-8782-84A8848FE1EC}"
+              s:par=""
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{0105A38C-31A0-4AB8-A14C-40FDC49B6E70}"
+              p:after="r[@uid='{EEDFE721-F0F1-4453-A4EB-96266929F4CC}']"
+              s:ds="query:./Data/Logo Wall"
+              s:id="{2CC95C79-1646-4839-97CA-75EB008C822F}"
+              s:par="CssClass=%7B46F9DA94-D351-40DD-AF54-8D9190C22E3A%7D"
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{066C1E03-8B5B-4C7B-BBEC-FA80913B8E0C}"
+              p:after="*[1=2]"
+              s:ds="query:./Data/Open Jobs"
+              s:id="{3E3C9159-43F1-4892-BDF3-20B61D92D917}"
+              s:par=""
+              s:ph="main"
+              s:ccb="Clear on publish" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210913T075731Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6a2c4fe7-94ec-4dfb-a732-32813fa054b1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210928T113309Z

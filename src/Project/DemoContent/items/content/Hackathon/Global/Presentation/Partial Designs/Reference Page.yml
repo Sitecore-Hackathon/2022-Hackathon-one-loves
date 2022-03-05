@@ -1,0 +1,85 @@
+﻿---
+ID: "eebc350d-c017-489a-a019-74bc4064137b"
+Parent: "3cece152-eaed-4a4e-b07a-fc758aad7d1d"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/content/Hackathon/Global/Presentation/Partial Designs/Reference Page
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "reference-page"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        s:l="{4ED48317-062F-4465-B9AF-1E636841525B}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+            s:l="{4ED48317-062F-4465-B9AF-1E636841525B}">
+            <r
+              uid="{5226E842-F5BD-4862-B68C-E064E00CEED3}"
+              p:before="*"
+              s:ds="local:/Data/Hero Image 1"
+              s:id="{88BA0D7D-08D1-4077-92DE-DAD172A4D127}"
+              s:par=""
+              s:ph="media" />
+            <r
+              uid="{ECF93D4D-E89A-4455-8D20-C91ED5DACAE7}"
+              p:after="r[@uid='{5226E842-F5BD-4862-B68C-E064E00CEED3}']"
+              s:ds="local:/Data/Standard Stage Module 1"
+              s:id="{FCF04E9D-882A-44C0-AA72-71E09ED53DD2}"
+              s:par=""
+              s:ph="main" />
+            <r
+              uid="{662FC6E4-C95B-44BB-9590-BCB57C06874E}"
+              p:after="r[@uid='{ECF93D4D-E89A-4455-8D20-C91ED5DACAE7}']"
+              s:id="{17E0948B-8C16-4052-B704-BE50E24A88BE}"
+              s:par=""
+              s:ph="main" />
+            <r
+              uid="{FF4FBA78-6374-4390-95A2-AF69EC4E20C2}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/Logo Wall 1"
+              s:id="{2CC95C79-1646-4839-97CA-75EB008C822F}"
+              s:par="ItemsCount=12&amp;CssClass=bg-gray"
+              s:ph="main"
+              s:ccb="Clear on publish" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210913T121925Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fb0b37ed-de2d-474f-a90d-677b6dfbc130"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210924T155313Z

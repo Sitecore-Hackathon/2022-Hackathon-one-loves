@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    /> 
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  </head> 
+  <body>
+    <%= require('html-loader!../components/navbar/navbar.html').default %>  
+    <main class="team-detail bg-gray-polygon bg-gray-polygon--reverse">
+      <%= require('html-loader!../components/hero-section-with-back-btn/hero-section-with-back-btn.html').default %> 
+      <%= require('html-loader!../components/content-section/content-section.html').default %> 
+      <%= require('html-loader!../components/blogpost-total-overview/blogpost-total-overview.html').default %> 
+    </main>  
+    <%= require('html-loader!../components/footer/footer.html').default %> 
+  </body>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</html>

@@ -1,0 +1,30 @@
+﻿@model HeroSectionMedia
+
+<section class="hero-section">
+    <div class="container">
+        <div class="hero-section__text">
+            <h1 class="h1 accent-active-item">
+                @if (this.SitecoreContext().IsEditing)
+                {
+                    <sc-text asp-for="Headline" />
+                }
+                else
+                {
+                    @Html.Raw(Model?.Headline?.Value)
+                }
+            </h1>
+        </div>
+    </div>
+    <div class="hero-section__media">
+        @if (this.SitecoreContext().IsEditing)
+        {
+            <div style="min-width: 600px; min-height: 100px;">
+                <sc-placeholder name="media" />
+            </div>
+        }
+        else
+        {
+            <sc-placeholder name="media" />
+        }
+    </div>
+</section>

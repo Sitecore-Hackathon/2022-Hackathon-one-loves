@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+        <RootNamespace>Hackathon.Foundation.Dictionary</RootNamespace>
+        <AssemblyName>Hackathon.Foundation.Dictionary</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Sitecore.LayoutService.Client" />
+        <PackageReference Include="Sitecore.AspNet.RenderingEngine" />
+        <PackageReference Include="SolrNet.Core" />
+        <PackageReference Include="SolrNet.Linq" />
+        <PackageReference Include="SolrNet.Microsoft.DependencyInjection" />
+    </ItemGroup>
+
+</Project>

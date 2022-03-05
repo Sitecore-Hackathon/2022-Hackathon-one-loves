@@ -1,0 +1,43 @@
+@import "./variables";
+
+.error-detailed-text {
+  padding: 180px 0 100px;
+
+  @include media("m") {
+    padding: 128px 0 48px;
+  }
+
+  .h1 {
+    margin-bottom: 48px;
+
+    .accent-active-item {
+      display: block;
+      width: fit-content;
+      margin: 0 auto;
+    }
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include media("m") {
+      flex-direction: column;
+    }
+  }
+
+  &__text {
+    width: 100%;
+    max-width: 460px;
+    position: relative;
+    p {
+      margin: 0 0 1.5rem;
+    }
+
+    @include media("m") {
+      max-width: none;
+      margin: 0;
+    }
+  }
+}

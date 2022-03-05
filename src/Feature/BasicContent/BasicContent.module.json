@@ -1,0 +1,35 @@
+{
+  "namespace": "Feature.BasicContent",
+  "items": {
+    "includes": [
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Feature/Basic Content"
+      },
+      {
+        "name": "branches",
+        "path": "/sitecore/templates/Branches/Feature/Basic Content"
+      },
+      {
+        "name": "settings",
+        "path": "/sitecore/system/Settings/Feature/Basic Content"
+      },
+      {
+        "name": "placeholder-settings",
+        "path": "/sitecore/layout/Placeholder Settings/Feature/Basic Content"
+      },
+      {
+        "name": "media",
+        "path": "/sitecore/media library/Feature/Basic Content"
+      },
+      {
+        "name": "rendering",
+        "path": "/sitecore/layout/Renderings/Feature/Basic Content"
+      },
+      {
+        "name": "contents-resolvers",
+        "path": "/sitecore/system/Modules/Layout Service/Rendering Contents Resolvers/Basic Content"
+      }
+    ]
+  }
+}

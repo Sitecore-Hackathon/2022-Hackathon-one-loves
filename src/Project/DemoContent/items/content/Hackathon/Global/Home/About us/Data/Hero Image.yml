@@ -1,0 +1,32 @@
+﻿---
+ID: "d3c8cf77-9ed1-4555-b1c8-0a96841ad0c0"
+Parent: "4f3e8736-6527-48e6-92d6-39c2ff19ccf1"
+Template: "19c7d8b0-1fc1-454a-879d-c724cd7c96cd"
+Path: /sitecore/content/Hackathon/Global/Home/About us/Data/Hero Image
+BranchID: "d7529ce6-a5bc-47f0-9873-4b8d9436b274"
+SharedFields:
+- ID: "7781cca9-d623-424c-bb88-116010b872e4"
+  Hint: Image
+  Value: |
+    <image mediaid="{617AB922-87E1-423E-BD99-AC8376058758}" />
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{37CAA715-C907-4EB2-8C3D-510751FA608A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210916T131023Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b7f58939-d7a7-43cd-86d8-d08966d82e33"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210916T135419Z

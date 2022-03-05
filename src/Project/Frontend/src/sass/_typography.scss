@@ -1,0 +1,47 @@
+@mixin font-face($font-family, $font) {
+  @font-face {
+    font-family: #{$font-family}; 
+    src: url(../assets/fonts/#{$font}/#{$font-family}.woff2);
+  }
+}
+
+
+
+@include font-face(TheAntiquaB-W3Light, TheAntiquaB-E2s-Phonetic);
+@include font-face(TheAntiquaB-W3LightItalic, TheAntiquaB-E2s-Phonetic);
+@include font-face(TheAntiquaB-W5Plain, TheAntiquaB-E2s-Phonetic);
+@include font-face(TheAntiquaB-W5PlainItalic, TheAntiquaB-E2s-Phonetic);
+@include font-face(TheAntiquaB-W6SemiBold, TheAntiquaB-E2s-Phonetic);
+@include font-face(TheAntiquaB-W6SemiBoldItalic, TheAntiquaB-E2s-Phonetic);
+@include font-face(TheAntiquaB-W7Bold, TheAntiquaB-E2s-Phonetic);
+@include font-face(TheAntiquaB-W7BoldItalic, TheAntiquaB-E2s-Phonetic);
+
+@include font-face(TheMixE2s-Bold, TheMix-E2s);
+@include font-face(TheMixE2s-BoldItalic, TheMix-E2s);
+@include font-face(TheMixE2s-Light, TheMix-E2s);
+@include font-face(TheMixE2s-LightItalic, TheMix-E2s);
+@include font-face(TheMixE2s-Plain, TheMix-E2s);
+@include font-face(TheMixE2s-PlainItalic, TheMix-E2s);
+@include font-face(TheMixE2s-SemiBold, TheMix-E2s);
+@include font-face(TheMixE2s-SemiBoldItalic, TheMix-E2s);
+
+@include font-face(TheSansC2s-3_Light, TheSans-C2s);
+@include font-face(TheSansC2s-3iLightItalic, TheSans-C2s);
+@include font-face(TheSansC2s-5_Plain, TheSans-C2s);
+@include font-face(TheSansC2s-5iPlainItalic, TheSans-C2s);
+@include font-face(TheSansC2s-6_SemiBold, TheSans-C2s);
+@include font-face(TheSansC2s-6iSemiBoldIta, TheSans-C2s);
+@include font-face(TheSansC2s-7_Bold, TheSans-C2s);
+@include font-face(TheSansC2s-7iBoldItalic, TheSans-C2s);
+
+@include font-face(TheSerifE2s-3_Light, TheSerif-E2s);
+@include font-face(TheSerifE2s-3iLightItalic, TheSerif-E2s);
+@include font-face(TheSerifE2s-5_Plain, TheSerif-E2s);
+@include font-face(TheSerifE2s-5iPlainItalic, TheSerif-E2s);
+@include font-face(TheSerifE2s-6_SemiBold, TheSerif-E2s);
+@include font-face(TheSerifE2s-6iSemiBoldItalic, TheSerif-E2s);
+@include font-face(TheSerifE2s-8_Bold, TheSerif-E2s);
+@include font-face(TheSerifE2s-8iBoldItalic, TheSerif-E2s);
+
+
+

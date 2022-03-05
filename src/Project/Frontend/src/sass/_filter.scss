@@ -1,0 +1,252 @@
+@import "./variables";
+
+.app-filter {
+  &.d-block {
+    display: block;
+  }
+
+  &.shown {
+    @include media("m") {
+      background: $white;
+    }
+
+    .app-filter-btn {
+      svg {
+        transition: $transition;
+
+      transform: translateY(-40%) rotate(60deg);
+        margin: 0 0 2px;
+      }
+
+      &.app-filter-btn--mobile {
+        svg {
+          transition: $transition;
+          transform: scale(1) rotate(0deg);
+          margin: 0 5px 4px 0;
+        }
+      }
+    }
+
+    .app-filter__close-btn {
+      display: block;
+      flex-shrink: 0;
+    }
+
+    .app-filter-btn {
+      display: flex;
+    }
+  }
+
+  @include media("m") {
+    &:not(.shown):not(.d-block) {
+      display: none;
+    }
+  }
+
+  &__close-btn {
+    display: none;
+  }
+
+  .app-filter-btn {
+    transition: $transition;
+    border: 1px solid transparent;
+    position: relative;
+    padding-left: 36px;
+
+    &:focus {
+      border: 1px solid $gray-20;
+      transition: $transition;
+    }
+
+    &[disabled] {
+      opacity: .3;
+      transition: $transition;
+
+      svg {
+        opacity: .2;
+      }
+    }
+
+    svg {
+      transition: $transition;
+      pointer-events: none; 
+      position: absolute;
+      top: 40%;
+      left: 0;
+      transform: translateY(-50%);
+    }
+  }
+
+  &-result {
+    padding-left: 36px;
+    width: 100%;
+    max-width: calc(100% - 270px);
+
+    @include media("m") {
+      background: $white;
+      max-width: none;
+    }
+
+    &__item {
+      width: 25%;
+      margin: 16px 0 0;
+      padding: 0 20px 0 0;
+      display: none;
+
+      &.shown {
+        display: block;
+      }
+
+      @include media("m") {
+        width: 50%;
+        margin: 32px 0;
+      }
+    }
+
+    &--mob {
+      position: absolute;
+      left: 0;
+
+      @include media("m") {
+        position: static;
+      }
+    }
+
+    &-wrapper {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  &-result-btn {
+    font: normal $font-size-base "TheSansC2s-5_Plain";
+    border: 1px solid transparent;
+    display: inline-block;
+    text-align: left;
+    width: auto;
+    word-break: break-all;
+    height: auto;
+    border: 1px solid transparent;
+    transition: $transition;
+
+    &:hover {
+      color: $gray-60;
+      transition: $transition;
+    }
+
+    &:focus {
+      transition: $transition;
+      border: 1px solid $gray-20;
+    }
+  }
+
+  &__filter-mob-section {
+    display: none;
+
+    @include media("m") {
+      margin: 0 10px 10px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.app-filter-search {
+  &__search-input {
+    border: none;
+    border-bottom: 1px solid $black;
+    font: normal $font-size-base "TheSansC2s-6_SemiBold";
+  }
+
+  &__close-btn {
+    display: none;
+  }
+
+  &__search-input,
+  &__search-icon {
+    @include media("m") {
+      display: none;
+    }
+  }
+
+  &__search-mob-btn {
+    display: none;
+
+    @include media("m") {
+      display: flex;
+      align-items: center;
+
+      font-family: "TheSerifE2s-8_Bold";
+
+      svg {
+        margin-right: 8px;
+        margin-bottom: 2px;
+      }
+    }
+  }
+
+  &.shown {
+    width: 100%;
+
+    .app-filter-search__search-mob-btn {
+      display: none;
+    }
+
+    .app-filter-search__search-icon,
+    .app-filter-search__close-btn {
+      display: block;
+      flex-shrink: 0;
+    }
+
+    .app-filter-search__search-input {
+      display: block;
+      width: 100%;
+      margin: 0 8px;
+      transition: $transition;
+    }
+  }
+}
+
+.app-filters-wrapper {
+  position: relative;
+
+  &.active {
+    @include media("m") {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .app-filter__close-btn {
+      display: block;
+      margin-right: 5px;
+    }
+
+    .app-filter__filter-mob-section,
+    .all-jobs__filters {
+      @include media("m") {
+        width: 100%;
+        margin: 0;
+        background: $white;
+      }
+    }
+
+    .all-jobs__filters {
+      @include media("m") {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+.app-filter-btn--mobile {
+  svg {
+    transition: $transition;
+    transform: rotate(0deg);
+    margin: 0 5px 4px 0;
+    pointer-events: none;
+  }
+}

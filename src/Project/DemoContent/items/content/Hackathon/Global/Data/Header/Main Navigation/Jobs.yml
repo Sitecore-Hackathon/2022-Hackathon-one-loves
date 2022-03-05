@@ -1,0 +1,31 @@
+﻿---
+ID: "fb10ed60-6da7-48ab-88f9-d9a151451a2f"
+Parent: "4d0e6d5c-4e9f-41a0-9674-9bca05c7cd50"
+Template: "f3d92634-0b9b-48bd-b7a4-f673f38746d5"
+Path: /sitecore/content/Hackathon/Global/Data/Header/Main Navigation/Jobs
+SharedFields:
+- ID: "36b2f1f4-6688-4d49-90c2-89711736857a"
+  Hint: Link
+  Value: |
+    <link id="{9E848268-865A-4559-8E84-6015D7C6C166}" querystring="" text="" anchor="" title="" class="" url="/Hackathon/Global/Home/Jobs" linktype="internal" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210913T205107Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "efeb779f-f674-454f-8a3c-5b55cde22973"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d55a18a4-856c-4232-9819-0bdc9e7edfe0"
+      Hint: Title
+      Value: Jobs
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210916T142436Z

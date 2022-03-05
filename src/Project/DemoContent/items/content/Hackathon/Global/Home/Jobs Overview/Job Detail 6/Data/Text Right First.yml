@@ -1,0 +1,37 @@
+﻿---
+ID: "0e79d86f-d9c2-4d57-9293-49f35bc16932"
+Parent: "8c708690-a447-4bf1-83d2-9f99e3520d89"
+Template: "a1cb5a94-b6bd-44b8-919e-3c180de8d808"
+Path: /sitecore/content/Hackathon/Global/Home/Jobs Overview/Job Detail 6/Data/Text Right First
+BranchID: "a82a910f-e5e1-41ac-bf6e-4708af6429be"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 138
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{8ED3990D-3227-47BD-8561-D75D73DB12FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210920T122428Z
+    - ID: "4a7cde93-06a4-4283-aace-a5b2de937ee1"
+      Hint: Text
+      Value: |
+        <section class="text-left-module" style="color: #222222; padding-bottom: 26px;">
+        <p class="paragraph-plain" style="margin-right: 0px; margin-left: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </section>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1b90ace-e27c-4759-ae52-078e915b8956"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210920T122745Z

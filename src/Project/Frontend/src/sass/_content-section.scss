@@ -1,0 +1,57 @@
+@import "./variables";
+
+.content-section {
+  padding: 80px 0;
+
+  @include media("m") {
+    padding: 0 0 80px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 780px;
+  }
+
+  &__block {
+    width: 100%;
+    max-width: 380px;
+    margin: 0 0 48px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    &--right {
+      margin-left: auto;
+
+      &.quote {
+        text-align: right;
+      }
+    }
+
+    &--left {
+      margin-right: auto;
+    }
+
+    &--center {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 620px;
+
+      &.quote {
+        text-align: center;
+      }
+    }
+
+    @include media("m") {
+      max-width: none;
+    }
+  }
+
+  .quote {
+    @include media("m") {
+      text-align: center;
+    }
+  }
+}

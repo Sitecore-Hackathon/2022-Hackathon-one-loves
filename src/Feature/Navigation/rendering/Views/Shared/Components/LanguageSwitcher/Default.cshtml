@@ -1,0 +1,23 @@
+﻿@model LanguageSwitcherModel
+
+<ul class="app-header__lang-wrapper">
+    @foreach (var culture in Model.SupportedCultures)
+    {
+        <li>
+            @{
+                var css = "";
+                if (Model.CurrentUICulture.Name == culture.Name)
+                {
+                    css = "accent-active-item";
+                }
+                <a asp-route-culture="@culture.TwoLetterISOLanguageName"
+                   asp-route-sitecoreRoute="@Model.CurrentSitecoreRoute"
+                   lang="@culture.TwoLetterISOLanguageName"
+                   hreflang="@culture.TwoLetterISOLanguageName"
+                   class="app-header__lang-link @css">
+                    @culture.TwoLetterISOLanguageName
+                </a>
+            }
+        </li>
+    }
+</ul>

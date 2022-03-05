@@ -1,0 +1,11 @@
+{
+    "namespace": "Foundation.Dictionary",
+    "items": {
+        "includes": [
+            {
+                "name": "dictionary",
+                "path": "/sitecore/content/Hackathon/Global/Dictionary"
+            }
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "namespace": "Foundation.BaseData",
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Foundation/Base Data"
+            }
+        ]
+    }
+}

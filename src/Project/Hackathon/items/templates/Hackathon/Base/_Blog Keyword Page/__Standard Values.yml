@@ -1,0 +1,35 @@
+﻿---
+ID: "f50813ae-fca0-4c55-beac-e95935ce4c39"
+Parent: "dbc73860-8c37-4613-8679-42c169fe10ae"
+Template: "dbc73860-8c37-4613-8679-42c169fe10ae"
+Path: /sitecore/templates/Project/Hackathon/Base/_Blog Keyword Page/__Standard Values
+SharedFields:
+- ID: "7f56e0d5-7cf7-4083-8681-ee2029ea4d7f"
+  Hint: BlogKeywordPage
+  Value: "{7C0039CC-9CEC-43CB-92CD-FFD4B7B9329A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210923T090329Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0f9c695e-f93b-49fa-b5fb-3501c411a354"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210923T094525Z

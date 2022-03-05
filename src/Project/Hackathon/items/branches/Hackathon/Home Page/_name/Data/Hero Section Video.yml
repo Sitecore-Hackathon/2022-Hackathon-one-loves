@@ -1,0 +1,23 @@
+﻿---
+ID: "5d9188a6-6a71-4f6e-8f7c-d96e26c108ba"
+Parent: "114ad79c-9a48-4fc6-a063-cca708dd10c7"
+Template: "3359f563-be68-4246-a40b-6063a291ac77"
+Path: /sitecore/templates/Branches/Project/Hackathon/Home Page/$name/Data/Hero Section Video
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210916T075407Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d59b58ce-169c-481f-a7f3-2192cb5257b0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210916T075407Z

@@ -1,0 +1,41 @@
+﻿@model HeroSectionTeamDetail
+
+<section class="hero-section-with-back-btn">
+    <div class="container">
+        <div class="hero-section-with-back-btn__text">
+            @if (this.SitecoreContext().IsEditing)
+            {
+                <div style="min-width: 200px; min-height: 50px;">
+                    <sc-placeholder name="back-btn" />
+                </div>
+            }
+            else
+            {
+                <sc-placeholder name="back-btn" />
+            }
+            <h1 class="h1">
+                <sc-text asp-for="Name" />
+                <span class="accent-active-item">
+                    <sc-text asp-for="Surname" />
+                </span>
+            </h1>
+            <p class="paragraph-plain paragraph-plain--xs text-g">
+                @if (Model?.Location?.Fields?.Title != null)
+                {
+                    <sc-text asp-for="@Model.Location.Fields.Title" />
+                }
+                @if (Model?.Location?.Fields?.Title != null && Model?.Position?.Fields?.Title != null)
+                {
+                    <span> - </span>
+                }
+                @if (Model?.Position?.Fields?.Title != null)
+                {
+                    <sc-text asp-for="@Model.Position.Fields.Title" />
+                }
+            </p>
+        </div>
+        <div class="hero-section-with-back-btn__media img-wrapper-stretch">
+            <sc-img asp-for="ProfileImage" />
+        </div>
+    </div>
+</section>

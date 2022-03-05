@@ -1,0 +1,23 @@
+﻿---
+ID: "ec2bfc6a-6d69-4361-b886-1aa3ee52c946"
+Parent: "114ad79c-9a48-4fc6-a063-cca708dd10c7"
+Template: "4e1db73c-cccc-4017-b264-e27c30604630"
+Path: /sitecore/templates/Branches/Project/Hackathon/Home Page/$name/Data/Logo Wall
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210916T075541Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d5ca4480-5f2e-4649-8b63-142b6a98f37c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210916T075541Z

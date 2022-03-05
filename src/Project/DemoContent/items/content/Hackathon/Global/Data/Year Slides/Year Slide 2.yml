@@ -1,0 +1,39 @@
+﻿---
+ID: "53eb67a4-b2f4-40f9-8e30-7e5bf5f89d09"
+Parent: "d29aa883-f8de-4d4f-a360-354ba9d54d7f"
+Template: "f956bde2-d768-4226-8d3c-10c5ab608580"
+Path: /sitecore/content/Hackathon/Global/Data/Year Slides/Year Slide 2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210913T091716Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0dbd9de2-0850-4c2e-abdd-b0912cf3d2cf"
+    - ID: "8f337807-6072-4892-bc2b-fa938c9aa36f"
+      Hint: Headline
+      Value: Lorem ipsum dolor sit amet consectetur adipiscing elit
+    - ID: "9c660791-5b65-4402-8902-c0cdafffb406"
+      Hint: CopyText
+      Value: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c3243b54-13f9-48d6-bf5f-139c92a943be"
+      Hint: Image
+      Value: |
+        <image mediaid="{617AB922-87E1-423E-BD99-AC8376058758}" />
+    - ID: "d542f351-be6a-44c7-bc43-4cc78debee3b"
+      Hint: Timestamp
+      Value: 20150912T210000Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210913T091933Z

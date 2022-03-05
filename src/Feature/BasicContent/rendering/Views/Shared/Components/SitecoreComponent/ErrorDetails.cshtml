@@ -1,0 +1,21 @@
+﻿@model ErrorDetails
+
+<section class="error-detailed-text">
+    <div class="container">
+        <div class="error-detailed-text__text">
+            <h1 class="h1 text-center">
+                @if (this.SitecoreContext().IsEditing)
+                {
+                    <sc-text asp-for="Headline"/>
+                }
+                else
+                {
+                    @Html.Raw(Model?.Headline?.Value)
+                }
+            </h1>
+            <div class="paragraph-plain text-center">
+                <sc-text asp-for="MainText" />
+            </div>
+        </div>
+    </div>
+</section>

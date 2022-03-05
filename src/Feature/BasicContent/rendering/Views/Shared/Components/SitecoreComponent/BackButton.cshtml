@@ -1,0 +1,27 @@
+﻿@model BackButton
+
+<section class="back-btn-section">
+    <div class="container">
+        <sc-link class="back-btn" asp-for="Link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+                <g id="Icon/navigation/chevron-right"
+                   fill-rule="evenodd"
+                   stroke="none"
+                   stroke-width="1">
+                    <path id="Path"
+                          d="M9 9l3.26-3L25 18 12.26 30 9 27l9.6-9z"
+                          transform="matrix(-1 0 0 1 34 0)" />
+                </g>
+            </svg>
+            <div class="back-btn__text">
+                <sc-text asp-for="Text" />
+            </div>
+        </sc-link>
+        @if (this.SitecoreContext().IsEditing)
+        {
+            <div class="back-btn__text">
+                <sc-text asp-for="Text" />
+            </div>
+        }
+    </div>
+</section>
