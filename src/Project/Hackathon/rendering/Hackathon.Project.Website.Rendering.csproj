@@ -23,15 +23,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Feature\BasicContent\rendering\Hackathon.Feature.BasicContent.Rendering.csproj" />
-    <ProjectReference Include="..\..\..\Feature\Blog\rendering\Hackathon.Feature.Blog.Rendering.csproj" />
-    <ProjectReference Include="..\..\..\Feature\Career\rendering\Hackathon.Feature.Career.Rendering.csproj" />
     <ProjectReference Include="..\..\..\Feature\Hero\rendering\Hackathon.Feature.Hero.Rendering.csproj" />
     <ProjectReference Include="..\..\..\Feature\Navigation\rendering\Hackathon.Feature.Navigation.Rendering.csproj" />
-    <ProjectReference Include="..\..\..\Feature\Service\rendering\Hackathon.Feature.Service.Rendering.csproj" />
-    <ProjectReference Include="..\..\..\Feature\Team\rendering\Hackathon.Feature.Team.Rendering.csproj" />
     <ProjectReference Include="..\..\..\Foundation\Basic Content\rendering\Hackathon.Foundation.BasicContent.Rendering.csproj" />
     <ProjectReference Include="..\..\..\Foundation\Dictionary\rendering\Hackathon.Foundation.Dictionary.Rendering.csproj" />
-    <ProjectReference Include="..\..\..\Foundation\Search\rendering\Hackathon.Foundation.Search.Rendering.csproj" />
   </ItemGroup>
 
   <ItemGroup>
