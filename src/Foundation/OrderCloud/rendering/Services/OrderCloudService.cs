@@ -10,8 +10,8 @@ namespace Hackathon.Foundation.OrderCloud.Services
     {
         private readonly IOrderCloudClient _client;
         private const string DefaultCatalogId = "004";
-        string clientId = "3FC135FA-3974-45A7-9956-24008AF6139C";
-        string clientSecret = "FQsSnUPREzsmvHvGiFGP2FWT6Bg0axkTblXvevPWt1plk0j3fd53Nik83YUm";
+        string clientId = "";
+        string clientSecret = "";
         string apiUrl = "https://sandboxapi.ordercloud.io";
         string authUrl = "https://sandboxapi.ordercloud.io";
 
